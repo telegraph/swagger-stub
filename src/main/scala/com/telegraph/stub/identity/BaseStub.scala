@@ -1,9 +1,8 @@
-package telegraph.stub.identity
+package com.telegraph.stub.identity
 
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import com.atlassian.oai.validator.wiremock.SwaggerValidationListener
-import com.github.tomakehurst.wiremock.stubbing.Scenario
 
 import scala.io.Source
 

@@ -1,0 +1,82 @@
+{
+  "swagger": "2.0",
+  "info": {},
+  "host": "localhost:8080",
+  "basePath": "/resource",
+  "paths": {
+    "/it": {
+      "get": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "this",
+            "in": "body",
+            "description": "This",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/this"
+            }
+          },
+          {
+            "name": "other",
+            "in": "body",
+            "description": "Other",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/this"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "response"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": "response"
+          },
+          "500": {
+            "description": "invalid response"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "this": {
+      "properties": {
+        "other": {
+          "type": "string"
+        },
+        "this": {
+          "type": "string"
+        }
+      }
+    },
+    "ApiResponse": {
+      "properties": {
+        "first": {
+          "type": "string"
+        },
+        "second": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
