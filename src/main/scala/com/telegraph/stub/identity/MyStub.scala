@@ -14,7 +14,7 @@ object MyStub extends BaseStub {
 
   // map of action -> map  of pre-state, post-state
   override var stateTransitions =    Map(
-    "get" -> Map(Scenario.STARTED -> Scenario.STARTED, "exists" -> "exists"))
+    "get" -> Map(Scenario.STARTED -> Scenario.STARTED))
 
 
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
@@ -26,6 +26,7 @@ object MyStub extends BaseStub {
         wireMockServer.stubFor(get(urlMatching(".*/it"))
           .inScenario("state")
           .whenScenarioStateIs(inState)
+          .withPostServeAction("validate-contract",new ContractValidationParameter("validate-contract"))
           .willReturn(
             aResponse()
               .withHeader("Content-Type", "application/json")
@@ -37,11 +38,11 @@ object MyStub extends BaseStub {
 
   }
 
+  // driver class
   def main(args : Array[String]) {
 
     // passed swagger file, port, canned responses file path
     MyStub.configureStub(args(0), args(1).toInt, args(2))
     MyStub.start
-
   }
 }
