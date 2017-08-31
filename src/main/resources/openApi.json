@@ -1,40 +1,64 @@
 {
   "swagger": "2.0",
   "info": {},
-  "host": "localhost:8080",
-  "basePath": "/resource",
+  "basePath": "/identity",
   "paths": {
-    "/it": {
-      "get": {
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "successful operation",
-            "schema": {
-              "$ref": "#/definitions/ApiResponse"
-            }
-          }
-        }
-      },
+    "/tokens": {
       "post": {
         "description": "",
         "parameters": [
           {
-            "name": "this",
+            "name": "grant_type",
             "in": "body",
-            "description": "This",
+            "description": "grant_type",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/this"
+              "$ref": "#/definitions/password_grant"
             }
           },
           {
-            "name": "other",
+            "name": "credential_type",
             "in": "body",
-            "description": "Other",
+            "description": "credential_type",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/this"
+              "$ref": "#/definitions/password_grant"
+            }
+          },
+          {
+            "name": "identifier",
+            "in": "body",
+            "description": "identifier",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/password_grant"
+            }
+          },
+          {
+            "name": "auth_key",
+            "in": "body",
+            "description": "auth_key",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/password_grant"
+            }
+          },
+          {
+            "name": "client_id",
+            "in": "body",
+            "description": "client_id",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/password_grant"
+            }
+          },
+          {
+            "name": "remember_me",
+            "in": "body",
+            "description": "remember_me",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/password_grant"
             }
           }
         ],
@@ -43,37 +67,28 @@
             "description": "response"
           }
         }
-      },
-      "delete": {
-        "description": "",
-        "responses": {
-          "200": {
-            "description": "response"
-          },
-          "500": {
-            "description": "invalid response"
-          }
-        }
       }
     }
   },
   "definitions": {
-    "this": {
+    "password_grant": {
       "properties": {
-        "other": {
+        "grant_type": {
           "type": "string"
         },
-        "this": {
-          "type": "string"
-        }
-      }
-    },
-    "ApiResponse": {
-      "properties": {
-        "first": {
+        "credential_type": {
           "type": "string"
         },
-        "second": {
+        "identifier": {
+          "type": "string"
+        },
+        "auth_key": {
+          "type": "string"
+        },
+        "client_id": {
+          "type": "string"
+        },
+        "remember_me": {
           "type": "string"
         }
       }
