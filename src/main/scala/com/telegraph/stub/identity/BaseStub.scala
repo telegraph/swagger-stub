@@ -14,15 +14,17 @@ import scala.io.Source
   *
   * BaseStub configuring Wiremock with swagger file and abstract state and canned responses path
   *
+  * *** SHOULD NOT NEED TO CHANGE THIS OBJECT ***
+  * 
   */
 
 abstract class BaseStub {
 
   var wireMockServer: WireMockServer = null;
   private var wireMockListener: SwaggerValidationListener = null
-  private var stubState:String="registered"
+  private var stubState:String=""
 
-  def configureStub(inputSwaggerFile: String, inputPort: Int, cannedResponsesPath: String): Unit = {
+  def configureStub(inputSwaggerFile: String, inputPort: Int, cannedResponsesPath: String, openingState:String): Unit = {
     // port and swagger defn
     var port: Int = 8080
     if (inputPort != null)
@@ -36,7 +38,9 @@ abstract class BaseStub {
     wireMockServer.addMockServiceRequestListener(wireMockListener)
     setUpMocks(cannedResponsesPath)
 
-    println(s"Stub configured for swagger api $swaggerFile running on port $port")
+    stubState = openingState
+
+    println(s"Stub configured for swagger api $swaggerFile running on port $port in state $stubState")
   }
 
   // start server

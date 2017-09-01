@@ -33,8 +33,8 @@ object MyStub extends BaseStub {
   // driver class
   def main(args : Array[String]) {
 
-    // passed swagger file, port, canned responses file path
-    MyStub.configureStub(args(0), args(1).toInt, args(2))
+    // passed swagger file, port, canned responses file path, opening state
+    MyStub.configureStub(args(0), args(1).toInt, args(2), "registered")
     MyStub.start
   }
 }
