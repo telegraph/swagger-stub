@@ -1,11 +1,14 @@
 package com.telegraph.stub.identity
 
-import com.github.tomakehurst.wiremock.WireMockServer
+import com.atlassian.oai.validator.model.Request
+import com.github.tomakehurst.wiremock.{WireMockServer, http}
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import com.atlassian.oai.validator.wiremock.SwaggerValidationListener
-import com.atlassian.oai.validator.wiremock.SwaggerValidationListener.SwaggerValidationException
+import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
+import com.github.tomakehurst.wiremock.common.FileSource
 import com.github.tomakehurst.wiremock.core.Admin
-import com.github.tomakehurst.wiremock.extension.PostServeAction
+import com.github.tomakehurst.wiremock.extension.{Parameters, PostServeAction, ResponseTransformer}
+import com.github.tomakehurst.wiremock.http.Response
 import com.github.tomakehurst.wiremock.stubbing.ServeEvent
 
 import scala.io.Source
@@ -31,7 +34,7 @@ abstract class BaseStub {
     if (inputSwaggerFile != null)
       swaggerFile = inputSwaggerFile
 
-    wireMockServer = new WireMockServer(options().port(port).extensions(new ValidateContractAction))
+    wireMockServer = new WireMockServer(options().port(port).extensions(ContractValidationTransformer))
     wireMockListener = new SwaggerValidationListener(Source.fromFile(swaggerFile).mkString)
     wireMockServer.addMockServiceRequestListener(wireMockListener)
     setUpMocks(cannedResponsesPath)
@@ -52,39 +55,34 @@ abstract class BaseStub {
     wireMockServer.stop
   }
 
-  // validate contract and if invalid output error and bail out
-  def validateContract = {
-    try {
-      wireMockListener.assertValidationPassed()
-    } catch  {
-
-      case ex: Exception => {
-        println(ex.getLocalizedMessage)
-        ex.printStackTrace()
-        wireMockServer.resetAll()
-        wireMockServer.shutdown()
-        wireMockServer = null
-        throw ex
-      }
-    }
-  }
-
   // action -> pre-start, post-state
   protected var stateTransitions : Map[String, Map[String,String]]
 
   protected def setUpMocks(cannedResponsesPath: String): Unit
 
-  // post serve action to validate contract
-  class ValidateContractAction extends PostServeAction {
-    override def doGlobalAction(serveEvent: ServeEvent, admin: Admin): Unit = {
-      validateContract
-    }
-    override def getName: String = "validate-contract"
-  }
 
-  // Simple Bean to get things done
-  class ContractValidationParameter(inputValidateName: String) extends Serializable {
-    var validateName: String = inputValidateName
+  object ContractValidationTransformer extends ResponseTransformer {
+
+    override def transform (request: http.Request, response: Response,
+                            files: FileSource, parameters: Parameters): Response = {
+      try {
+        wireMockListener.reset()
+        wireMockListener.requestReceived(request, response)
+        wireMockListener.assertValidationPassed()
+        return response
+      } catch {
+        case ex: Exception => {
+          wireMockListener.reset()
+          return Response.Builder.like(response)
+            .but()
+            .body("Invalid contract"+ ex.getLocalizedMessage)
+            .status(500)
+            .build();
+        }
+      }
+    }
+
+    override def getName: String = "validate-contract-request"
   }
 
 }

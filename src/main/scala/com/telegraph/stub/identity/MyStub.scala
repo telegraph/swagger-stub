@@ -28,7 +28,6 @@ object MyStub extends BaseStub {
           .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
           .inScenario("state")
           .whenScenarioStateIs(inState)
-          .withPostServeAction("validate-contract",new ContractValidationParameter("validate-contract"))
           .willReturn(
             aResponse()
               .withHeader("Content-Type", "application/json")
