@@ -33,7 +33,7 @@ object MyStub extends BaseStub {
             aResponse()
               .withHeader("Content-Type", "application/json")
               .withBody(Source.fromFile(cannedResponsesPath+"/tokensPasswordGrantHappy.json").mkString)
-              .withStatus(201))
+              .withStatus(200))
           .willSetStateTo(outState)
         )
     }
