@@ -13,7 +13,8 @@ import scala.io.Source
 /**
   * @author ${parsh.toora}
   *
-  * Alternative mechanisms for validating state can use '.withTransformerParameter("", "")
+  * BaseStub configuring Wiremock with swagger file and abstract state and canned responses path
+  *
   */
 
 abstract class BaseStub {
