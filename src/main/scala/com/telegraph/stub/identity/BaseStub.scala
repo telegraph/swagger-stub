@@ -1,15 +1,11 @@
 package com.telegraph.stub.identity
 
-import com.atlassian.oai.validator.model.Request
 import com.github.tomakehurst.wiremock.{WireMockServer, http}
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import com.atlassian.oai.validator.wiremock.SwaggerValidationListener
-import com.github.tomakehurst.wiremock.client.ResponseDefinitionBuilder
 import com.github.tomakehurst.wiremock.common.FileSource
-import com.github.tomakehurst.wiremock.core.Admin
-import com.github.tomakehurst.wiremock.extension.{Parameters, PostServeAction, ResponseTransformer}
-import com.github.tomakehurst.wiremock.http.Response
-import com.github.tomakehurst.wiremock.stubbing.ServeEvent
+import com.github.tomakehurst.wiremock.extension.{Parameters, ResponseTransformer}
+import com.github.tomakehurst.wiremock.http.{Request, Response}
 
 import scala.io.Source
 
@@ -24,6 +20,7 @@ abstract class BaseStub {
 
   var wireMockServer: WireMockServer = null;
   private var wireMockListener: SwaggerValidationListener = null
+  private var stubState:String="registered"
 
   def configureStub(inputSwaggerFile: String, inputPort: Int, cannedResponsesPath: String): Unit = {
     // port and swagger defn
@@ -63,13 +60,36 @@ abstract class BaseStub {
 
   object ContractValidationTransformer extends ResponseTransformer {
 
-    override def transform (request: http.Request, response: Response,
+    override def transform (request: Request, response: Response,
                             files: FileSource, parameters: Parameters): Response = {
       try {
         wireMockListener.reset()
+
+        // validate swagger
         wireMockListener.requestReceived(request, response)
-        wireMockListener.assertValidationPassed()
+        wireMockListener.assertValidationPassed() // will throw error
+
+        // validate state
+        if (!stateTransitions.contains(request.getMethod.getName)) {
+          return Response.Builder.like(response)
+            .but()
+            .body("Missing state transition for action: "+ request.getMethod.getName)
+            .status(500)
+            .build();
+        }
+        val stateTransitionsForThisAction = stateTransitions(request.getMethod.getName)
+        if (!stateTransitionsForThisAction.contains(stubState)) {
+          return Response.Builder.like(response)
+            .but()
+            .body("Invalid state transition for " + request.getMethod.getName + " from state " + stubState)
+            .status(500)
+            .build();
+        }
+        stubState = stateTransitionsForThisAction(stubState)
+
+        // otherwise just act as if nothing happened
         return response
+
       } catch {
         case ex: Exception => {
           wireMockListener.reset()

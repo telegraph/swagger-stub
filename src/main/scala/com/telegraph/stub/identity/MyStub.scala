@@ -14,28 +14,20 @@ object MyStub extends BaseStub {
 
   // map of action -> map  of pre-state, post-state
   override var stateTransitions =    Map(
-    "post" -> Map(Scenario.STARTED -> Scenario.STARTED))
+    "POST" -> Map("registered" -> "registered"))
 
 
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
 
     // happy path get
-    stateTransitions("post") foreach {
-
-      case (inState, outState) =>
-        wireMockServer.stubFor(post(urlMatching(".*/tokens"))
-          .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
-          .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
-          .inScenario("state")
-          .whenScenarioStateIs(inState)
-          .willReturn(
-            aResponse()
-              .withHeader("Content-Type", "application/json")
-              .withBody(Source.fromFile(cannedResponsesPath+"/tokensPasswordGrantHappy.json").mkString)
-              .withStatus(200))
-          .willSetStateTo(outState)
-        )
-    }
+    wireMockServer.stubFor(post(urlMatching(".*/tokens"))
+        .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
+        .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
+        .willReturn(
+          aResponse()
+            .withHeader("Content-Type", "application/json")
+            .withBody(Source.fromFile(cannedResponsesPath+"/tokensPasswordGrantHappy.json").mkString)
+            .withStatus(200)))
   }
 
   // driver class
