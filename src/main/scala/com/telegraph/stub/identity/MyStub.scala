@@ -25,6 +25,7 @@ object MyStub extends BaseStub {
       case (inState, outState) =>
         wireMockServer.stubFor(post(urlMatching(".*/tokens"))
           .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
+          .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
           .inScenario("state")
           .whenScenarioStateIs(inState)
           .withPostServeAction("validate-contract",new ContractValidationParameter("validate-contract"))
