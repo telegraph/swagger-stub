@@ -8,87 +8,71 @@
         "description": "",
         "parameters": [
           {
-            "name": "grant_type",
+            "name": "body",
             "in": "body",
-            "description": "grant_type",
+            "description": "body for tokens",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/password_grant"
-            }
-          },
-          {
-            "name": "credential_type",
-            "in": "body",
-            "description": "credential_type",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/password_grant"
-            }
-          },
-          {
-            "name": "identifier",
-            "in": "body",
-            "description": "identifier",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/password_grant"
-            }
-          },
-          {
-            "name": "auth_key",
-            "in": "body",
-            "description": "auth_key",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/password_grant"
-            }
-          },
-          {
-            "name": "client_id",
-            "in": "body",
-            "description": "client_id",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/password_grant"
-            }
-          },
-          {
-            "name": "remember_me",
-            "in": "body",
-            "description": "remember_me",
-            "required": true,
-            "schema": {
-              "$ref": "#/definitions/password_grant"
+              "$ref": "#/definitions/tokensRequest"
             }
           }
         ],
         "responses": {
           "201": {
-            "description": "response"
+            "description": "successful operation",
+            "required": true,
+            "schema": {
+                "$ref": "#/definitions/tokensResponse"
+            }
           }
         }
       }
     }
   },
   "definitions": {
-    "password_grant": {
+    "tokensRequest": {
+      "type": "object",
       "properties": {
         "grant_type": {
-          "type": "string"
+          "type": "string",
+          "enum" : ["password", "refresh_token", "TOKEN"]
         },
         "credential_type": {
-          "type": "string"
+          "type": "string",
+          "enum" : ["EMAIL_PASSWORD", "SOCIAL", "TMG"]
         },
         "identifier": {
-          "type": "string"
+          "type": "string",
+          "format": "email"
         },
         "auth_key": {
-          "type": "string"
+          "type": "string",
+          "format": "password"
         },
         "client_id": {
           "type": "string"
         },
         "remember_me": {
+          "type": "boolean"
+        }
+      }
+    },
+    "tokensResponse": {
+      "type": "object",
+      "properties": {
+        "access_token": {
+          "type": "string"
+        },
+        "token_type": {
+          "type": "string"
+        },
+        "refresh_token": {
+          "type": "string"
+        },
+        "expires_in": {
+          "type": "integer"
+        },
+        "id_token": {
           "type": "string"
         }
       }
