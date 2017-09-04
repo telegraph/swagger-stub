@@ -20,13 +20,12 @@ with body:
 
 Usage
 -----
-The stub accepts:
-- json swagger file location (openAPI)
-- port
-- location of canned responses
+Engineers should only need to change MyStub.scala which sets up the mocks and configures:
+- port for stub
+- canned responses location
+- swagger file
+- state model file
 - opening state
-
-Engineers should only need to change MyStub.scala and add canned json files
 
 N.B. You should run your acceptance tests against the stub as well as the real service
 to further improve the validity of the stub, as well as validating the test requests

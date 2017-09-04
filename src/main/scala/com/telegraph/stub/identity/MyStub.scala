@@ -38,7 +38,7 @@ object MyStub extends BaseStub {
   // driver class
   def main(args : Array[String]) {
 
-    // port, canned file directory, swagger file, state model file, responses file path
+    // port, canned file directory, swagger file, state model file, opening state
     MyStub.configureStub(args(0).toInt, args(1), args(2), args(3), "registered")
     MyStub.start
   }

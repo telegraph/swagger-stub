@@ -16,7 +16,7 @@ import scala.io.Source
 /**
   * @author ${parsh.toora}
   *
-  * BaseStub configuring Wiremock with swagger file and abstract state and canned responses path
+  * BaseStub config and contract validation
   *
   * *** SHOULD NOT NEED TO CHANGE THIS OBJECT ***
   * 
@@ -47,6 +47,9 @@ abstract class BaseStub {
     setUpMocks(cannedResponsesPath)
     implicit val formats = DefaultFormats
     StubModel.stateModelJson = parse(Source.fromFile(stateModelFile).mkString) \ "stateTransitions"
+    if (StubModel.stateModelJson==null) {
+      throw new Exception("State model not in correct format")
+    }
     StubState.currentState = openingState
 
     println(s"Stub configured for swagger api $swaggerFile for state model $stateModelFile running on port $port in state $openingState")
@@ -90,7 +93,10 @@ abstract class BaseStub {
           JField("prestate", JString(preState)) <- rec
           JField("poststate", JString(postState)) <- rec
         } {
-           if (request.getMethod.getName.equalsIgnoreCase(action) &&
+          if (action==null || preState==null || postState==null) {
+            throw new Exception("State model not in correct format")
+          }
+          if (request.getMethod.getName.equalsIgnoreCase(action) &&
             StubState.currentState.equalsIgnoreCase(preState)) {
             nextState = postState
           }
