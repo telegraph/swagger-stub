@@ -3,9 +3,13 @@ package com.telegraph.stub.identity
 import com.github.tomakehurst.wiremock.{WireMockServer, http}
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import com.atlassian.oai.validator.wiremock.SwaggerValidationListener
-import com.github.tomakehurst.wiremock.common.FileSource
+import com.github.tomakehurst.wiremock.common.{FileSource, Json}
 import com.github.tomakehurst.wiremock.extension.{Parameters, ResponseTransformer}
-import com.github.tomakehurst.wiremock.http.{Request, Response}
+import com.github.tomakehurst.wiremock.http.{Request, RequestMethod, Response}
+
+import util.control.Breaks._
+import org.json4s.{JValue, _}
+import org.json4s.jackson.JsonMethods._
 
 import scala.io.Source
 
@@ -22,26 +26,32 @@ abstract class BaseStub {
 
   var wireMockServer: WireMockServer = null;
   private var wireMockListener: SwaggerValidationListener = null
-  private var stubState:String=""
+  private object StubState{
+    var currentState:String=""
+  }
+  private object StubModel{
+    var stateModelJson:JValue=null
+  }
 
-  def configureStub(inputSwaggerFile: String, inputPort: Int, cannedResponsesPath: String, openingState:String): Unit = {
-    // port and swagger defn
+
+  // configure port, canned responses, swagger, state
+  def configureStub(inputPort: Int, cannedResponsesPath: String, swaggerFile:String, stateModelFile:String, openingState:String): Unit = {
+    // port
     var port: Int = 8080
     if (inputPort != null)
       port = inputPort.toInt
-    var swaggerFile = "home"
-    if (inputSwaggerFile != null)
-      swaggerFile = inputSwaggerFile
 
     wireMockServer = new WireMockServer(options().port(port).extensions(ContractValidationTransformer))
     wireMockListener = new SwaggerValidationListener(Source.fromFile(swaggerFile).mkString)
     wireMockServer.addMockServiceRequestListener(wireMockListener)
     setUpMocks(cannedResponsesPath)
+    implicit val formats = DefaultFormats
+    StubModel.stateModelJson = parse(Source.fromFile(stateModelFile).mkString) \ "stateTransitions"
+    StubState.currentState = openingState
 
-    stubState = openingState
-
-    println(s"Stub configured for swagger api $swaggerFile running on port $port in state $stubState")
+    println(s"Stub configured for swagger api $swaggerFile for state model $stateModelFile running on port $port in state $openingState")
   }
+
 
   // start server
   def start = {
@@ -56,15 +66,14 @@ abstract class BaseStub {
     wireMockServer.stop
   }
 
-  // action -> pre-start, post-state
-  protected var stateTransitions : Map[String, Map[String,String]]
-
+  // method to override to set up mocks
   protected def setUpMocks(cannedResponsesPath: String): Unit
 
 
-  object ContractValidationTransformer extends ResponseTransformer {
+  // validate contract swagger and state
+  private object ContractValidationTransformer extends ResponseTransformer {
 
-    override def transform (request: Request, response: Response,
+    override def transform (request: com.github.tomakehurst.wiremock.http.Request, response: Response,
                             files: FileSource, parameters: Parameters): Response = {
       try {
         wireMockListener.reset()
@@ -74,22 +83,26 @@ abstract class BaseStub {
         wireMockListener.assertValidationPassed() // will throw error
 
         // validate state
-        if (!stateTransitions.contains(request.getMethod.getName)) {
+        var nextState:String = null
+        for {
+          JObject(rec) <- StubModel.stateModelJson
+          JField("action", JString(action)) <- rec
+          JField("prestate", JString(preState)) <- rec
+          JField("poststate", JString(postState)) <- rec
+        } {
+           if (request.getMethod.getName.equalsIgnoreCase(action) &&
+            StubState.currentState.equalsIgnoreCase(preState)) {
+            nextState = postState
+          }
+        }
+        if (nextState==null) {
           return Response.Builder.like(response)
             .but()
-            .body("Missing state transition for action: "+ request.getMethod.getName)
+            .body("Invalid state transition for " + request.getMethod.getName + " from state " + StubState.currentState)
             .status(500)
             .build();
         }
-        val stateTransitionsForThisAction = stateTransitions(request.getMethod.getName)
-        if (!stateTransitionsForThisAction.contains(stubState)) {
-          return Response.Builder.like(response)
-            .but()
-            .body("Invalid state transition for " + request.getMethod.getName + " from state " + stubState)
-            .status(500)
-            .build();
-        }
-        stubState = stateTransitionsForThisAction(stubState)
+        StubState.currentState = nextState
 
         // otherwise just act as if nothing happened
         return response

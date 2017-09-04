@@ -315,6 +315,9 @@
               "$ref": "#/definitions/TokenCreateResponse"
             },
             "headers": {}
+          },
+          "401": {
+            "description": "unsuccessful operation"
           }
         }
       }

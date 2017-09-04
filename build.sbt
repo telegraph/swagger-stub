@@ -10,7 +10,8 @@ lazy val root = (project in file(".")).
     name := "IdentityStub",
     libraryDependencies ++= Seq(
       "com.github.tomakehurst" % "wiremock" % "2.7.1",
-      "com.atlassian.oai" % "swagger-request-validator-wiremock" % "1.2.1"
+      "com.atlassian.oai" % "swagger-request-validator-wiremock" % "1.2.1",
+      "org.json4s" %% "json4s-jackson" % "3.5.3"
     )
   )
 
