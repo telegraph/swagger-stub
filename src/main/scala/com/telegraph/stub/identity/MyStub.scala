@@ -15,8 +15,6 @@ object MyStub extends BaseStub {
 
     // happy path get remeber_me=true
     wireMockServer.stubFor(post(urlMatching(".*/tokens"))
-        .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
-        .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
         .withRequestBody(equalToJson("{\"remember_me\":true}",true,true))
         .willReturn(
           aResponse()
@@ -26,8 +24,6 @@ object MyStub extends BaseStub {
 
     // happy path get remeber_me=false
     wireMockServer.stubFor(post(urlMatching(".*/tokens"))
-      .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
-      .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
       .withRequestBody(equalToJson("{\"remember_me\":false}",true,true))
       .willReturn(
         aResponse()
@@ -37,8 +33,6 @@ object MyStub extends BaseStub {
 
     // sad path get - unauthorised
     wireMockServer.stubFor(post(urlMatching(".*/tokens"))
-      .withRequestBody(equalToJson("{\"grant_type\":\"password\"}",true,true))
-      .withRequestBody(equalToJson("{\"credential_type\":\"EMAIL_PASSWORD\"}",true,true))
       .withRequestBody(equalToJson("{\"identifier\":\"unauthorised@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
