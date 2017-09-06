@@ -1,13 +1,11 @@
 package com.telegraph.stub.identity
 
-import com.github.tomakehurst.wiremock.{WireMockServer, http}
+import com.github.tomakehurst.wiremock.{WireMockServer}
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration.options
 import com.atlassian.oai.validator.wiremock.SwaggerValidationListener
-import com.github.tomakehurst.wiremock.common.{FileSource, Json}
+import com.github.tomakehurst.wiremock.common.{FileSource}
 import com.github.tomakehurst.wiremock.extension.{Parameters, ResponseTransformer}
-import com.github.tomakehurst.wiremock.http.{Request, RequestMethod, Response}
-
-import util.control.Breaks._
+import com.github.tomakehurst.wiremock.http.{Response}
 import org.json4s.{JValue, _}
 import org.json4s.jackson.JsonMethods._
 
