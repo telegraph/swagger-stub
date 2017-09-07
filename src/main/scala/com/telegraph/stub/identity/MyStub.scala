@@ -2,13 +2,15 @@ package com.telegraph.stub.identity
 
 import com.github.tomakehurst.wiremock.client.WireMock._
 import com.github.tomakehurst.wiremock.http.RequestMethod
+import uk.co.telegraph.qe.SmartStub
+
 import scala.io.Source
 
 /**
   * Created by toorap on 17/08/2017.
   * Example of a stub encapsulating contract and state
   */
-object MyStub extends BaseStub {
+object MyStub extends SmartStub {
 
 
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
@@ -45,7 +47,7 @@ object MyStub extends BaseStub {
   def main(args : Array[String]) {
 
     // port, canned file directory, swagger file, state model file, opening state
-    MyStub.configureStub(args(0).toInt, args(1), args(2), args(3), "registered")
+    MyStub.configureStub(args(0), args(1), args(2), args(3), "registered")
     MyStub.start
   }
 }
