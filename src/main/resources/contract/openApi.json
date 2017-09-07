@@ -318,6 +318,12 @@
           },
           "401": {
             "description": "unsuccessful operation"
+          },
+          "500": {
+            "description": "error"
+          },
+          "408": {
+            "description": "timeout"
           }
         }
       }
