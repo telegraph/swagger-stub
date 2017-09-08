@@ -40,7 +40,7 @@ object MyStub extends SmartStub {
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
-          .withBody(Source.fromFile(cannedResponsesPath+ "/tokensPasswordGrantHappyExpired.json").mkString)
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tokensPasswordGrantExpired.json").mkString)
           .withStatus(200)))
 
     // happy path get remember_me=false
@@ -75,6 +75,15 @@ object MyStub extends SmartStub {
         aResponse()
           .withFixedDelay(10000)
           .withStatus(408)))
+
+    // sad path get - unauthorised
+    wireMockServer.stubFor(post(urlMatching(".*/tokens"))
+      .withRequestBody(equalToJson("{\"identifier\":\"unexpected@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withHeader("Content-Type", "application/json")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tokensPasswordGrantUnexpectedResponse.json").mkString)
+          .withStatus(401)))
   }
 
   // driver class
