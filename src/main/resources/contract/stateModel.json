@@ -2,13 +2,8 @@
   "stateTransitions": [
     {
       "action": "post",
-      "prestate": "registered",
-      "poststate": "registered"
-    },
-    {
-      "action": "get",
-      "prestate": "registered",
-      "poststate": "registered"
+      "prestate": "any",
+      "poststate": "any"
     }
   ]
 }
