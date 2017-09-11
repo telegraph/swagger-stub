@@ -114,15 +114,21 @@
       "properties": {
         "emailId": {
           "type": "string",
-          "format":"email"
+          "format": "email"
         },
         "password": {
-          "type": "string"
+          "type": "string",
+          "format": "password"
         },
         "accountLinkingToken": {
           "type": "string"
         }
-      }
+      },
+      "required": [
+        "emailId",
+        "password",
+        "accountLinkingToken"
+      ]
     },
     "fbcredentials": {
       "type": "object",
@@ -133,7 +139,11 @@
         "accountLinkingToken": {
           "type": "string"
         }
-      }
+      },
+      "required": [
+        "oauthtoken",
+        "accountLinkingToken"
+      ]
     },
     "status": {
       "type": "object",
@@ -144,7 +154,7 @@
         "accountLinkingToken": {
           "type": "string"
         },
-        "Payload": {
+        "payload": {
           "type": "string"
         }
       }
@@ -158,7 +168,7 @@
         "accountLinkingToken": {
           "type": "string"
         },
-        "Payload": {
+        "payload": {
           "type": "string"
         }
       }
