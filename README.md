@@ -1,6 +1,8 @@
 # Build instructions
 sbt reload clean assembly
+
 docker build -t facebookauth-stub .
+
 docker run -p 8080:8081 facebookauth-stub
 
 

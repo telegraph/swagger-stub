@@ -113,7 +113,8 @@
       "type": "object",
       "properties": {
         "emailId": {
-          "type": "string"
+          "type": "string",
+          "format":"email"
         },
         "password": {
           "type": "string"
