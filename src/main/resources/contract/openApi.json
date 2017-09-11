@@ -83,7 +83,7 @@
           "200": {
             "description": "Whether user is subscribed or not_subscribed",
             "schema": {
-              "$ref": "#/definitions/fbstatus"
+              "$ref": "#/definitions/status"
             }
           },
           "401": {
@@ -146,20 +146,6 @@
       ]
     },
     "status": {
-      "type": "object",
-      "properties": {
-        "status": {
-          "type": "string"
-        },
-        "accountLinkingToken": {
-          "type": "string"
-        },
-        "payload": {
-          "type": "string"
-        }
-      }
-    },
-    "fbstatus": {
       "type": "object",
       "properties": {
         "status": {

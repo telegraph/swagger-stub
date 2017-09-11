@@ -7,8 +7,11 @@ docker run -p 8080:8081 facebookauth-stub
 
 docker save facebookauth-stub > facebookauth-stub.tar (if you want to save as a tar)
 
-docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/facebookauth-stub:latest (to push to docker registry)
+docker tag facebookauth-stub  385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub
 
+docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub (to push to docker registry)
+
+docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub (to pull)
 
 ## Example
 http://localhost:8080/tmgauth
