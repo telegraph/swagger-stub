@@ -22,6 +22,7 @@ object MyStub extends SmartStub {
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString)
           .withStatus(200)))
 
@@ -31,6 +32,7 @@ object MyStub extends SmartStub {
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth401.json").mkString)
           .withStatus(401)))
 
@@ -40,6 +42,7 @@ object MyStub extends SmartStub {
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth500.json").mkString)
           .withStatus(500)))
 
@@ -49,14 +52,16 @@ object MyStub extends SmartStub {
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth503.json").mkString)
           .withStatus(503)))
 
-    // happy path registered remember_me=true
+    // happy path fb
     wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
       .willReturn(
         aResponse()
           .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/fbAuthSubscribed.json").mkString)
           .withStatus(200)))
 
