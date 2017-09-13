@@ -1,7 +1,6 @@
 {
   "stateTransitions": [
     {
-      "action": "post",
       "prestate": "any",
       "poststate": "any"
     }

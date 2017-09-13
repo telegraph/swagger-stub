@@ -12,6 +12,14 @@
   "basePath": "/v1",
   "paths": {
     "/tmgauth": {
+      "options" : {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      },
       "post": {
         "tags": [
           "TMGAuth"

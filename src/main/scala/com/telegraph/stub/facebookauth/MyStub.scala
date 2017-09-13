@@ -17,10 +17,22 @@ object MyStub extends SmartStub {
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
 
     // happy path
+    wireMockServer.stubFor(options(urlMatching(".*/tmgauth"))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("access-control-allow-origin", "*")
+          .withHeader("access-control-allow-headers", "content-type")
+          .withHeader("access-control-allow-methods", "POST,OPTIONS")
+          .withHeader("access-control-max-age", "86400")
+          .withStatus(200)))
+
+    // happy path
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
       .withRequestBody(equalToJson("{\"emailId\":\"subscribed@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
+          .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString)
@@ -31,6 +43,7 @@ object MyStub extends SmartStub {
       .withRequestBody(equalToJson("{\"emailId\":\"unauthorised@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
+          .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth401.json").mkString)
@@ -41,6 +54,7 @@ object MyStub extends SmartStub {
       .withRequestBody(equalToJson("{\"emailId\":\"systemError@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
+          .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth500.json").mkString)
@@ -51,6 +65,7 @@ object MyStub extends SmartStub {
       .withRequestBody(equalToJson("{\"emailId\":\"unavailable@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
+          .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth503.json").mkString)
@@ -60,6 +75,7 @@ object MyStub extends SmartStub {
     wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
       .willReturn(
         aResponse()
+          .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
           .withBody(Source.fromFile(cannedResponsesPath+ "/fbAuthSubscribed.json").mkString)
