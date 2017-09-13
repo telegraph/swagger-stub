@@ -27,9 +27,20 @@ object MyStub extends SmartStub {
           .withHeader("access-control-max-age", "86400")
           .withStatus(200)))
 
-    // happy path
+    // happy path subscribed
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"emailId\":\"subscribed@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"emailId\":\"subscriber@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString)
+          .withStatus(200)))
+
+    // happy path registered
+    wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
+      .withRequestBody(equalToJson("{\"emailId\":\"registered@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
