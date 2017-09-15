@@ -20,10 +20,12 @@ with body:
 ```
 {
 "accountLinkingToken": "abcdef123456",
-"emailId": "subscribed@telegraph.co.uk",
-"password": "password"
+"emailId": "user@telegraph.co.uk",
+"password": "subscribed@telegraph.co.uk"
 }
 ```
+
+the password or the oauthtoken will identify the response (see http://localhost:8080/__admin)
 
 ## Usage
 Engineers should only need to change MyStub.scala which sets up the mocks and configures:
