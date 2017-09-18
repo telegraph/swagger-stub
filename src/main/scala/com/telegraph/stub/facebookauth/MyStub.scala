@@ -16,8 +16,8 @@ object MyStub extends SmartStub {
 
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
 
-    // happy path
-    wireMockServer.stubFor(options(urlMatching(".*/tmgauth"))
+    // tmg OPTIONS
+    wireMockServer.stubFor(options(urlMatching("(.*)(tmgauth|fbauth)"))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -27,20 +27,109 @@ object MyStub extends SmartStub {
           .withHeader("access-control-max-age", "86400")
           .withStatus(200)))
 
-    // happy path
+    // subscribed
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"emailId\":\"subscribed@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"password\":\"subscriber@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
-          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString)
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"subscriber@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthSubscribed.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    // expired
+    wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
+      .withRequestBody(equalToJson("{\"password\":\"expired@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthExpired.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"expired@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthExpired.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    // no web access
+    wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
+      .withRequestBody(equalToJson("{\"password\":\"noWebAccess@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"noWebAccess@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    // registered
+    wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
+      .withRequestBody(equalToJson("{\"password\":\"registered@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString)
+          .withStatus(200)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"registered@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString)
           .withStatus(200)))
 
     // unauthorised
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"emailId\":\"unauthorised@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"password\":\"unauthorised@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth401.json").mkString)
+          .withStatus(401)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"unauthorised@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -51,7 +140,17 @@ object MyStub extends SmartStub {
 
     // system error
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"emailId\":\"systemError@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"password\":\"systemError@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth500.json").mkString)
+          .withStatus(500)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"systemError@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -62,7 +161,7 @@ object MyStub extends SmartStub {
 
     // unavailable
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"emailId\":\"unavailable@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"password\":\"unavailable@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -71,16 +170,15 @@ object MyStub extends SmartStub {
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth503.json").mkString)
           .withStatus(503)))
 
-    // happy path fb
     wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"unavailable@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
           .withHeader("Content-Type", "application/json")
           .withHeader("access-control-allow-origin", "*")
-          .withBody(Source.fromFile(cannedResponsesPath+ "/fbAuthSubscribed.json").mkString)
-          .withStatus(200)))
-
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuth503.json").mkString)
+          .withStatus(503)))
   }
 
   // driver class
