@@ -1,27 +1,48 @@
 # Build instructions
-sbt reload clean assembly
+Run Scala SBT
 
-docker build -t facebookauth-stub .
+    $ sbt reload clean assembly
+    # if the above fails see 'trouble shooting' section below
+    
+If running the service from a .tar file
 
-docker run -p 8080:8081 facebookauth-stub
+    $ docker load facebookauth-stub.tar
+    $ docker run -p 8080:8081 facebookauth-stub
 
-docker save facebookauth-stub > facebookauth-stub.tar (if you want to save as a tar)
+If building from src
 
-docker tag facebookauth-stub  385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub
+    $ docker build -t facebookauth-stub .
+    $ docker run -p 8080:8081 facebookauth-stub
 
-docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub (to push to docker registry)
+To export a .tar file
+    
+    $ docker save facebookauth-stub > facebookauth-stub.tar 
+    
+To docker pull try 
 
-docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub (to pull)
+    $ docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub 
+    
+If the above fails try
+
+    $ aws ecr get-login --no-include-email --region eu-west-1
+    $ run command returned by the above line
+    
+To push changes, tag and push
+
+    $ docker tag facebookauth-stub  385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub
+    $ docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:facebookauth-stub 
+
+
 
 ## Example
 http://localhost:8080/tmgauth
 
-with body:
-```
+POST with JSON body:
+```javascript
 {
-"accountLinkingToken": "abcdef123456",
-"emailId": "subscribed@telegraph.co.uk",
-"password": "password"
+    "accountLinkingToken": "abcdef123456",
+    "emailId": "subscribed@telegraph.co.uk",
+    "password": "password1"
 }
 ```
 
@@ -41,3 +62,22 @@ against swagger.
 An invalid request payload will return a 500 with an error
 An invalid response (from the stub) will also result in a 500 with an error
 An invalid state transition will (you guessed it) return a 500 with an error
+
+
+## Trouble shooting
+### Dependency errors 
+If you get something like the following when trying to build...
+    
+    [warn]  ::::::::::::::::::::::::::::::::::::::::::::::
+    [warn]  ::          UNRESOLVED DEPENDENCIES         ::
+    [warn]  ::::::::::::::::::::::::::::::::::::::::::::::
+    [warn]  :: uk.co.telegraph.qe#smartstub_2.11;0.1.0-SNAPSHOT: Forbidden (Service: Amazon S3; Status Code: 403; Error Code: 403 Forbidden; Request ID: A26B5C6611C24C83)
+    [warn]  ::::::::::::::::::::::::::::::::::::::::::::::
+    [warn] 
+    [warn]  Note: Unresolved dependencies path:
+    [warn]          uk.co.telegraph.qe:smartstub_2.11:0.1.0-SNAPSHOT (/Users/patrickc/dev/fbauth-stub/project/Dependencies.scala#L7)
+    [warn]            +- com.telegraph.stub.facebookauth:facebookauthstub_2.11:0.1.0-SNAPSHOT
+    sbt.ResolveException: unresolved dependency: uk.co.telegraph.qe#smartstub_2.11;0.1.0-SNAPSHOT: Forbidden (Service: Amazon S3; Status Code: 403; Error Code: 403 Forbidden; Request ID: A26B5C6611C24C83)
+    [error] (*:update) sbt.ResolveException: unresolved dependency: uk.co.telegraph.qe#smartstub_2.11;0.1.0-SNAPSHOT: Forbidden (Service: Amazon S3; Status Code: 403; Error Code: 403 Forbidden; Request ID: A26B5C6611C24C83)
+
+? currently no solution for this error
