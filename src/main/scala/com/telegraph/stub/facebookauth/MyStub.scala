@@ -1,10 +1,7 @@
 package com.telegraph.stub.facebookauth
 
 import com.github.tomakehurst.wiremock.client.WireMock._
-import com.github.tomakehurst.wiremock.http.RequestMethod
-import com.github.tomakehurst.wiremock.stubbing.StubMapping
 import uk.co.telegraph.qe.SmartStub
-
 import scala.io.Source
 
 /**
@@ -75,7 +72,7 @@ object MyStub extends SmartStub {
 
     // no web access
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
-      .withRequestBody(equalToJson("{\"password\":\"noWebAccess@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"password\":\"noweb@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -86,7 +83,7 @@ object MyStub extends SmartStub {
           .withStatus(200)))
 
     wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
-      .withRequestBody(equalToJson("{\"oauthtoken\":\"noWebAccess@telegraph.co.uk\"}",true,true))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"noweb@telegraph.co.uk\"}",true,true))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
@@ -95,6 +92,31 @@ object MyStub extends SmartStub {
           .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString
             .replace("&apos;"," ").replace("&quot;","'"))
           .withStatus(200)))
+
+
+    // dont remember me
+    wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
+      .withRequestBody(equalToJson("{\"password\":\"dontRememberMe@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    wireMockServer.stubFor(post(urlMatching(".*/fbauth"))
+      .withRequestBody(equalToJson("{\"oauthtoken\":\"dontRememberMe@telegraph.co.uk\"}",true,true))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withHeader("access-control-allow-origin", "*")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/tmgAuthRegistered.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
 
     // registered
     wireMockServer.stubFor(post(urlMatching(".*/tmgauth"))
