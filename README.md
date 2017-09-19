@@ -1,5 +1,10 @@
 # Build instructions
+
+update version
+
 sbt reload clean assembly
+
+sbt publish
 
 docker build -t facebookauth-stub .
 
