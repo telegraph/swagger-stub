@@ -9,9 +9,9 @@
   "schemes": [
     "https"
   ],
-  "basePath": "/facebookauth/",
+  "basePath": "",
   "paths": {
-    "/facebookauth/tmgauth": {
+    "/tmgauth": {
       "options" : {
         "description": "",
         "responses": {
@@ -67,7 +67,7 @@
         }
       }
     },
-    "/facebookauth/fbauth": {
+    "/fbauth": {
       "post": {
         "tags": [
           "FBAuth"
