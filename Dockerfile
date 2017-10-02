@@ -1,6 +1,6 @@
 FROM anapsix/alpine-java
 MAINTAINER toorap
-COPY ./target/scala-2.11/facebookauthStub-assembly-0.1.15.jar /home/
+COPY ./target/scala-2.11/facebookauthStub-assembly-0.1.16.jar /home/
 COPY ./src/main/resources/contract/*.json /home/
 COPY ./src/main/resources/cannedJson/*.json /home/
-CMD ["java","-jar", "/home/facebookauthStub-assembly-0.1.15.jar", "8081", "/home", "/home/openApi.json", "/home/stateModel.json"]
+CMD ["java","-jar", "/home/facebookauthStub-assembly-0.1.16.jar", "8081", "/home", "/home/openApi.json", "/home/stateModel.json"]
