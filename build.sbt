@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "com.telegraph.stub.facebookauth",
       scalaVersion := "2.11.8",
-      version      := "0.1.18"
+      version      := "0.1.19"
     )),
     name := "facebookauthStub",
     ServiceDependencies
