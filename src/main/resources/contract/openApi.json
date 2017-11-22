@@ -555,11 +555,11 @@
         },
         "selectedDate": {
           "type": "string",
-          "format": "date-time"
+          "format": "date"
         },
         "startDate": {
           "type": "string",
-          "format": "date-time"
+          "format": "date"
         }
       }
     },

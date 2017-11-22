@@ -14,7 +14,7 @@ object MyStub extends SmartStub {
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
 
     // subscribed
-    wireMockServer.stubFor(get(urlMatching(".*/happyflake"))
+    wireMockServer.stubFor(get(urlMatching(".*/n6DNHn4ryjz"))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")
