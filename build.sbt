@@ -5,15 +5,15 @@ resolvers += "mvn-artifacts" at "s3://mvn-artifacts/release"
 lazy val root = (project in file(".")).
   settings( 
     inThisBuild(List(
-      organization := "com.telegraph.stub.facebookauth",
+      organization := "com.telegraph.stub.cruisestub",
       scalaVersion := "2.11.8",
-      version      := "0.1.19"
+      version      := "0.0.1"
     )),
-    name := "facebookauthStub",
+    name := "cruisestub",
     ServiceDependencies
   )
 
-mainClass := Some("com.telegraph.stub.facebookauth.MyStub")
+mainClass := Some("com.telegraph.stub.cruisestub.MyStub")
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard

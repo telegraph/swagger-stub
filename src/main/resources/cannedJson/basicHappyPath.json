@@ -1,0 +1,545 @@
+{
+  "name": "Adriatic and Greece Cruise",
+  "uri": {
+    "namespace": "http://data.telegraph.co.uk/resource/",
+    "localName": "m3N47zn442M"
+  },
+  "aliases": [
+    "East Italy Cruise",
+    "Classic Cruise"
+  ],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "m2FPqSy3f28",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0333 130 7531",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Air Holidays/Promotions Ltd. (registered in England no. 2238316 /1708566) ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://telegraph.vibe.travel/collection/adriatic-and-greece-cruise-91d7ac9ce3fdcbce23c43501d7aa0a30/overview",
+  "overview": "Join Norwegian Star as she sets sail from glorious Venice, La Serenissima, to take in the stunning Dalmatian coast of Croatia and walled gem Dubrovnik, Piraeus - gateway to wondrous Athens - and sun-kissed Greek island jewel Santorini, before returning to Venice via UNESCO-listed Ravenna. Two wonderful, relaxing days at sea complete the pleasure. There's far more to life on board Norwegian Star than we could possibly fit on one page.",
+  "priceFrom": "989.0",
+  "status": "kwCp0BHzx1g",
+  "lastEditor": {
+    "address": "joe.smithe@telegraph.co.uk",
+    "timestamp": "2017-09-09T00:00:00Z"
+  },
+  "approver": {
+    "address": "big.admin@telegraph.co.uk",
+    "timestamp": "2017-09-09T00:00:00Z"
+  },
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "Free drinks package",
+      "text": "Passengers aged 21 years of age and over can take advantage of the Ultimate Beverage Package on board, which entitles them to free drinks (a variety of spirits and cocktails, draught beer, wine by the glass and bottles up to the value of $15). "
+    },
+    {
+      "title": "Transfer times",
+      "text": "The transfer time from the airport to the cruise terminal is approximately 20 minutes."
+    },
+    {
+      "title": "Combining transfers",
+      "text": "We sometimes need to combine transfers to and from your cruise terminal. We always try to keep any wait to a minimum, but you may be asked to wait at the airport for up to an hour, while other incoming flights arrive, before the transfer to your cruise terminal. Similarly, we may need to transfer you back to the airport up to three hours before your flight home departs."
+    },
+    {
+      "title": "Special requirements",
+      "text": "If you have notified us of any special requirements, please check that they have been noted and acknowledged. This is especially important with any dietary needs you may have."
+    },
+    {
+      "title": "Disabled access",
+      "text": "The majority of our tours involve a certain amount of walking, including a short walk from the coach stop to the town, attraction or venue you're visiting. If you are bringing a wheelchair, please let us know at the time of booking so that appropriate arrangements can be made."
+    },
+    {
+      "title": "Itinerary changes",
+      "text": "Occasionally, for operational reasons, we may have to change the order of the excursions on your holiday. The final day-by-day itinerary will be confirmed on your Final Travel Documents, which you will receive approximately three weeks prior to your departure."
+    },
+    {
+      "title": "Airport development fees",
+      "text": "An Airport Development Fee has been introduced at a few UK Airports. You will be required to pay this charge at the following airports prior to checking in for your flight: Blackpool, Durham Tees Valley, Newquay and Norwich. The amount varies from airport to airport, but it is generally between £5 and £10 per person. Please visit the airport's website for further information."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "Board and disembark from Norwegian Star in Venice, the incomparable Serenissima",
+    "Sail south through blue waters to Dubrovnik, the 'Pearl of the Adriatic'",
+    "Discover and explore Athens, home to the ancient Acropolis",
+    "Picture-postcard favourite Santorini sits atop an extinct volcano",
+    "Stunning Ravenna is home to the world's finest mosaics",
+    "Enjoy two blissful days at sea",
+    "Seven nights' full board accommodation on-board Norwegian Star, sharing a twin stateroom",
+    "A wide range of dining options and on-board amenities to enjoy (some supplements apply)",
+    "Free Drinks Package (see Further Information)",
+    "Return flights to Venice",
+    "Airport-ship transfers",
+    "Single rooms are available for a supplement"
+  ],
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=462fec86f80e1681183f138a4269d8bb"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN4rWDK",
+      "type": "Country",
+      "label": "Greece",
+      "lat": 39.074208,
+      "long": 21.824312
+    },
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "kJv4VN4fc5C",
+      "type": "Country",
+      "label": "Croatia",
+      "lat": 45.1,
+      "long": 15.200000000000045
+    },
+    {
+      "id": "kJv4VN5Wd4Q",
+      "type": "Country",
+      "label": "Italy",
+      "lat": 41.87194,
+      "long": 12.56738
+    }
+  ],
+  "destinations": [
+    "Greece",
+    "Europe",
+    "Italy",
+    "Croatia"
+  ],
+  "geoLocalisationHint": "Italy",
+  "classifications": [
+    {
+      "name": "Ocean Cruise",
+      "uri": {
+        "namespace": "http://data.telegraph.co.uk/resource/",
+        "localName": "m3FnvFNkvx2"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Cruise Type",
+          "uri": {
+            "namespace": "http://data.telegraph.co.uk/resource/",
+            "localName": "m3FnvFPgcvD"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD19958",
+      "source": "http://data.telegraph.co.uk/resource/m2FPqSy3f28",
+      "externalReferenceType": null
+    },
+    {
+      "identifier": "91d7ac9ce3fdcbce23c43501d7aa0a30",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": null
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Fly to Venice and transfer to Norwegian Star. Settle into your stateroom, explore your surroundings, be on deck as the magnificent ship slips her moorings and heads away from the stunning Venetian skyline, as you enjoy a first evening aboard.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "The impossibly beautiful walled city of Dubrovnik emerges from the Dalmatian Coast like a floating medieval fortress, exuding charm and history from its weathered, marbled streets. Explore this 'Pearl of the Adriatic', with its red-ochre-roofed buildings and its offshore islets, perhaps walk its surrounding ramparts and soak up the atmosphere from a seat in a pavement cafe.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "Enjoy a wonderful day at sea, with plenty to keep you occupied on-board. Make the most of Norwegian Star's amenities, as she makes her way through the blue waters of the Adriatic and heads into the Ionian Sea.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "Norwegian Star arrives in Athens' great port of Piraeus, and there's the opportunity, on optional excursions, to explore the beguiling Greek capital, with its fabled Acropolis, topped by the familiar Parthenon. Close by other major monuments, despite the ravages of time, remain awe-inspiring windows to the great Classical Greek Civilisation and its immortal leader Pericles.",
+      "location": {
+        "id": "kJv4VN5Wd4Q",
+        "type": "Country",
+        "label": "Italy",
+        "lat": 41.87194,
+        "long": 12.56738
+      }
+    },
+    {
+      "order": 5,
+      "title": "5",
+      "text": "Norwegian Star drops anchor off fabled Santorini, formed around the crater of a now extinct volcano, its picture-postcard-perfect main town perched precariously atop the cliff. Enjoy a memorable day, exploring the town, with its white washed houses, blue-domed churches and stunning sea views, or perhaps lazily stretch out on a beach, dipping into the turquoise waters.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 6,
+      "title": "6",
+      "text": "A second day at sea brings another chance to enjoy all the pleasures of cruising, Norwegian Star-style, as she sails back into the blue Adriatic Sea.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 7,
+      "title": "7",
+      "text": "A final call brings a chance to visit ancient Ravenna, once a port, but now, thanks to silting up over centuries, some distance from the sea. Famed for its stunning mosaics - said to be the finest in Western art - and no less than eight UNESCO World Heritage sites, Ravenna, with its elegant main square Piazza del Popolo, is a not-to-be-missed gem.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    },
+    {
+      "order": 8,
+      "title": "8",
+      "text": "Awaken early as the ship returns across the beautiful Venice Lagoon, then bid farewell to Norwegian Star and her crew, and transfer back to the airport for the return flight, at the end of a wonderful holiday.",
+      "location": {
+        "id": "kJv4VN4fc5C",
+        "type": "Country",
+        "label": "Croatia",
+        "lat": 45.1,
+        "long": 15.200000000000045
+      }
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "989.00",
+      "referenceCode": "VTD-LGW-20170521",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "44"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "989.00",
+      "referenceCode": "VTH-STN-20171008",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "48"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "989.00",
+      "referenceCode": "VTD-LGW-20171008",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1019.00",
+      "referenceCode": "VTH-STN-20170521",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1019.00",
+      "referenceCode": "VTD-LGW-20170604",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "46"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1019.00",
+      "referenceCode": "VTH-STN-20170604",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "46"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1039.00",
+      "referenceCode": "VTF-MAN-20171008",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "48"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1049.00",
+      "referenceCode": "VTD-LGW-20170910",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "38"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1059.00",
+      "referenceCode": "VTF-MAN-20170521",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1059.00",
+      "referenceCode": "VTH-STN-20170702",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1059.00",
+      "referenceCode": "VTH-STN-20170910",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "38"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1079.00",
+      "referenceCode": "VTF-MAN-20170604",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "46"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1119.00",
+      "referenceCode": "VTF-MAN-20170702",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1119.00",
+      "referenceCode": "VTD-LGW-20170702",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "50"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1119.00",
+      "referenceCode": "VTF-MAN-20170910",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "38"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1129.00",
+      "referenceCode": "VTH-STN-20170924",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "16"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1129.00",
+      "referenceCode": "VTD-LGW-20170924",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "16"
+    },
+    {
+      "departurePlace": "Cardiff",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1139.00",
+      "referenceCode": "VTB-CWL-20170604",
+      "departureId": "23071",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "46"
+    },
+    {
+      "departurePlace": "London Stansted",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1147.00",
+      "referenceCode": "VTH-STN-20170618",
+      "departureId": "24353",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "30"
+    },
+    {
+      "departurePlace": "London Gatwick",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1147.00",
+      "referenceCode": "VTD-LGW-20170618",
+      "departureId": "24823",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "30"
+    },
+    {
+      "departurePlace": "Durham Tees Valley",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1169.00",
+      "referenceCode": "VTC-MME-20170910",
+      "departureId": "5694",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "38"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1189.00",
+      "referenceCode": "VTF-MAN-20170924",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "16"
+    },
+    {
+      "departurePlace": "Manchester",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1207.00",
+      "referenceCode": "VTF-MAN-20170618",
+      "departureId": "24829",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "30"
+    },
+    {
+      "departurePlace": "Isle Of Man",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1249.00",
+      "referenceCode": "VTE-IOM-20170924",
+      "departureId": "24671",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "16"
+    },
+    {
+      "departurePlace": "Norwich",
+      "numberOfNights": 7,
+      "startDate": "2017-07-21T17:32:28Z",
+      "price": "1267.00",
+      "referenceCode": "VTG-NWI-20170618",
+      "departureId": "23849",
+      "selectedDate": "2017-07-21T17:32:28Z",
+      "availability": "30"
+    }
+  ],
+  "ship": {
+    "name": "Queen Elisabeth II",
+    "uri": {
+      "namespace": "http://data.telegraph.co.uk/resource/",
+      "localName": "m3Kw3mVRcSC"
+    }
+  },
+  "cruiseLine": {
+    "name": "Cunard",
+    "uri": {
+      "namespace": "http://data.telegraph.co.uk/resource/",
+      "localName": "krG4kkM9WGt"
+    }
+  },
+  "cruiseType": {
+    "name": "Ocean Cruise",
+    "uri": {
+      "namespace": "http://data.telegraph.co.uk/resource/",
+      "localName": "m3FnvFNkvx2"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Cruise Type",
+        "uri": {
+          "namespace": "http://data.telegraph.co.uk/resource/",
+          "localName": "m3FnvFPgcvD"
+        }
+      }
+    ]
+  }
+}
