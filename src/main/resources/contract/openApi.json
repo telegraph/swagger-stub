@@ -188,7 +188,7 @@
         }
       }
     },
-    "/{cruiseFlakeId}": {
+    "/travel-products/cruises/{cruiseFlakeId}": {
       "get": {
         "tags": [
           "endpoint"
