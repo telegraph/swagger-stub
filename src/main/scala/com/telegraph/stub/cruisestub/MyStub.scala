@@ -13,7 +13,7 @@ object MyStub extends SmartStub {
 
   override def setUpMocks(cannedResponsesPath: String): Unit  = {
 
-    // subscribed
+
     wireMockServer.stubFor(get(urlMatching(".*/n6DNHn4ryjz"))
       .willReturn(
         aResponse()
@@ -23,6 +23,15 @@ object MyStub extends SmartStub {
             .replace("&apos;"," ").replace("&quot;","'"))
           .withStatus(200)))
 
+
+    wireMockServer.stubFor(get(urlMatching(".*/pvjqdBFp0sD"))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/travelTeck.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
 
   }
 
