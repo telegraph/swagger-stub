@@ -1,6 +1,6 @@
 import Dependencies._
 
-resolvers += "mvn-artifacts" at "s3://mvn-artifacts/release"
+resolvers += "mvn-artifacts" at "s3://s3-eu-west-1.amazonaws.com/mvn-artifacts/release"
 
 lazy val root = (project in file(".")).
   settings( 
