@@ -1,0 +1,1040 @@
+{
+  "name": "London New Year Dance and River Cruise",
+  "uri": {
+    "localName": "ng5xFhmBC33",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=18278&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Friver-cruise%2Fnewmarket-holidays%2Flondon-new-year-dance-river-cruise&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "See London's New Year's Eve Fireworks from the best vantage point - a cruise on the River Thames - on this three-day New Year break. You'll stay at a four-star hotel, enjoy dinner and dancing on your first night, see the amazing London New Year Parade and have time for shopping and sightseeing.",
+  "priceFrom": "399.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "alexia.pearce@telegraph.co.uk",
+    "timestamp": "2017-07-06T09:17:58Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "Viewing the fireworks",
+      "text": "Due to changing tides, river traffic and weather conditions, we are unable to confirm or guarantee the exact position your vessel will moor at to take in the views of the midnight fireworks display. The crew will endeavour to secure the best position possible for viewing of the display."
+    },
+    {
+      "title": "Returning to your hotel",
+      "text": "Please note that central London is extremely busy on New Year's Eve and you may not get back to your hotel until 2.30am after the cruise."
+    },
+    {
+      "title": "Coach seating arrangements",
+      "text": "Your Tour Manager will have allocated seats for you on the main coach in advance, taking into consideration any special requests wherever possible, and will advise you where to sit as you board the coach. This will be your seat for the duration of the tour. (Seats are not allocated on any connecting services to and from the main coach.)"
+    },
+    {
+      "title": "Joining your holiday",
+      "text": "Your final travel documents, including the exact time and place of departure, will be sent to you approximately 10 days prior to departure, providing all payments have been made. We are unable to give exact departure times before this."
+    },
+    {
+      "title": "Special requirements",
+      "text": "If you have notified us of any special requirements, please check that they have been noted and acknowledged. This is especially important with any dietary needs you may have."
+    },
+    {
+      "title": "Accessibility",
+      "text": "Please note that due to the many road closures in central London on New Year's Eve there is a fair amount of walking involved on this tour,  from the restaurant to the pier to join the boat and then from the pier to meet the coach afterwards.  This tour is really not suitable for anyone with walking difficulties."
+    },
+    {
+      "title": "",
+      "text": ""
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made from 18th November 2017 only. Prices shown when booking do not include the discount. The discount will be applied to your booking once the promo code has been entered and will be confirmed before purchase. The offer may not be used in conjunction with any other offer, is subject to availability and may be withdrawn at any time."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [
+    {
+      "name": "London Area Hotel",
+      "overview": "You will be staying in one of a range of comfortable, four-star hotels in the Greater London area, such as the Novotel Heathrow or the Crowne Plaza, Maidenhead.\n",
+      "rating": "4",
+      "facilities": "Restaurant\nBar\n",
+      "roomDetails": "Private facilities\nTelephone\nSatellite TV\nTea/coffee-making facilities\n",
+      "images": [
+        "tourimg.php?a=img&img=371092563b22bd26486e4b56021c2c1f",
+        "tourimg.php?a=img&img=e09dda862cfc2f52b5b6db36d0eedc5e"
+      ],
+      "finishingTouches": "Single rooms are available for a supplement\nYou will be advised of your allocated hotel when you receive your Joining Instructions\n"
+    }
+  ],
+  "inclusions": [
+    "A three-course evening meal and after-dinner disco on Day One",
+    "Coach transfers to London for the New Year's Eve celebrations",
+    "A three-course evening meal with half a bottle of wine on New Year's Eve",
+    "A Thames river cruise for the New Year's Eve fireworks, with a glass of bubbly",
+    "A transfer to London for The New Year's Day London Parade",
+    "Two nights' bed and continental breakfast accommodation at a four-star Greater London area hotel",
+    "Coach travel throughout",
+    "The services of a friendly Tour Manager",
+    "Single rooms are available for a supplement",
+    "<b>All passengers must be at least 18 years old on the date of departure.</b>"
+  ],
+  "subtitle": "BUY ONE, GET ONE HALF-PRICE!. QUOTE CODE 8NEWYL WHEN BOOKING*",
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=f009ed0e5e9fb66c90509ddd0427e583"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN2kxcw",
+      "type": "City",
+      "label": "London",
+      "lat": 51.5073509,
+      "long": -0.12775829999998223
+    }
+  ],
+  "destinations": [],
+  "geoLocalisationHint": "London",
+  "classifications": [
+    {
+      "name": "River",
+      "uri": {
+        "localName": "ljxck0nfrpp",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "559f3cc87aba131f57f778ac2a0e4dd8",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD18278",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Depart in the early morning, arriving at your hotel in the London area in the afternoon. There will be time for a rest before dinner this evening at your hotel, followed by a disco to get you in the party mood.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "After breakfast, we'll take you to Central London for shopping and sightseeing, with an early afternoon transfer back to your hotel. In the early evening you will be transferred to a Central London restaurant for a three-course meal with wine included, followed by a walk to the London Pier to board a Thames Riverboat.As midnight approaches the boat will get close to the Palace of Westminster, Big Ben and one of the most spectacular New Year Firework displays in the world. After the fireworks, your coach will return you to your hotel.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "Following a late breakfast, transfer by coach to Central London for the unmissable New Year's Day London Parade - a riot of colour and sound featuring marching bands from all over the world.You'll have time for lunch in London's West End before your return journey. Then, arrive back in the local area during the evening after a memorable New Year Celebration.",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "South Yorkshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*S YORKS-20171230",
+      "departureId": "5754",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Shropshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*SALOP-20171230",
+      "departureId": "5735",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Somerset",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*SOMT-20171230",
+      "departureId": "5736",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Staffordshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*STAFFS-20171230",
+      "departureId": "5737",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "South Glamorgan",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*S GLAM-20171230",
+      "departureId": "5734",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Oxfordshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*OXON-20171230",
+      "departureId": "5733",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "North Yorkshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*N YORKS-20171230",
+      "departureId": "5752",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Norfolk",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*NORFOLK-20171230",
+      "departureId": "5730",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Northumberland",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*NORTHUMBER-20171230",
+      "departureId": "5753",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Nottinghamshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*NOTTS-20171230",
+      "departureId": "5732",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Suffolk",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*SUFFOLK-20171230",
+      "departureId": "5738",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Tyne & Wear",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*TYNE-20171230",
+      "departureId": "5755",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Worcestershire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*WORCS-20171230",
+      "departureId": "5745",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Bedfordshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*BEDS-20171230",
+      "departureId": "5706",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Buckinghamshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*BUCKS-20171230",
+      "departureId": "5709",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Northamptonshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*NORTHANTS-20171230",
+      "departureId": "5731",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Wiltshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*WILTS-20171230",
+      "departureId": "5744",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "West Glamorgan",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*WEST GLAM-20171230",
+      "departureId": "5743",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "West Midlands",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*W MIDS-20171230",
+      "departureId": "5740",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "West Yorkshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*W YORKS-20171230",
+      "departureId": "5756",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Warwickshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*WARKS-20171230",
+      "departureId": "5742",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Mid Glamorgan",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*MID GLAM-20171230",
+      "departureId": "5728",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Merseyside",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*MERSEY-20171230",
+      "departureId": "5751",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Devon",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*DEVON-20171230",
+      "departureId": "5713",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Dorset",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*DORSET-20171230",
+      "departureId": "5714",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "County Durham",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*DURHAM-20171230",
+      "departureId": "5748",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Dyfed",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*DYFED-20171230",
+      "departureId": "5715",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Derbyshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*DERBYS-20171230",
+      "departureId": "5712",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Cornwall",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*CORNWALL-20171230",
+      "departureId": "5711",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Bristol",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*BRISTOL-20171230",
+      "departureId": "5708",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Cambridgeshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*CAMBS-20171230",
+      "departureId": "5710",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Cheshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*CHES-20171230",
+      "departureId": "5746",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Clwyd",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*CLWYD-20171230",
+      "departureId": "5747",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "East Riding Of Yorkshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*E YORKS-20171230",
+      "departureId": "5717",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Essex",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*ESSEX-20171230",
+      "departureId": "5718",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Hertfordshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*HERTS-20171230",
+      "departureId": "5723",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Lancashire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*LANCS-20171230",
+      "departureId": "5750",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Leicestershire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*LEICS-20171230",
+      "departureId": "5725",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Lincolnshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*LINCS-20171230",
+      "departureId": "5726",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Herefordshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*HEREFORD-20171230",
+      "departureId": "5722",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Hampshire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*HANTS-20171230",
+      "departureId": "5721",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Gloucestershire",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*GLOUCS-20171230",
+      "departureId": "5719",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Gwent",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*GWENT-20171230",
+      "departureId": "5720",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Gwynedd",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*GWYNEDD-20171230",
+      "departureId": "5749",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    },
+    {
+      "departurePlace": "Port",
+      "numberOfNights": 2,
+      "startDate": "2017-12-30",
+      "price": "399.00",
+      "referenceCode": "NB7YNV01-UK*010PORT-20171230",
+      "departureId": "5705",
+      "selectedDate": "1969-12-14",
+      "availability": "0"
+    }
+  ],
+  "ship": null,
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "River",
+    "uri": {
+      "localName": "ljxck0nfrpp",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "london-new-year-dance-river-cruise"
+}

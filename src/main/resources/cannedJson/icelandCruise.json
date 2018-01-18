@@ -1,0 +1,254 @@
+{
+  "name": "Land of the Northern Lights to Iceland Cruise",
+  "uri": {
+    "localName": "mlMWvMdxpST",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20046&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Focean-cruise%2Fnewmarket-holidays%2Fland-northern-lights-iceland-cruise%2F&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "<p>On this unforgettable cruise you will travel from London's Tilbury docks to Iceland to see the fabled Northern Lights. <br /></p><p>You will enjoy time in cosmopolitan Reykjavik, plus calls in Amsterdam, Orkney, Shetland and the Faroe Islands. At Torshavn in the Faroes, you will be able to explore the towns narrow streets, visit the ancient wooden churches on Eysturoy, and spot a variety of bird species nesting on the coast. </p><p>You will cruise to Iceland for a chance to discover its fascinating capital city Reykjavik. Soak up the heat from the geothermal pools at the Blue Lagoon before gazing in awe at natures most impressive light show, the Aurora Borealis, a natural phenomenon that has captivated generations of travellers. Lerwick in Shetland boasts traditional arts and crafts fairs, and you will be able to explore the 3,000-year-old archaeological site at Jarlshof. The cruise also visits Kirkwall and Scapa Flow in Orkney as well as the canals and flower markets of Amsterdam.</p>",
+  "priceFrom": "1259.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "silvia.saba@telegraph.co.uk",
+    "timestamp": "2017-08-03T11:15:49Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Passport requirements \n",
+      "text": "\n\t\t\t\t\t\t\t\nBritish Citizens will need a full, 10-year passport to travel on this cruise. Since some countries require visitors to be valid for at least six months after the return date of the cruise we recommend that all customers ensure that this is the case. Holders of non-British passports should check with the relevant embassies to see if any requirements and restrictions exist for any countries visited during the cruise.\n\n"
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Foreign Office travel advice \n",
+      "text": "\n\t\t\t\t\t\t\t\nVisit <a href='http://www.gov.uk/foreign-travel-advice' target='_new'>www.gov.uk/foreign-travel-advice</a> to find out the latest Foreign And Commonwealth Office travel advice for your holiday destination, as well as information about passports and visas.\n\n"
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made between 27th December 2017 and 31st March (inclusive) only. The price shown on this page includes any initial Saver Fare discount. The exact value of the discount included will vary depending on offer, cruise, cabin and departure date selected. Further information is available as you book your chosen cruise. Discounts apply to all cabin categories. This offer may be withdrawn at any time. All fares exclude gratuities.<br/><br/>On many of our cruises, a limited number of Voyager Fare Inner and Ocean-view cabins are available. Choose these and you will be accommodated in at least a Standard Twin Inner or Ocean-view cabin, but will pay only the reduced Voyager Fare price. Availability is limited, so book now to secure your discount."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "12 nights' accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, luncheon, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*",
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=b6b18cd6077c233bb0f8366156ccf752"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "kJv4VN6zk58",
+      "type": "Country",
+      "label": "Netherlands",
+      "lat": 52.132633,
+      "long": 5.291265999999999
+    },
+    {
+      "id": "kJv4VN5Yq8g",
+      "type": "Country",
+      "label": "Iceland",
+      "lat": 64.963051,
+      "long": -19.020835
+    },
+    {
+      "id": "kJv4VN3kFzm",
+      "type": "Country",
+      "label": "Scotland",
+      "lat": 56.49067119999999,
+      "long": -4.2026458
+    }
+  ],
+  "destinations": [
+    "Netherlands",
+    "Europe",
+    "Scotland",
+    "Iceland"
+  ],
+  "geoLocalisationHint": "Scotland",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD20046",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "ddd742ef3f95d55765a8b355423cd163",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    },
+    {
+      "identifier": "ddd742ef3f95d55765a8b355423cd163",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Board Magellan in Tilbury today, and settle in to your cabin as she prepares to set sail.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "3",
+      "text": "Today will be spent at sea. Settle into the shipboard routine of rest and relaxation and make use of Magellan's many amenities.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "2",
+      "text": "Magellan's first call is Amsterdam. Spend the day exploring canals, flower markets and museums, wander the cobbled streets, or take to the water on a canal cruise.",
+      "location": null
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "Tiny, Toytown-like Torshavn is the capital of the remote Faroe Islands. A birdwatcher's paradise, the islands are home to countless species, and its inhabitants are guardians of a deep-rooted Norse tradition. Explore Torshavn's confusion of lanes and narrow passages, or join an excursion to other parts of the islands, perhaps crossing the famous Bridge across the Atlantic connecting the main island of Streymoy with the spectacular scenery and ancient wooden churches of smaller Eysturoy.",
+      "location": null
+    },
+    {
+      "order": 5,
+      "title": "5",
+      "text": "A second day at sea brings another chance to relax into the pace of life on board.",
+      "location": null
+    },
+    {
+      "order": 6,
+      "title": "67",
+      "text": "Early this morning Magellan arrives Reykjavik. We'll stay overnight in this friendly, fascinating city, and you'll have ample time to wander the city and explore on our optional excursions. Witness geothermal activity at the famous Blue Lagoon Pool and at the original Geysir, or visit the fascinating Arbaer Folk Museum and the Saga Museum.After dark, join another optional excursion and - with luck - witness the extraordinary Aurora Borealis in the Icelandic night skies - a sight that has captivated and bewildered generations.",
+      "location": null
+    },
+    {
+      "order": 7,
+      "title": "89",
+      "text": "The next two days are spent relaxing at sea and enjoying life on board.",
+      "location": null
+    },
+    {
+      "order": 8,
+      "title": "10",
+      "text": "The Shetland Islands, and their enchanting capital, Lerwick, are home to ancient legends, traditional crafts and an incredible abundance of bird-life. Spend time in the town, or join the excursion to the 3,000 year-old archaeological site at Jarlshof, with its Bronze and Iron Age remains.",
+      "location": null
+    },
+    {
+      "order": 9,
+      "title": "11",
+      "text": "Today Magellan docks in Kirkwall, just a mile from the waters of historic Scapa Flow, where the German Fleet was scuttled in 1919, and HMS Royal Oak sank in WW2. Shore excursions will include highlights of this island, where history, archaeology, crafts and wildlife are inextricably intertwined.",
+      "location": null
+    },
+    {
+      "order": 10,
+      "title": "13",
+      "text": "Bid farewell to Magellan and all your fellow travellers, today, as you disembark at the end of your cruise.",
+      "location": null
+    },
+    {
+      "order": 11,
+      "title": "12",
+      "text": "Your final full day is spent at sea, no doubt recalling the memories of your voyage.",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "",
+      "numberOfNights": 12,
+      "startDate": "2018-03-04",
+      "price": "1259.00",
+      "referenceCode": "ZUE-20180304",
+      "departureId": "0",
+      "selectedDate": "1969-12-28",
+      "availability": "792"
+    }
+  ],
+  "ship": {
+    "name": "MS Magellan",
+    "uri": {
+      "localName": "m6vHYMxMC2Q",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "land-northern-lights-iceland-cruise"
+}
