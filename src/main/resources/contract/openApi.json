@@ -567,10 +567,7 @@
       "type": "object",
       "properties": {
         "externalReferenceType": {
-          "type": "string",
-          "enum": [
-            "ExternalReferenceType()"
-          ]
+          "type": "string"
         },
         "identifier": {
           "type": "string"
