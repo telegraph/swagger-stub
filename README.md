@@ -12,11 +12,11 @@ docker run -p 8080:8081 cruisestub
 
 docker save cruisestub > cruisestub.tar (if you want to save as a tar)
 
-docker tag cruisestub  385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:cruisestub
+docker tag cruisestub  docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub
 
-docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:cruisestub (to push to docker registry)
+docker push docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to push to docker registry)
 
-docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:cruisestub (to pull)
+docker pull docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to pull)
 
 ## Example
 In order to verify your stub, perform a GET using the following details:

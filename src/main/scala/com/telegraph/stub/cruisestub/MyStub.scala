@@ -131,7 +131,6 @@ object MyStub extends SmartStub {
 
   // driver class
   def main(args : Array[String]) {
-    Thinig.thing(wireMockServer, "")
     // port, canned file directory, swagger file, state model file, opening state
     MyStub.configureStub(args(0), args(1), args(2), args(3), "any")
     MyStub.start
