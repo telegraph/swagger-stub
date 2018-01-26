@@ -1,7 +1,7 @@
 {
-  "name": "Scottish Highlights & Emerald Isle Cruise",
+  "name": "Grand Scottish Lochs, Glens, Islands & Ireland Cruise",
   "uri": {
-    "localName": "mlMWvMxfHXq",
+    "localName": "ng5xKs6Mz5C",
     "namespace": "http://data.telegraph.co.uk/resource/"
   },
   "aliases": [],
@@ -25,17 +25,17 @@
     "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
     "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
   },
-  "url": "http://booking.newmarket.travel/book.asp?dlc=20054&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Friver-cruise%2Fnewmarket-holidays%2Fscottish-highlights-and-emerald-isle-cruise%2F&utm_source=TWS&utm_medium=partner_referral",
-  "overview": "<p>Experience the best of Scotland and Ireland on this exhilarating cruise. The ship will drop anchor at the lively Irish cities of Belfast, Dublin and Cork, and sail between the ancient, mysterious Scottish isles of Lewis and Mull. En route, you can venture along the wild Antrim coast and skip across the strange-shaped rocks that form the Giants Causeway. The man-made arrangement of standing stones at Callanish in the Outer Hebrides are no less magnetic and are believed to be 4,000 years old. <br />There is more Scottish history to explore at Mulls Duart Castle, the seat of the Clan MacLean, a short trip from the harbour at Tobermory with its distinctive multi-coloured houses. On a shore excursion from Cork, you could go for fish and chips in the charming village of Kinsale or kiss the famous Blarney Stone at the castle north of the city. The Irish capital, Dublin, offers a buzzing mix of traditional pubs, modern restaurants and trendy shops on both sides of the River Liffey.</p>",
-  "priceFrom": "679.0",
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20356&fnpc=TWS&returl=http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/grand-scotland-ireland-cruise&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "Celtic islands and cities This hugely enjoyable British cruise includes the island outposts of Shetland, Mull, Lewis and the Orkney's, as well as Scrabster - Britain's most northerly port - and the great cities of Belfast and Dublin. There's also an inaugural visit to Holy Loch - the gateway to Lock Lomond and the Trossachs. There's far more to life on board Astoria than we could possibly fit on one page.",
+  "priceFrom": "1149.0",
   "status": "kv9XqPKmKM2",
   "lastEditor": {
     "address": "VIBE-CRAWLER",
-    "timestamp": "2018-01-10T07:36:35Z"
+    "timestamp": "2018-01-25T09:25:34Z"
   },
   "approver": {
     "address": "alexia.pearce@telegraph.co.uk",
-    "timestamp": "2017-08-03T11:18:33Z"
+    "timestamp": "2017-08-03T11:10:34Z"
   },
   "source": "AUTOMATIC",
   "otherInfo": [
@@ -59,7 +59,7 @@
   "accommodationOverview": "",
   "accommodations": [],
   "inclusions": [
-    "7 night's accommodation in your choice of cabin",
+    "14 nights' accommodation in your choice of cabin",
     "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
     "On-board entertainment as arranged",
     "Calls at ports as detailed in the itinerary",
@@ -70,10 +70,17 @@
   "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*<br/><br/>PLUS NEW YEAR EXTRA 10% SAVING UNTIL 31ST JANUARY - QUOTE CODE <u>10NY</u>**",
   "highlights": [],
   "images": [
-    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=a4727d032a56c09eb442769d758494f3"
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=097fbcb08a9447ed5ee5814840c39455"
   ],
   "videos": [],
   "visitingPlaces": [
+    {
+      "id": "kJv4VN3kFzm",
+      "type": "Country",
+      "label": "Scotland",
+      "lat": 56.49067119999999,
+      "long": -4.2026458
+    },
     {
       "id": "kJv4VN4fKfd",
       "type": "Country",
@@ -82,18 +89,15 @@
       "long": -8.24389
     },
     {
-      "id": "kJv4VN3kFzm",
+      "id": "kJv4VN27m9Z",
       "type": "Country",
-      "label": "Scotland",
-      "lat": 56.49067119999999,
-      "long": -4.2026458
+      "label": "Northern Ireland",
+      "lat": 54.5,
+      "long": -6.75
     }
   ],
-  "destinations": [
-    "UK and Ireland",
-    "Europe"
-  ],
-  "geoLocalisationHint": "Scotland",
+  "destinations": [],
+  "geoLocalisationHint": "Northern Ireland",
   "classifications": [
     {
       "name": "Ocean",
@@ -114,17 +118,12 @@
   ],
   "externalReferences": [
     {
-      "identifier": "TRD20054",
+      "identifier": "TRD20356",
       "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
       "externalReferenceType": "PARTNER"
     },
     {
-      "identifier": "a9dbb1f9501772d7eb1330afebc85536",
-      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
-      "externalReferenceType": "PROVIDER"
-    },
-    {
-      "identifier": "a9dbb1f9501772d7eb1330afebc85536",
+      "identifier": "4bfcf0874a98deff3d40a2e8100a5a05",
       "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
       "externalReferenceType": "PROVIDER"
     }
@@ -133,68 +132,116 @@
     {
       "order": 1,
       "title": "1",
-      "text": "Board Marco Polo in Bristol today, and settle in to your cabin as she prepares to set sail.",
+      "text": "Board Astoria to sail north from Tilbury. Settle into your cabin and enjoy your first dinner on board.",
       "location": null
     },
     {
       "order": 2,
       "title": "2",
-      "text": "Spend the first day relaxing, and getting to know the ship, her crew and your fellow passengers.",
+      "text": "Relax on board the ship as Astoria heads for Scotland.",
       "location": null
     },
     {
       "order": 3,
       "title": "3",
-      "text": "This morning Marco Polo arrives in the great city of Belfast. Step ashore to explore the historic city centre, see the sensational new Titanic Quarter, or join an excursion to the wild Antrim coast, and discover the wonder of nature known as the Giant's Causeway, with its thirty-seven thousand basalt columns.",
+      "text": "Astoria arrives in Kirkwall, Orkney's historic capital, today. Visit the town's magnificent centrepiece, St Magnus Cathedral, or join optional shore excursions to discover Orkney's unique mix of history, archaeology, crafts and wildlife. A mile away, the waters of Scapa Flow, where HMS Royal Oak sunk in WW2, remain an everlasting, ever-shifting reminder of the islands' place in history.",
       "location": null
     },
     {
       "order": 4,
       "title": "4",
-      "text": "Today, Marco Polo arrives in the Western Isles, to anchor off Stornoway, capital of Lewis in the Outer Hebrides. These beautiful, unspoiled islands - guardians of a rich culture - have been inhabited for over 6000 years. Wander the town, or take the excursion to Callanish's mysterious Standing Stones, thought to be nearly 4000 years old.",
+      "text": "Today Astoria will anchor off Stornoway, capital of Lewis, in the Outer Hebrides. Beautiful and unspoiled, the islands have been inhabited for over 6,000 years. Wander through the town, or take the optional excursion to Callanish's mysterious Standing Stones, thought to be nearly 4,000 years old.",
       "location": null
     },
     {
       "order": 5,
       "title": "5",
-      "text": "The beautiful island of Mull offers breathtaking scenery, abundant wildlife and a spectacular coastline. The small town of Tobermory, with its picturesque, multi-coloured houses encircling the waterfront, is a delightful place to explore, as is nearby famous Duart Castle, the seat of Clan Maclean.",
+      "text": "The island of Mull offers breathtaking scenery, a spectacular coastline and another haven for wildlife. In the small town of Tobermory you'll find picturesque, multi-coloured houses encircling the waterfront and, nearby, famous Duart Castle, the seat of Clan Maclean.Re-board the ship this evening as Astoria continues to Fort William to dock for the night.",
       "location": null
     },
     {
       "order": 6,
       "title": "6",
-      "text": "Today we'll visit Dublin, one of Europe's most engaging capitals. Explore this former home of Yeats, Wilde and Joyce, shop on Grafton and O'Connell Streets or relax in one of the city's famous bars and pubs.",
+      "text": "The climbing outpost of Fort William, at the foot of Ben Nevis, is gateway to the stunning scenery of the Highlands and the Great Glen. Don't miss the opportunity to discover the perfect Highland valley of Glen Nevis, backdrop for movies like Rob Roy and Braveheart, and perhaps take in Fort William's fascinating West Highland Museum.",
       "location": null
     },
     {
       "order": 7,
       "title": "7",
-      "text": "Marco Polo arrives in Cork's long, narrow Cobh harbour this morning. A shore excursion here offers you the chance to discover this historic capital of southwest Ireland. You might choose to head into the rolling countryside to fashionable Kinsale, famed for its fine food and sea-fishing, or to visit famous Blarney Castle, just north of the city.",
+      "text": "Astoria's next call, in Belfast, brings chances to explore this unique city - where the gleaming Titanic Quarter is a must-see attraction - and the scenic Antrim countryside.",
       "location": null
     },
     {
       "order": 8,
       "title": "8",
-      "text": "Bid farewell to Marco Polo and all your fellow travellers, today, as you disembark at the end of your cruise.",
+      "text": "Crossing the Irish Sea, Astoria slips outside British waters to visit Dublin, today. The Irish capital has been a thriving cultural centre for centuries. Join the shoppers on Grafton and O'Connell Streets, visit historic Trinity College or head to one of the many cafes, coffee shops, bars and pubs to 'soak up' the local colour.",
+      "location": null
+    },
+    {
+      "order": 9,
+      "title": "9",
+      "text": "One of Britain's most scenic anchorages, beautiful Holy Loch is your starting point for a day exploring some of Scotland's finest countryside. See Loch Lomond and the Trossachs, explore the Isle of Bute and Inveraray Castle, or venture to the Highlands beyond. You may also have the chance to take a trip to the great Scottish city of Glasgow.",
+      "location": null
+    },
+    {
+      "order": 10,
+      "title": "10",
+      "text": "Astoria arrives in the delightful Wester Ross fishing port of Ullapool, today. The town is a stepping stone to the Western Isles and the breathtaking North West Highlands, which include Torridon's granite massifs and dramatic, remote Ben Assynt. Step ashore to explore, or take an optional excursion to discover some of Britain's most awe-inspiring scenery.",
+      "location": null
+    },
+    {
+      "order": 11,
+      "title": "11",
+      "text": "The wild and remote northeast of Scotland greets Astoria this morning, as she ties up in Scrabster, near the popular town of Thurso. The late Queen Mother's Castle of Mey retreat lies nearby, as does John O'Groats, and you'll have the chance to visit the British mainland's most northerly point on an optional shore excursion.",
+      "location": null
+    },
+    {
+      "order": 12,
+      "title": "12",
+      "text": "Lerwick, the Shetland Islands' rugged capital, is another gateway to an ancient land of legend, traditional crafts and an incredible abundance of bird life. Discover the town, or join an optional excursion to the 3,000 year-old archaeological site at Jarlshof, with its Bronze and Iron Age remains.",
+      "location": null
+    },
+    {
+      "order": 13,
+      "title": "13",
+      "text": "This morning Astoria sails into Cromarty Firth on Scotland's rugged East Coast. The ship ties up in Invergordon, one of Britain's greatest natural harbours, where you can step ashore to explore. You might choose to take a shore excursion, perhaps to Inverness, with famous Loch Ness beyond. Golfers might head to nearby Dornoch, home to one of the world's finest courses, while whisky connoisseurs might head to the celebrated Ord Distillery.",
+      "location": null
+    },
+    {
+      "order": 14,
+      "title": "14",
+      "text": "Enjoy your last, relaxing day enjoying the ship's amenities as Astoria cruises home.",
+      "location": null
+    },
+    {
+      "order": 15,
+      "title": "15",
+      "text": "Arrive in Tilbury, bid farewell to the crew and your fellow voyagers, and disembark as your cruise comes to an end.",
+      "location": null
+    },
+    {
+      "order": 16,
+      "title": "16",
+      "text": "",
       "location": null
     }
   ],
   "departures": [
     {
       "departurePlace": "",
-      "numberOfNights": 7,
-      "startDate": "2018-04-07",
-      "price": "679.00",
-      "referenceCode": "URJ-20180407",
+      "numberOfNights": 14,
+      "startDate": "2018-04-21",
+      "price": "1149.00",
+      "referenceCode": "VZF-20180421",
       "departureId": "0",
-      "selectedDate": "1969-12-12",
-      "availability": "887"
+      "selectedDate": "1969-12-26",
+      "availability": "962"
     }
   ],
   "ship": {
-    "name": "MS Marco Polo",
+    "name": "MV Astoria",
     "uri": {
-      "localName": "m6vHYNsVwNh",
+      "localName": "m6vHYGdTNkw",
       "namespace": "http://data.telegraph.co.uk/resource/"
     }
   },
@@ -216,5 +263,5 @@
       }
     ]
   },
-  "pagePath": "scottish-highlights-and-emerald-isle-cruise"
+  "pagePath": "grand-scotland-ireland-cruise"
 }
