@@ -111,7 +111,8 @@ object MyStub extends SmartStub {
             .replace("&apos;"," ").replace("&quot;","'"))
           .withStatus(200)))
 
-    wireMockServer.stubFor(get(urlMatching(".*/cruises?flakeIds=ng5xKjcstfs,mlMWvMk8tGh,ng5xFhmBC33,mlMWvMxfHXq,ng5w8LfZ8Wl,ng5w7ZGDGzZ,mlMWvMdxpST,ng5xKs6Mz5C,pClvcx3M5N4"))
+    wireMockServer.stubFor(get(urlPathEqualTo("/travel-products/cruises/cruises"))
+      .withQueryParam("flakeIds", matching(".*"))
       .willReturn(
         aResponse()
           .withTransformerParameter("nextState", "any")

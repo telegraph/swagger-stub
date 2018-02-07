@@ -133,7 +133,7 @@
         }
       }
     },
-    "/cruises": {
+    "/travel-products/cruises/cruises": {
       "get": {
         "tags": [
           "endpoint"

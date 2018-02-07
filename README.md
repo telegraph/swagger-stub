@@ -21,7 +21,8 @@ docker pull docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub
 ## Example
 In order to verify your stub, perform a GET using the following details:
 
-URL: http://localhost:8080/travel-products/cruises/pvjqdBFp0sD
+URL: for cruise - http://localhost:8080/travel-products/cruises/pvjqdBFp0sD or
+for cruise listing - http://localhost:8080/travel-products/cruises?flakeIds=ng5xKjcstfs,mlMWvMk8tGh,ng5xFhmBC33,mlMWvMxfHXq,ng5w8LfZ8Wl,ng5w7ZGDGzZ,mlMWvMdxpST,ng5xKs6Mz5C,pClvcx3M5N4
 Header: Content-Type:application/json
 
 ## Errors
