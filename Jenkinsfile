@@ -33,7 +33,7 @@ node('master') {
             def pipeline_version = "1.0.0-b${buildNumber}-${environment}"
 
             sh """
-                    echo "Build"
+                    echo "Build Stub Container Image"
                 """
                 app = docker.build("${projectName}:${pipeline_version}")
 
