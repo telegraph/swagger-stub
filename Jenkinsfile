@@ -1,4 +1,4 @@
-node {
+node('master') {
 
         def projectName      = "cruise-stub"
         def github_token     = "${env.GITHUB_TOKEN}"
