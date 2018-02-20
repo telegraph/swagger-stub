@@ -27,17 +27,11 @@ node('master') {
           ]
    	 }
 
-        if (branchName == 'master') {
+
+        stage("Build"){
 
             def pipeline_version = "1.0.0-b${buildNumber}-${environment}"
 
-            stage("Submodule checkout") {
-                sh "git submodule update --init --recursive"
-                sh "git submodule foreach git pull origin master"
-            }
-
-
-            stage("Build"){
             sh """
                     echo "Build"
                 """
@@ -47,7 +41,7 @@ node('master') {
             }
 
 
-            stage("Publish"){
+        stage("Publish"){
             sh """
                     echo "Publish"
                 """
