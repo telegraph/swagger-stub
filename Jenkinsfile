@@ -25,7 +25,7 @@ node('master') {
                 url: "git@github.com:telegraph/${projectName}.git"
             ]]
           ]
-   	 }
+   	    }
 
 
         stage("Build"){
@@ -38,7 +38,7 @@ node('master') {
                 app = docker.build("${projectName}:${pipeline_version}")
 
 
-            }
+        }
 
 
         stage("Publish"){
@@ -48,7 +48,7 @@ node('master') {
                 docker.withRegistry("http://docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub") {
                     app.push()
                 }
-            }
-
         }
+
+        
 }
