@@ -1,0 +1,241 @@
+{
+  "name": "Easter Spring Gardens & River Seine Cruise",
+  "uri": {
+    "localName": "mlMWvMk8tGh",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20052&fnpc=TWC&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Focean-cruise%2Fnewmarket-holidays%2Feaster-spring-gardens-and-river-seine-cruise%2F&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "<p>Enjoy spring flowers, beautiful islands and historic cities on this Easter cruise. Crossing the Channel from Bristol to France, you will travel along the Seine to Rouen. You will break your cross-Channel journey with a stop in the bustling harbour of St Peter Port in Guernsey, with time to explore the beautiful Candie Gardens. With superb views across St Peter Port and the other islands, you can also see the imposing 800-year-old Castle Cornet. </p><p>Discover the charming French port of Honfleur at the mouth of the Seine, its harbour lined with 16th- and 18th-century houses. You may choose to visit Monets lovely house and gorgeous flower-filled garden at Giverny, or the upscale resort town of Deauville. Cruise down the Seine to Rouen for an overnight stay in this beautifully preserved medieval city. Discover the Gothic cathedral with its tall central spire, famously depicted by Monet, as well as the ornate Gothic church of Saint-Maclou. You will then call in at charming Hugh Town on St Marys in the balmy Scilly Isles. Then take an excursion through Tresco's verdant lanes to the iconic Abbey Garden, a luscious melding of subtropical plants and abbey ruins.</p>",
+  "priceFrom": "589.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "alexia.pearce@telegraph.co.uk",
+    "timestamp": "2017-08-03T11:12:50Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Passport requirements \n",
+      "text": "\n\t\t\t\t\t\t\t\nBritish Citizens will need a full, 10-year passport to travel on this cruise. Since some countries require visitors to be valid for at least six months after the return date of the cruise we recommend that all customers ensure that this is the case. Holders of non-British passports should check with the relevant embassies to see if any requirements and restrictions exist for any countries visited during the cruise.\n\n"
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Foreign Office travel advice \n",
+      "text": "\n\t\t\t\t\t\t\t\nVisit <a href='http://www.gov.uk/foreign-travel-advice' target='_new'>www.gov.uk/foreign-travel-advice</a> to find out the latest Foreign And Commonwealth Office travel advice for your holiday destination, as well as information about passports and visas.\n\n"
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made between 27th December 2017 and 31st March (inclusive) only. The price shown on this page includes any initial Saver Fare discount. The exact value of the discount included will vary depending on offer, cruise, cabin and departure date selected. Further information is available as you book your chosen cruise. Discounts apply to all cabin categories. This offer may be withdrawn at any time. All fares exclude gratuities.<br/><br/>On many of our cruises, a limited number of Voyager Fare Inner and Ocean-view cabins are available. Choose these and you will be accommodated in at least a Standard Twin Inner or Ocean-view cabin, but will pay only the reduced Voyager Fare price. Availability is limited, so book now to secure your discount."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "7 night's accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*",
+  "highlights": [
+    "Holiday Highlights list goes here"
+  ],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=a71a2fb6721ae3e1b414b6d6db3a561d"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN66swL",
+      "type": "Country",
+      "label": "Norway",
+      "lat": 60.47202399999999,
+      "long": 8.468945999999999
+    },
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "kJv4VN2N08w",
+      "type": "Country",
+      "label": "England",
+      "lat": 52.3555177,
+      "long": -1.1743197
+    },
+    {
+      "id": "kJv4VN1CLC8",
+      "type": "Country",
+      "label": "France",
+      "lat": 46.227638,
+      "long": 2.213749
+    },
+    {
+      "id": "k7PH9dCpDM2",
+      "type": "Country",
+      "label": "Channel Islands",
+      "lat": 49.4167,
+      "long": -2.3333
+    }
+  ],
+  "destinations": [
+    "UK and Ireland",
+    "Norway",
+    "Channel Islands",
+    "Europe",
+    "England",
+    "France"
+  ],
+  "geoLocalisationHint": "Channel Islands",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD20052",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "a8148cdb894d278480fd74bd495e458c",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    },
+    {
+      "identifier": "a8148cdb894d278480fd74bd495e458c",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Make your way to Avonmouth to embark before Marco Polo sets sail this afternoon.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "Spend today getting to know the ship, her crew and your fellow passengers as Marco Polo makes her leisurely way across the Channel.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "Crowded around its busy harbour St Peter Port is utterly charming. Fortified Castle Cornet is a 'must-see' attraction, as are the views from Candie Gardens. Visit stunning Hauteville House, one time residence of Victor Hugo, whose exquisite interior design is preserved in the house.",
+      "location": null
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "Today you'll reach Honfleur, set at the mouth of France's River Seine. Visit this favourite retreat of the French Impressionists, with its harbour surrounded by gabled houses. Perhaps venture further afield on an excursion to Monet's idyllic house and garden at Giverny or to fashionable Deauville.",
+      "location": null
+    },
+    {
+      "order": 5,
+      "title": "56",
+      "text": "Marco Polo navigates her way into the heart of Normandy, sailing under the dramatic spans of the Pont de Normandie, Pont de Tarcanville and Pont de Brotonne to Rouen. Marco Polo will spend the night here, giving you the opportunity to step ashore to explore this beautifully restored medieval city. See the site of Joan of Arc's martyrdom in the Place du Vieux-Marche, the famous one-handed clock and its stunning Gothic cathedral.",
+      "location": null
+    },
+    {
+      "order": 6,
+      "title": "7",
+      "text": "The Scillies are one of Britain's most verdant corners, often bursting into life weeks before the rest of the country. Step ashore to explore tiny Hugh Town on St Mary's and the flower-strewn byways beyond. Take an excursion to stunning Tresco, where the world-famous Abbey Gardens house Britain's finest sub-tropical plant collection.",
+      "location": null
+    },
+    {
+      "order": 7,
+      "title": "8",
+      "text": "Bid farewell to Marco Polo and all your fellow travellers, today, as you disembark at the end of your cruise.",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "",
+      "numberOfNights": 7,
+      "startDate": "2018-03-31",
+      "price": "589.00",
+      "referenceCode": "UQZ-20180331",
+      "departureId": "0",
+      "selectedDate": "1970-01-24",
+      "availability": "791"
+    }
+  ],
+  "ship": {
+    "name": "MS Marco Polo",
+    "uri": {
+      "localName": "m6vHYNsVwNh",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "easter-spring-gardens-and-river-seine-cruise"
+}

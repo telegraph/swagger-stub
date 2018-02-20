@@ -1,0 +1,636 @@
+{
+  "name": "Summer Grand British Isles Discovery Cruise",
+  "uri": {
+    "localName": "ng5w7ZGDGzZ",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20326&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Friver-cruise%2Fnewmarket-holidays%2Fsummer-grand-british-isles-discovery-cruise%2F",
+  "overview": "<p>Cruise around this 'sceptred isle' Explore the British Isles on this highly enjoyable cruise, which also calls in France. Highlights include Orkney, the misty Isle of Skye, pretty Tobermory on Mull and the sub-tropical paradise of the Scillies, as well as the chance to enjoy the elegance of your cruise ship, Columbus. There's far more to life on board Columbus than we could possibly fit on one page.</p>",
+  "priceFrom": "1189.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "silvia.saba@telegraph.co.uk",
+    "timestamp": "2017-08-03T11:08:42Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Passport requirements \n",
+      "text": "\n\t\t\t\t\t\t\t\nBritish Citizens will need a full, 10-year passport to travel on this cruise. Since some countries require visitors to be valid for at least six months after the return date of the cruise we recommend that all customers ensure that this is the case. Holders of non-British passports should check with the relevant embassies to see if any requirements and restrictions exist for any countries visited during the cruise.\n\n"
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Foreign Office travel advice \n",
+      "text": "\n\t\t\t\t\t\t\t\nVisit <a href='http://www.gov.uk/foreign-travel-advice' target='_new'>www.gov.uk/foreign-travel-advice</a> to find out the latest Foreign And Commonwealth Office travel advice for your holiday destination, as well as information about passports and visas.\n\n"
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made between 27th December 2017 and 31st March (inclusive) only. The price shown on this page includes any initial Saver Fare discount. The exact value of the discount included will vary depending on offer, cruise, cabin and departure date selected. Further information is available as you book your chosen cruise. Discounts apply to all cabin categories. This offer may be withdrawn at any time. All fares exclude gratuities.<br/><br/>On many of our cruises, a limited number of Voyager Fare Inner and Ocean-view cabins are available. Choose these and you will be accommodated in at least a Standard Twin Inner or Ocean-view cabin, but will pay only the reduced Voyager Fare price. Availability is limited, so book now to secure your discount."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "12 nights' accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*",
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=0b80d5e02f06fb7aa46ac17d02ed392e"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN1SDLx",
+      "type": "Region",
+      "label": "United Kingdom",
+      "lat": 55.378051,
+      "long": -3.435973
+    }
+  ],
+  "destinations": [],
+  "geoLocalisationHint": "United Kingdom",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "8017b002cb4de1a0d273dc44009b8549",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "TRD20326",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Make your way to London Tilbury to embark Columbus. You'll sail early this evening and enjoy your first dinner on board. Get to know the Cruise Staff and some of your fellow passengers before you retire to your comfortable cabin.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "Relax on board the ship as Columbus cruises north towards the Highlands and Islands.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "Discover the historic capital of Orkney as Columbus docks in Kirkwall. Perhaps visit its magnificent centrepiece, St Magnus Cathedral. A mile from here are the waters of fabled Scapa Flow, where HMS Royal Oak sunk in WW2. Optional shore excursions will include highlights of the island's unique mix of history, archaeology, crafts and wildlife.",
+      "location": null
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "This morning Columbus sails into Cromarty Firth on Scotland's rugged East Coast. The ship ties up in Invergordon, one of Britain's greatest natural harbours, where you can step ashore to explore. You might choose to take an optional shore excursion, perhaps to Inverness, with famous Loch Ness beyond. Golfers might head to nearby Dornoch, home to one of the world's finest courses, while whisky connoisseurs might head to the celebrated Ord Distillery.",
+      "location": null
+    },
+    {
+      "order": 5,
+      "title": "5",
+      "text": "The Isle of Skye is a wonderful place to explore. Spend the day in picturesque Portree, or join an optional shore excursion and head north, past the Old Man of Storr, to Duntum's Museum of Island Life; west to brooding Dunvegan Castle; south past the spectacular Cuillins; or even across the bridge to mainland Scotland.",
+      "location": null
+    },
+    {
+      "order": 6,
+      "title": "6",
+      "text": "Columbus' next call is the island of Mull - where you'll discover breathtaking scenery, a spectacular coastline and a huge variety of captivating wildlife. In the small town of Tobermory you'll find picturesque, multi-coloured houses encircling the waterfront and, nearby, famous Duart Castle, the seat of Clan Maclean.",
+      "location": null
+    },
+    {
+      "order": 7,
+      "title": "7",
+      "text": "Today's call in Belfast brings chances to explore both this unique, historic city - where the gleaming Titanic Quarter is a must-see attraction - and the scenic Antrim countryside.",
+      "location": null
+    },
+    {
+      "order": 8,
+      "title": "8",
+      "text": "Today finds Columbus in Dublin, the incomparable Irish capital. This great city of culture - once home to Joyce, Yeats, Wilde and Swift - is also one of Europe's most engaging. You'll find Grafton and O'Connell Streets popular with shoppers, and opportunities to enjoy the city's famous bars and pubs, cafes and coffee shops.",
+      "location": null
+    },
+    {
+      "order": 9,
+      "title": "9",
+      "text": "Ringaskiddy is the gateway to the great trading city of Cork, the historic capital of southwest Ireland. Step ashore to explore, and perhaps head to foodie heaven Kinsale or famous Blarney Castle - where kissing the Blarney Stone is said to grant you 'the gift of the gab'.",
+      "location": null
+    },
+    {
+      "order": 10,
+      "title": "10",
+      "text": "Columbus enters glorious blue waters to take in the celebrated Isles of Scilly. Go ashore to explore tiny Hugh Town on St Mary's, or take an optional excursion to stunning Tresco, where the world-famous Abbey Gardens house Britain's finest collection of subtropical plants.",
+      "location": null
+    },
+    {
+      "order": 11,
+      "title": "11",
+      "text": "Guernsey's delightful St Peter Port welcomes Columbus, today. Explore Castle Cornet, which guards the entrance to the harbour, and the medieval, cobbled central quarter of St Peter Port, where countless shops and colourful stalls offer tax-free temptations.",
+      "location": null
+    },
+    {
+      "order": 12,
+      "title": "12",
+      "text": "Today you'll reach Honfleur, set at the mouth of France's River Seine. Visit this favourite retreat of the French Impressionists, with its harbour surrounded by gabled houses. Alternatively, venture further afield on an optional excursion to Monet's idyllic house and garden at Giverny or to fashionable Deauville.",
+      "location": null
+    },
+    {
+      "order": 13,
+      "title": "13",
+      "text": "Columbus arrives back in London Tilbury, this morning, at the end of a wonderful cruise around the UK.",
+      "location": null
+    },
+    {
+      "order": 14,
+      "title": "14",
+      "text": "",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "",
+      "numberOfNights": 12,
+      "startDate": "2018-08-31",
+      "price": "1189.00",
+      "referenceCode": "JGZ-20180831",
+      "departureId": "0",
+      "selectedDate": "1969-12-09",
+      "availability": "920"
+    }
+  ],
+  "ship": {
+    "name": "Columbus",
+    "uri": {
+      "localName": "m6vHYJS7Qx2",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "summer-grand-british-isles-discovery-cruise"
+}

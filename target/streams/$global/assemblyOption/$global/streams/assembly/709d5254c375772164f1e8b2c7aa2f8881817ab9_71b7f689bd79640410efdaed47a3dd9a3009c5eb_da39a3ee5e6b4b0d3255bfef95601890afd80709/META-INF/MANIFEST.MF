@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+build-time: 20161112-0747
+Private-Package: org.custommonkey.xmlunit,org.custommonkey.xmlunit.exa
+ mples,org.custommonkey.xmlunit.exceptions,org.custommonkey.xmlunit.ja
+ xp13,org.custommonkey.xmlunit.util
+Implementation-Title: org.xmlunit:xmlunit-legacy
+Built-By: stefan
+Tool: Bnd-2.3.0.201405100607
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Implementation-Vendor: XMLUnit
+Implementation-Vendor-Id: org.xmlunit
+X-Git-Hash: efb336025a6e2450ec9c54cea70df61340c8e7bd (Branch master)
+Specification-Title: org.xmlunit:xmlunit-legacy
+Bundle-License: https://github.com/xmlunit/xmlunit/blob/master/xmlunit
+ -legacy/LICENSE.txt
+Bundle-SymbolicName: org.xmlunit.xmlunit-legacy
+X-Compile-Target-JDK: 1.6
+Implementation-Version: 2.3.0
+Specification-Vendor: XMLUnit
+Bundle-Name: org.xmlunit:xmlunit-legacy
+Created-By: Apache Maven Bundle Plugin
+X-Compile-Source-JDK: 1.6
+Bundle-Vendor: XMLUnit
+Build-Jdk: 1.7.0_111
+Bundle-Version: 2.3.0
+Bnd-LastModified: 1478933305266
+Bundle-ManifestVersion: 2
+Bundle-Description: XMLUnit 1.x Compatibility Layer
+Bundle-DocURL: http://www.xmlunit.org/
+Import-Package: javax.swing.text,javax.swing.text.html,javax.swing.tex
+ t.html.parser,javax.xml.namespace,javax.xml.parsers,javax.xml.transfo
+ rm,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transfor
+ m.stream,javax.xml.validation,javax.xml.xpath,junit.framework,org.w3c
+ .dom,org.w3c.dom.traversal,org.xml.sax,org.xml.sax.ext,org.xml.sax.he
+ lpers,org.xmlunit,org.xmlunit.builder,org.xmlunit.diff,org.xmlunit.in
+ put,org.xmlunit.transform,org.xmlunit.util,org.xmlunit.validation,org
+ .xmlunit.xpath
+Specification-Version: 2.3.0
+Archiver-Version: Plexus Archiver
+

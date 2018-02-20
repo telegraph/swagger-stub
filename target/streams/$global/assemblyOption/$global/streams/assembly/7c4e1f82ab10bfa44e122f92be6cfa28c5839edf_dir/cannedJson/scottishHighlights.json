@@ -1,0 +1,220 @@
+{
+  "name": "Scottish Highlights & Emerald Isle Cruise",
+  "uri": {
+    "localName": "mlMWvMxfHXq",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20054&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Friver-cruise%2Fnewmarket-holidays%2Fscottish-highlights-and-emerald-isle-cruise%2F&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "<p>Experience the best of Scotland and Ireland on this exhilarating cruise. The ship will drop anchor at the lively Irish cities of Belfast, Dublin and Cork, and sail between the ancient, mysterious Scottish isles of Lewis and Mull. En route, you can venture along the wild Antrim coast and skip across the strange-shaped rocks that form the Giants Causeway. The man-made arrangement of standing stones at Callanish in the Outer Hebrides are no less magnetic and are believed to be 4,000 years old. <br />There is more Scottish history to explore at Mulls Duart Castle, the seat of the Clan MacLean, a short trip from the harbour at Tobermory with its distinctive multi-coloured houses. On a shore excursion from Cork, you could go for fish and chips in the charming village of Kinsale or kiss the famous Blarney Stone at the castle north of the city. The Irish capital, Dublin, offers a buzzing mix of traditional pubs, modern restaurants and trendy shops on both sides of the River Liffey.</p>",
+  "priceFrom": "679.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "alexia.pearce@telegraph.co.uk",
+    "timestamp": "2017-08-03T11:18:33Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Passport requirements \n",
+      "text": "\n\t\t\t\t\t\t\t\nBritish Citizens will need a full, 10-year passport to travel on this cruise. Since some countries require visitors to be valid for at least six months after the return date of the cruise we recommend that all customers ensure that this is the case. Holders of non-British passports should check with the relevant embassies to see if any requirements and restrictions exist for any countries visited during the cruise.\n\n"
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Foreign Office travel advice \n",
+      "text": "\n\t\t\t\t\t\t\t\nVisit <a href='http://www.gov.uk/foreign-travel-advice' target='_new'>www.gov.uk/foreign-travel-advice</a> to find out the latest Foreign And Commonwealth Office travel advice for your holiday destination, as well as information about passports and visas.\n\n"
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made between 27th December 2017 and 31st March (inclusive) only. The price shown on this page includes any initial Saver Fare discount. The exact value of the discount included will vary depending on offer, cruise, cabin and departure date selected. Further information is available as you book your chosen cruise. Discounts apply to all cabin categories. This offer may be withdrawn at any time. All fares exclude gratuities.<br/><br/>On many of our cruises, a limited number of Voyager Fare Inner and Ocean-view cabins are available. Choose these and you will be accommodated in at least a Standard Twin Inner or Ocean-view cabin, but will pay only the reduced Voyager Fare price. Availability is limited, so book now to secure your discount.<br/><br/>**The Extra 10% New Year Saver Fare is deducted after the Saver Fare discount has been calculated and is valid until 31st January (inclusive), Please use promo code 10NY to redeem your extra discount."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "7 night's accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*<br/><br/>PLUS NEW YEAR EXTRA 10% SAVING UNTIL 31ST JANUARY - QUOTE CODE <u>10NY</u>**",
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=a4727d032a56c09eb442769d758494f3"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN4fKfd",
+      "type": "Country",
+      "label": "Ireland",
+      "lat": 53.41291,
+      "long": -8.24389
+    },
+    {
+      "id": "kJv4VN3kFzm",
+      "type": "Country",
+      "label": "Scotland",
+      "lat": 56.49067119999999,
+      "long": -4.2026458
+    }
+  ],
+  "destinations": [
+    "UK and Ireland",
+    "Europe"
+  ],
+  "geoLocalisationHint": "Scotland",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD20054",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "a9dbb1f9501772d7eb1330afebc85536",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    },
+    {
+      "identifier": "a9dbb1f9501772d7eb1330afebc85536",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Board Marco Polo in Bristol today, and settle in to your cabin as she prepares to set sail.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "Spend the first day relaxing, and getting to know the ship, her crew and your fellow passengers.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "This morning Marco Polo arrives in the great city of Belfast. Step ashore to explore the historic city centre, see the sensational new Titanic Quarter, or join an excursion to the wild Antrim coast, and discover the wonder of nature known as the Giant's Causeway, with its thirty-seven thousand basalt columns.",
+      "location": null
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "Today, Marco Polo arrives in the Western Isles, to anchor off Stornoway, capital of Lewis in the Outer Hebrides. These beautiful, unspoiled islands - guardians of a rich culture - have been inhabited for over 6000 years. Wander the town, or take the excursion to Callanish's mysterious Standing Stones, thought to be nearly 4000 years old.",
+      "location": null
+    },
+    {
+      "order": 5,
+      "title": "5",
+      "text": "The beautiful island of Mull offers breathtaking scenery, abundant wildlife and a spectacular coastline. The small town of Tobermory, with its picturesque, multi-coloured houses encircling the waterfront, is a delightful place to explore, as is nearby famous Duart Castle, the seat of Clan Maclean.",
+      "location": null
+    },
+    {
+      "order": 6,
+      "title": "6",
+      "text": "Today we'll visit Dublin, one of Europe's most engaging capitals. Explore this former home of Yeats, Wilde and Joyce, shop on Grafton and O'Connell Streets or relax in one of the city's famous bars and pubs.",
+      "location": null
+    },
+    {
+      "order": 7,
+      "title": "7",
+      "text": "Marco Polo arrives in Cork's long, narrow Cobh harbour this morning. A shore excursion here offers you the chance to discover this historic capital of southwest Ireland. You might choose to head into the rolling countryside to fashionable Kinsale, famed for its fine food and sea-fishing, or to visit famous Blarney Castle, just north of the city.",
+      "location": null
+    },
+    {
+      "order": 8,
+      "title": "8",
+      "text": "Bid farewell to Marco Polo and all your fellow travellers, today, as you disembark at the end of your cruise.",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "",
+      "numberOfNights": 7,
+      "startDate": "2018-04-07",
+      "price": "679.00",
+      "referenceCode": "URJ-20180407",
+      "departureId": "0",
+      "selectedDate": "1969-12-12",
+      "availability": "887"
+    }
+  ],
+  "ship": {
+    "name": "MS Marco Polo",
+    "uri": {
+      "localName": "m6vHYNsVwNh",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "scottish-highlights-and-emerald-isle-cruise"
+}

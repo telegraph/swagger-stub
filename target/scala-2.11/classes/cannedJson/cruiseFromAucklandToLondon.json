@@ -1,0 +1,684 @@
+{
+  "name": "Cruise from Auckland to London",
+  "uri": {
+    "localName": "nMSZDZ2LKn0",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "m2FPqSy3f28",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0333 122 4193",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers. This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20010&fnpc=TWS&returl=http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/cruise-from-auckland-to-london&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "<p>This stunning voyage from New Zealand to London, part of Columbus' Grand 2018 World Cruise, takes in some of the worlds greatest cities, most beautiful coastlines and spellbinding natural wonders. </p><p>Before embarking the ship in Auckland, you can visit the citys museum and climb the 328-metre Sky Tower. Setting sail, you can enjoy a chance to visit Rotorua, famed for its bubbling hot springs, before crossing the Tasman Sea to Sydney, with its iconic opera house and Harbour Bridge. A sun-kissed voyage north, with calls at a Great Barrier Reef-gateway and remote Darwin. is followed by Komodo Island's 'dragons', Philippines'capital Manila, Taiwan and the glittering lights of  Shanghai and Hong Kong. </p><p>A chance to visit Ho Chi Minh City from Phu My, and an onward cruise to Thailands holiday islands, capital Bangkok, historic-yet-ultra-modern Singapore and the chance to visit Kuala Lumpur, with its Petronas towers, complete the South East Asian passage. Cross the Indian Ocean to Sri Lanka, then perhaps head to Agra, home to the fabulous Taj Mahal, while Columbus sails between Cochin and Mumbai, in colourful India.</p><p> Glittering Dubai, fragrant Muscat, Egypt's Safaga - for the chance to see fabulous Luxor - and Jordan's Aqaba, gateway to fabled Petra, are followed by the Suez Canal transit. Calls at Athens, with its timeless wonders, historic Maltese capital Valetta and British outpost Gibraltar crown the adventure before you return to Tilbury.<br /></p>",
+  "priceFrom": "4670",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "namita.kumar@telegraph.co.uk",
+    "timestamp": "2018-02-02T15:06:17Z"
+  },
+  "approver": {
+    "address": "joseph.chappell@telegraph.co.uk",
+    "timestamp": "2018-02-02T15:06:17Z"
+  },
+  "source": "MANUAL",
+  "otherInfo": [
+    {
+      "title": "Other informantion",
+      "text": "<p>*This offer applies to new bookings made between 27th December 2016 and 30th April 2017 (inclusive) only. Prices shown when booking include this discount. The exact value of the discount included will vary depending on cruise, cabin and departure date selected. Discounts apply to all cabin categories. The offer may be withdrawn at any time. All fares exclude gratuities.<br /></p>"
+    }
+  ],
+  "accommodationOverview": null,
+  "accommodations": null,
+  "inclusions": [
+    "78 nights' accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": null,
+  "highlights": null,
+  "images": null,
+  "videos": null,
+  "visitingPlaces": [
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "lBqQQkQKg8x",
+      "type": "Region",
+      "label": "Australasia",
+      "lat": -34.40681338356386,
+      "long": 161.54857349999997
+    },
+    {
+      "id": "kJv4VNzB950",
+      "type": "Continent",
+      "label": "Asia",
+      "lat": 34.047863,
+      "long": 100.61965529999998
+    },
+    {
+      "id": "kJv4VN37HmY",
+      "type": "Country",
+      "label": "Hong Kong",
+      "lat": 22.396428,
+      "long": 114.109497
+    }
+  ],
+  "destinations": null,
+  "geoLocalisationHint": "Hong Kong",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [],
+  "stops": [
+    {
+      "order": 0,
+      "title": "Itinerary",
+      "text": "",
+      "location": null
+    },
+    {
+      "order": 1,
+      "title": "Day 1",
+      "text": "<p></p><p>Board Columbus in Auckland, the world's largest Polynesian settlement, where some 20 per cent of the inhabitants are of Maori or South Pacific descent. Visit Auckland Museum to see its priceless carvings and artefacts, or enjoy a trip up the 328-metre Sky Tower, the country's tallest structure.</p><p></p><p></p>",
+      "location": {
+        "id": "kJv4VPVrFHL",
+        "type": "City",
+        "label": "Auckland",
+        "lat": -36.84846,
+        "long": 174.763332
+      }
+    },
+    {
+      "order": 2,
+      "title": "Day 2",
+      "text": "<p>Rotorua is one of New Zealand's most popular destinations. Join a shore excursion to discover bubbling hot-springs, gushing geysers and the traditional Maori culture of the Te Arawa people. Visit the fascinating Agrodome for a display of sheep-shearing skills, see the traditional Maori village of Te Puia and the wondrous Thermal Reserve, with its boiling mud pools and geysers.<br /></p>",
+      "location": {
+        "id": "kfvqq2FD09W",
+        "type": "City",
+        "label": "Rotorua",
+        "lat": -38.136848,
+        "long": 176.249746
+      }
+    },
+    {
+      "order": 3,
+      "title": "Day 3-6",
+      "text": "<p>After cruising past the hidden coves, glorious white sand beaches and tiny islets of the Bay of Islands, Columbus anchors in blue waters teeming with marine life. Head ashore to explore Paihia's shops and stalls, or to explore New Zealand's beautiful north-east corner.<br /></p>",
+      "location": {
+        "id": "kJv4VPWgxYN",
+        "type": "Area",
+        "label": "Bay of Islands",
+        "lat": -35.1843701,
+        "long": 174.16461630000003
+      }
+    },
+    {
+      "order": 4,
+      "title": "Day 7 - 11",
+      "text": "<p>Vibrant, fun-loving Sydney's iconic Opera House, Harbour Bridge and famous beaches are just a handful of the highlights of this wonderful city. Make the most of your visit with an overnight stay.<br /></p>",
+      "location": {
+        "id": "kJv4VPWFZ7v",
+        "type": "City",
+        "label": "Sydney",
+        "lat": -33.8674869,
+        "long": 151.20699020000006
+      }
+    },
+    {
+      "order": 5,
+      "title": "Day 12 - 15",
+      "text": "<p>Set to the north of Cairns, gateway to Queensland's tropical interior and a stopping-off point for the incredible Great Barrier Reef, the beautiful anchorage of Yorkey's Knob offers plenty of distractions, today. Take a glass-bottomed boat to a coral cay, or head inland into the magnificent tropical rainforest<br /></p>",
+      "location": {
+        "id": "kftyhfgdlJZ",
+        "type": "City",
+        "label": "Cairns",
+        "lat": -16.9185514,
+        "long": 145.77805480000006
+      }
+    },
+    {
+      "order": 6,
+      "title": "Day 16 - 18",
+      "text": "<p></p><p>Sail round the Cape York Peninsula, through the Arafura Sea, to your final Australian call, Darwin. From here you'll be able to join a shore excursion to the World Heritage Site at Kakadu National Park, with its swamps, mangroves, salt-water crocodiles and ancient aboriginal art.</p><p></p><p></p>",
+      "location": {
+        "id": "kftygsGF1h4",
+        "type": "City",
+        "label": "Cape York",
+        "lat": 142.467,
+        "long": -10.7167
+      }
+    },
+    {
+      "order": 7,
+      "title": "Day 19 - 22",
+      "text": "<p>Today's first Indonesian island call offers the possibility of seeing komodo dragons in the wild. These famous and fearsome lizards are found only here and neighbouring Rinca, so join a National Park ranger to explore.<br /></p>",
+      "location": {
+        "id": "kJv4VN4kLfb",
+        "type": "Country",
+        "label": "Indonesia",
+        "lat": -0.789275,
+        "long": 113.92132700000002
+      }
+    },
+    {
+      "order": 8,
+      "title": "Day 23 - 25",
+      "text": "<p>Raised from the ruins of WWII, the prosperous capital of the Philippines is a jaw-dropping, cosmopolitan melting pot of cultures. While Old Manila provides an insight to the city's past, and the restored cathedral reflects its status as Asia's largest Christian settlement, reminders of its long-term ties with the west can be seen throughout.<br /></p>",
+      "location": {
+        "id": "kJv4VN7bwtn",
+        "type": "Country",
+        "label": "Philippines",
+        "lat": 12.879721,
+        "long": 121.77401699999996
+      }
+    },
+    {
+      "order": 9,
+      "title": "Day 26 - 27",
+      "text": "<p>The port-city of Keelung on Taiwan's northeastern coast, welcomes us to this fascinating, historic island-nation, today. Taiwan's fascinating mix of ancient tradition and vibrant modernity, especially in its capital Taipei, promises to be one of the highlights of the entire cruise.<br /></p>",
+      "location": {
+        "id": "kJv4VN8xJzs",
+        "type": "Country",
+        "label": "Taiwan",
+        "lat": 23.69781,
+        "long": 120.960515
+      }
+    },
+    {
+      "order": 10,
+      "title": "Day 28 - 31",
+      "text": "<p>Columbus spends two days in Shanghai - one of the world's most amazing cities. See the colonial grandeur of the buildings that line the Bund on the west bank of the Huangpu River, and the towering futuristic skyscrapers and rocket-shaped Pearl TV Tower of the east. Explore the old city's bustling bazaars and street markets, and the tranquil pools, bridges and ornate pavilions of the Yuyuan Garden that shelter in its heart.<br /></p>",
+      "location": {
+        "id": "kJv4VPVFWxz",
+        "type": "City",
+        "label": "Shanghai",
+        "lat": 31.230416,
+        "long": 121.473701
+      }
+    },
+    {
+      "order": 11,
+      "title": "Day 32 - 34",
+      "text": "<p>Discover still more of China's complex colonial history and modern energy as Columbus spends two days in Hong Kong. Explore under your own steam, or choose from optional excursions - to Victoria Peak, floating city Aberdeen, colourful Stanley Market, to take in the North Shore's spectacular skyline or cross Victoria Harbour on the Star Ferry.<br /></p>",
+      "location": {
+        "id": "kJv4VNzzbzw",
+        "type": "Country",
+        "label": "China",
+        "lat": 35.86166,
+        "long": 104.195397
+      }
+    },
+    {
+      "order": 12,
+      "title": "Day 35 - 36",
+      "text": "<p>Today Columbus calls in the tiny port of Chan May, gateway to central Vietnam's stunning beaches and UNESCO-listed treasures. Take a shore excursion, perhaps to see pretty riverside Hoi An's preserved traditional buildings or to enchanting Imperial City Hue, where Royal pavilions and the tombs of emperors are hidden behind imposing walls.<br /></p>",
+      "location": {
+        "id": "kJv4VNzzbzw",
+        "type": "Country",
+        "label": "China",
+        "lat": 35.86166,
+        "long": 104.195397
+      }
+    },
+    {
+      "order": 13,
+      "title": "Day 37 - 38",
+      "text": "<p>As Columbus docks close to Vietnam's famous Ho Chi Minh City (formerly Saigon), you'll have the chance to visit the remarkable Cu Chi tunnel complex - a former Viet Cong base - or the Mekong Delta's scenic landscape of rice paddies, orchards and colourful market towns.<br /></p>",
+      "location": {
+        "id": "kJv4VPTFp5Q",
+        "type": "Country",
+        "label": "Vietnam",
+        "lat": 14.058324,
+        "long": 108.277199
+      }
+    },
+    {
+      "order": 14,
+      "title": "Day 39",
+      "text": "<p>Your next cruise call is the island haven of Koh Samui, the ultimate, palm-fringed idyll of white sands and turquoise sea. Spend the day exploring the island, perhaps heading into the mountainous interior for spectacular views, or simply soaking up the sun on the island's stunning beaches.<br /></p>",
+      "location": {
+        "id": "kJv4VPYgHPy",
+        "type": "State",
+        "label": "Koh Samui",
+        "lat": 9.5120168,
+        "long": 100.01359290000005
+      }
+    },
+    {
+      "order": 15,
+      "title": "Day 40 - 42",
+      "text": "<p>As Columbus docks in bustling port of Laem Chabang you'll have the chance to visit the Thai capital, Bangkok. Take a shore excursion to discover the city's palaces and temples, gigantic Buddhas and network of khlong canals, or perhaps spend a day of rest and relaxation on one of the idyllic beaches that line the coast.<br /></p>",
+      "location": {
+        "id": "kJv4VN8yg01",
+        "type": "City",
+        "label": "Bangkok",
+        "lat": 13.7563309,
+        "long": 100.5017651
+      }
+    },
+    {
+      "order": 16,
+      "title": "Day 43",
+      "text": "<p>Step ashore in Singapore - gleaming, dynamic island-city and former British colonial outpost. Join optional shore excursions, or shop and sightsee at your leisure. Sample Singapore's legendary street food, and perhaps enjoy a Singapore Sling in the Raffles Hotel's famous bar.<br /></p>",
+      "location": {
+        "id": "kJv4VN79Nc0",
+        "type": "City",
+        "label": "Singapore",
+        "lat": 1.2800945,
+        "long": 103.8509491
+      }
+    },
+    {
+      "order": 17,
+      "title": "Day 44",
+      "text": "<p>Cruising along the Malaysian coast, Columbus calls at historic Port Klang, gateway to Kuala Lumpur. The Malay capital itself boasts the sky-piercing Petronas Towers among its spectacular sights, and a shore excursion will reveal this buzzing, cosmopolitan city, where the preserved Old Railway Station contrasts with glitzy new developments.<br /></p>",
+      "location": {
+        "id": "kJv4VN6BsyM",
+        "type": "Country",
+        "label": "Malaysia",
+        "lat": 4.210484,
+        "long": 101.975766
+      }
+    },
+    {
+      "order": 18,
+      "title": "Day 45 - 48",
+      "text": "<p>Colourful, Malaysian Penang is a feast for the senses. Step ashore to discover sensational street food, George Town's traditional Chinese shophouses, stunning beaches and breathtaking tropical gardens.<br /></p>",
+      "location": {
+        "id": "kJv4VPXP7hR",
+        "type": "State",
+        "label": "Penang",
+        "lat": 5.4141675,
+        "long": 100.32875890000003
+      }
+    },
+    {
+      "order": 19,
+      "title": "Day 49 - 50",
+      "text": "<p>Today Columbus calls in the Sri Lankan capital, Colombo. Explore the restored Fort area of this bustling city, and the ancient street markets of Pettah, or perhaps to take a shore excursion into the lush, temple-studded countryside.<br /></p>",
+      "location": {
+        "id": "kJv4VN5WH9H",
+        "type": "Country",
+        "label": "Sri Lanka",
+        "lat": 7.873053999999999,
+        "long": 80.77179699999999
+      }
+    },
+    {
+      "order": 20,
+      "title": "Day 51- 52",
+      "text": "<p>Kochi (also known as Cochin) on India's southwestern coast is built across a series of islands. A trading port for centuries, the city has a distinctly European feel, especially in Fort Cochin. It is also the port from which you can depart on a three-day excursion overland to discover Delhi and Agra, home to the Taj Mahal, before re-joining Columbus in Mumbai.<br /></p>",
+      "location": {
+        "id": "kfvXmXF5D1L",
+        "type": "City",
+        "label": "Kochi",
+        "lat": 133.55,
+        "long": 33.5666
+      }
+    },
+    {
+      "order": 21,
+      "title": "Day 53 - 56",
+      "text": "<p>In former Bombay you'll see sweeping Marine Drive, the monumental arch of the Gateway of India and the colonial splendour of the Taj Mahal Palace Hotel. Explore the grand former Prince of Wales Museum and the vast, Gothic fantasy of the Victoria Terminus railway station - all highlights on today's optional shore excursion.<br /></p>",
+      "location": {
+        "id": "kfty8kQ14P3",
+        "type": "City",
+        "label": "Bombay",
+        "lat": 174.983,
+        "long": -37.1667
+      }
+    },
+    {
+      "order": 22,
+      "title": "Day 57",
+      "text": "<p>With its extraordinary skyline boasting the world's tallest structure and only seven-star hotel, Dubai is a sight to behold when approached by sea. And, with its dizzying mix of souks, malls, beach resorts and desert, it's a fascinating place to explore.<br /></p>",
+      "location": {
+        "id": "kJv4VPYb31w",
+        "type": "City",
+        "label": "Dubai",
+        "lat": 25.2048493,
+        "long": 55.270782800000006
+      }
+    },
+    {
+      "order": 23,
+      "title": "Day 58 - 64",
+      "text": "<p>Today Columbus calls in the capital of the Sultanate of Oman. One of the world's most fascinating cities, spotless, laid-back Muscat is a low-rise, low-key port that offers easy access into a landscape of frankincense trees and coconut palms.<br /></p>",
+      "location": {
+        "id": "kJv4VN7GxS3",
+        "type": "Country",
+        "label": "Oman",
+        "lat": 21.512583,
+        "long": 55.923254999999926
+      }
+    },
+    {
+      "order": 24,
+      "title": "Day 65",
+      "text": "<p>From the Red Sea port of Safaga, an optional full-day excursion will take you to Luxor, once the ancient Egyptian capital Thebes. Discover temples at Luxor and Karnak, the vast columns of the Hypostyle Hall, and the awe-inspiring Valley of the Kings - where Howard Carter and Lord Carnarvon discovered Tutankhamun's tomb.<br /></p>",
+      "location": {
+        "id": "kJv4VN05Sb7",
+        "type": "Country",
+        "label": "Egypt",
+        "lat": 26.820553,
+        "long": 30.802498
+      }
+    },
+    {
+      "order": 25,
+      "title": "Day 66 - 67",
+      "text": "<p>Today brings another unforgettable optional excursion - from the luxurious Jordanian port of Aqaba to the extraordinary 'Rose Red' City of Petra. Etched into the sandstone cliffs and hillsides the lost city's extraordinary buildings are among the most unforgettable sights on Earth.<br /></p>",
+      "location": {
+        "id": "kfvDpkvsDWc",
+        "type": "City",
+        "label": "Aqaba",
+        "lat": 35.0078,
+        "long": 29.5267
+      }
+    },
+    {
+      "order": 26,
+      "title": "Day 68 - 69",
+      "text": "<p>Passage through the world's most famous - and busiest - waterway, the Suez Canal, brings Columbus into the Mediterranean, where a trio of calls brings the opportunity to discover yet more wonders a little closer to home.<br /></p>",
+      "location": {
+        "id": "kJv4VN30K7X",
+        "type": "City",
+        "label": "Athens",
+        "lat": 37.9838096,
+        "long": 23.727538800000048
+      }
+    },
+    {
+      "order": 27,
+      "title": "Day 70 -71",
+      "text": "<p>Today Columbus docks in Piraeus for a visit to beguiling, bustling Athens. Don't miss the chance to climb the Acropolis to the ruins of the Parthenon, one of the world's most enduring monuments, and an awe-inspiring window onto the city's rich Classical past.<br /></p>",
+      "location": {
+        "id": "kJv4VN30K7X",
+        "type": "City",
+        "label": "Athens",
+        "lat": 37.9838096,
+        "long": 23.727538800000048
+      }
+    },
+    {
+      "order": 28,
+      "title": "Day 72 - 74",
+      "text": "<p>Columbus's final Mediterranean island call is Malta, with its stunning natural Grand Harbour at Valletta. Explore the surrounding streets, or head into the rugged interior - perhaps to the haunting 'silent city' of Mdina.<br /></p>",
+      "location": {
+        "id": "kJv4VN60PpL",
+        "type": "Country",
+        "label": "Malta",
+        "lat": 35.937496,
+        "long": 14.375416
+      }
+    },
+    {
+      "order": 29,
+      "title": "Day 75 - 78",
+      "text": "<p>A morning call in Gibraltar brings a first real taste of home. Wander past familiar British shops on Main Street, or perhaps to take the cable-car to the top of the Rock for views across the Straits to Africa.<br /></p>",
+      "location": {
+        "id": "kJv4VN35CFt",
+        "type": "Country",
+        "label": "Gibraltar",
+        "lat": 36.1407734,
+        "long": -5.353599399999999
+      }
+    },
+    {
+      "order": 30,
+      "title": "Day 79",
+      "text": "<p>Columbus arrives back in Tilbury, at the end of her amazing globe-trotting adventure.<br /></p>",
+      "location": {
+        "id": "kJv4VN1SDLx",
+        "type": "Region",
+        "label": "United Kingdom",
+        "lat": 55.378051,
+        "long": -3.435973
+      }
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2017-02-15",
+      "price": "5409",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2017-02-28",
+      "price": "5401",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-01-02",
+      "price": "4908",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-03-06",
+      "price": "4900",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-03-27",
+      "price": "4899",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-01-30",
+      "price": "5001",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2017-12-20",
+      "price": "4897",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2017-10-16",
+      "price": "5002",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-02-14",
+      "price": "5006",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-08-15",
+      "price": "5005",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-08-08",
+      "price": "5002",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-09-18",
+      "price": "4885",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-01-31",
+      "price": "4990",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-01-15",
+      "price": "4880",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-02-28",
+      "price": "4779",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-12-31",
+      "price": "4770",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    },
+    {
+      "departurePlace": "Auckland",
+      "numberOfNights": 78,
+      "startDate": "2018-11-30",
+      "price": "4670",
+      "referenceCode": null,
+      "departureId": null,
+      "selectedDate": null,
+      "availability": null
+    }
+  ],
+  "ship": {
+    "name": "Columbus",
+    "uri": {
+      "localName": "m6vHYJS7Qx2",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [
+    {
+      "shipName": "Columbus",
+      "description": ""
+    }
+  ],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "cruise-from-auckland-to-london"
+}

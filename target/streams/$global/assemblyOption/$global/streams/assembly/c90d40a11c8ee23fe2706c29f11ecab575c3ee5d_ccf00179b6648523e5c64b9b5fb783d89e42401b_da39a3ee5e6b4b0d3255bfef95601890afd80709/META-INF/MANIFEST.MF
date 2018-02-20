@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Export-Package: com.github.jknack.handlebars.cache;uses:="com.github.j
+ knack.handlebars,com.github.jknack.handlebars.io,org.apache.commons.l
+ ang3.tuple";version="4.0.6",com.github.jknack.handlebars.context;uses
+ :="com.github.jknack.handlebars";version="4.0.6",com.github.jknack.ha
+ ndlebars;uses:="com.github.jknack.handlebars.cache,com.github.jknack.
+ handlebars.io";version="4.0.6",com.github.jknack.handlebars.helper;us
+ es:="com.github.jknack.handlebars,com.github.jknack.handlebars.js";ve
+ rsion="4.0.6",com.github.jknack.handlebars.io;uses:="javax.servlet";v
+ ersion="4.0.6",com.github.jknack.handlebars.js;uses:="com.github.jkna
+ ck.handlebars";version="4.0.6"
+Built-By: edgar
+Tool: Bnd-2.4.1.201501161923
+Bundle-Name: Handlebars
+Created-By: Apache Maven Bundle Plugin
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Build-Jdk: 1.7.0_55
+Bundle-Version: 4.0.6
+Bnd-LastModified: 1470832695806
+Bundle-ManifestVersion: 2
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-Description: Logic-less and semantic templates with Java
+Bundle-SymbolicName: com.github.jknack.handlebars
+Import-Package: com.github.jknack.handlebars.io,javax.servlet,org.antl
+ r.v4.runtime;version="[4.5,5)",org.antlr.v4.runtime.atn;version="[4.5
+ ,5)",org.antlr.v4.runtime.dfa;version="[4.5,5)",org.antlr.v4.runtime.
+ misc;version="[4.5,5)",org.antlr.v4.runtime.tree;version="[4.5,5)",or
+ g.apache.commons.lang3;version="[3.1,4)",org.apache.commons.lang3.bui
+ lder;version="[3.1,4)",org.apache.commons.lang3.math;version="[3.1,4)
+ ",org.apache.commons.lang3.text;version="[3.1,4)",org.apache.commons.
+ lang3.text.translate;version="[3.1,4)",org.apache.commons.lang3.tuple
+ ;version="[3.1,4)",org.mozilla.javascript,org.mozilla.javascript.tool
+ s,org.slf4j;version="[1.6,2)"
+Archiver-Version: Plexus Archiver
+

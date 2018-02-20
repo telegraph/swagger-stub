@@ -1,0 +1,230 @@
+{
+  "name": "British Isles Discovery Cruise",
+  "uri": {
+    "localName": "ng5xKjcstfs",
+    "namespace": "http://data.telegraph.co.uk/resource/"
+  },
+  "aliases": [],
+  "comment": null,
+  "activePartner": {
+    "label": "Newmarket Holidays",
+    "id": "nD7wrdHhCxx",
+    "productId": null,
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/newmarket/logos/RESTRICTED-newmarket-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [],
+    "contactDetails": [
+      {
+        "label": "0330 037 2226",
+        "type": "Concierge",
+        "alternativeLabel": null,
+        "notes": null
+      }
+    ],
+    "partnerDescription": "Newmarket Holidays is a highly respected independent tour operator, having won the British Travel Awards for the best large escorted tours holiday company for three consecutive years. The company prides itself on its customer service, commitment to affordable holidays and vast array of stunning destinations. From exclusive theatre breaks in New York to escorted tours to Europe’s most historic and culturally diverse cities, and from river cruises along the Rhine and Danube to festive coach breaks to the timeless winter markets in Bruges and Berlin, Newmarket Holidays deliver unforgettable tours that offer great value to Telegraph readers.This holiday is provided by, and your resulting contract and booking conditions will be with, Newmarket Holidays Ltd (company number 02238316), ABTA V7812/ V787X, ATOL 2325, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/newmarket"
+  },
+  "url": "http://booking.newmarket.travel/book.asp?dlc=20292&fnpc=TWS&returl=http%3A%2F%2Fwww.telegraph.co.uk%2Ftravel%2Fcruises%2Fpartners%2Focean-cruise%2Fnewmarket-holidays%2Fbritish-isles-discovery-magellan&utm_source=TWS&utm_medium=partner_referral",
+  "overview": "<p>Explore the best of the British Isles from Bristol. This fascinating cruise takes you from London to Kirkwall via the Channel Islands, Ireland and southern Scotland. Having called at Honfleur in Normandy, you will have the chance to join an optional tour to the artist Monet's delightful home in Giverny. You will sail for Guernsey in the Channel Islands for a spot of tax-free shopping in the picturesque capital, St Peter Port. You could also visit the 800-year-old Castle Cornet, which guards the harbour entrance. </p><p>The ship will then moor in the waters off Hugh Town on St Mary's. You will even have the option to visit the stunning Abbey Gardens on Tresco, perhaps the most beautiful of the Scilly Isles. You will cross the Irish Sea to Dublin, home to Joyce, Yeats, Wilde and Swift. Sample the Guinness in Temple Bar and wander O'Connell Street for some retail therapy. Nestling in the Antrim countryside, Belfast was once home to the Titanic. You will then head for the island of Mull in Scotland before sailing for Kirkwall in the Orkneys, from where you can visit Scapa Flow.<br /></p>",
+  "priceFrom": "869.0",
+  "status": "kv9XqPKmKM2",
+  "lastEditor": {
+    "address": "VIBE-CRAWLER",
+    "timestamp": "2018-01-10T07:36:35Z"
+  },
+  "approver": {
+    "address": "alexia.pearce@telegraph.co.uk",
+    "timestamp": "2017-08-03T11:22:31Z"
+  },
+  "source": "AUTOMATIC",
+  "otherInfo": [
+    {
+      "title": "Further Information",
+      "text": ""
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Passport requirements \n",
+      "text": "\n\t\t\t\t\t\t\t\nBritish Citizens will need a full, 10-year passport to travel on this cruise. Since some countries require visitors to be valid for at least six months after the return date of the cruise we recommend that all customers ensure that this is the case. Holders of non-British passports should check with the relevant embassies to see if any requirements and restrictions exist for any countries visited during the cruise.\n\n"
+    },
+    {
+      "title": "\n\t\t\t\t\t\t Foreign Office travel advice \n",
+      "text": "\n\t\t\t\t\t\t\t\nVisit <a href='http://www.gov.uk/foreign-travel-advice' target='_new'>www.gov.uk/foreign-travel-advice</a> to find out the latest Foreign And Commonwealth Office travel advice for your holiday destination, as well as information about passports and visas.\n\n"
+    },
+    {
+      "title": "",
+      "text": "*This offer applies to new bookings made between 27th December 2017 and 31st March (inclusive) only. The price shown on this page includes any initial Saver Fare discount. The exact value of the discount included will vary depending on offer, cruise, cabin and departure date selected. Further information is available as you book your chosen cruise. Discounts apply to all cabin categories. This offer may be withdrawn at any time. All fares exclude gratuities.<br/><br/>On many of our cruises, a limited number of Voyager Fare Inner and Ocean-view cabins are available. Choose these and you will be accommodated in at least a Standard Twin Inner or Ocean-view cabin, but will pay only the reduced Voyager Fare price. Availability is limited, so book now to secure your discount."
+    }
+  ],
+  "accommodationOverview": "",
+  "accommodations": [],
+  "inclusions": [
+    "10 nights' accommodation in your choice of cabin",
+    "Full-board arrangements including full breakfast, lunch, dinner, afternoon tea and midnight snacks",
+    "On-board entertainment as arranged",
+    "Calls at ports as detailed in the itinerary",
+    "The services of a friendly, professional crew and cruise staff",
+    "Port charges and taxes",
+    "Single and upgrade cabins are available for a supplement"
+  ],
+  "subtitle": "SAVER FARES AVAILABLE ON SELECTED CRUISES!*",
+  "highlights": [],
+  "images": [
+    "https://travelshop.telegraph.co.uk/tourimg.php?a=img&img=e4f095de45cde03eb2f6b8b8d78917c8"
+  ],
+  "videos": [],
+  "visitingPlaces": [
+    {
+      "id": "kftbDL4Vmtw",
+      "type": "City",
+      "label": "Portree",
+      "lat": -6.19457,
+      "long": 57.4139
+    },
+    {
+      "id": "kft5g3flk6v",
+      "type": "City",
+      "label": "Honfleur",
+      "lat": 49.418762,
+      "long": 0.23326199999996788
+    }
+  ],
+  "destinations": [],
+  "geoLocalisationHint": "Portree",
+  "classifications": [
+    {
+      "name": "Ocean",
+      "uri": {
+        "localName": "ljxck0n7Nhv",
+        "namespace": "http://data.telegraph.co.uk/resource/"
+      },
+      "classificationTypeList": [
+        {
+          "name": "Generic Cruise Type",
+          "uri": {
+            "localName": "ljxck0m24fm",
+            "namespace": "http://data.telegraph.co.uk/resource/"
+          }
+        }
+      ]
+    }
+  ],
+  "externalReferences": [
+    {
+      "identifier": "TRD20292",
+      "source": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+      "externalReferenceType": "PARTNER"
+    },
+    {
+      "identifier": "e2ab675c881986a0ccab14e6292f6849",
+      "source": "http://data.telegraph.co.uk/resource/mHMhTsvQtxh",
+      "externalReferenceType": "PROVIDER"
+    }
+  ],
+  "stops": [
+    {
+      "order": 1,
+      "title": "1",
+      "text": "Join Magellan in Bristol, and spend your first evening settling into life on board.",
+      "location": null
+    },
+    {
+      "order": 2,
+      "title": "2",
+      "text": "Relax as Magellan steams towards Scotland.",
+      "location": null
+    },
+    {
+      "order": 3,
+      "title": "3",
+      "text": "The tiny harbour of Portree is set on the sheltered eastern coast of the mystic Isle of Skye. It's gateway to a rugged landscape of windswept moors, the great Cuillin 'Hills' and a coast teeming with wildlife. Perhaps explore historic Dunvegan Castle, the world's longest continuously inhabited fortress, on a shore excursion this afternoon.",
+      "location": null
+    },
+    {
+      "order": 4,
+      "title": "4",
+      "text": "Discover the historic capital of Orkney as the ship docks in Kirkwall, where you'll find magnificent St Magnus Cathedral and, just a mile away, fabled Scapa Flow, where HMS Royal Oak sunk in WW2. Shore excursions will include highlights of the island's unique mix of history, archaeology, crafts and wildlife.",
+      "location": null
+    },
+    {
+      "order": 5,
+      "title": "5",
+      "text": "Another day is spent at sea.",
+      "location": null
+    },
+    {
+      "order": 6,
+      "title": "6",
+      "text": "Today you'll reach Honfleur, set at the mouth of France's River Seine. Visit this favourite retreat of the French Impressionists, with its harbour surrounded by gabled houses, and perhaps venture further afield on an excursion to Monet's idyllic house and gardens at Giverny or to fashionable Deauville.",
+      "location": null
+    },
+    {
+      "order": 7,
+      "title": "7",
+      "text": "Today's port of call is Guernsey's delightful St Peter Port. Spend the day exploring this beautiful Channel Isle, making sure to visit Castle Cornet, which guards the entrance to the harbour, as well as the medieval, cobbled central quarter, where countless shops and colourful stalls offer tax-free temptations.",
+      "location": null
+    },
+    {
+      "order": 8,
+      "title": "8",
+      "text": "Magellan sails into glorious blue waters to take in the celebrated Isles of Scilly. Go ashore to explore Hugh Town on St Mary's, or take an optional excursion to stunning Tresco, where you'll find Britain's finest collection of subtropical plants at the world-famous Abbey Gardens.",
+      "location": null
+    },
+    {
+      "order": 9,
+      "title": "910",
+      "text": "Today we reach Dublin, one of Europe's most engaging capitals. Explore this former home of Yeats, Wilde and Joyce, shop on Grafton and O'Connell Streets or relax in one of the city's much-loved bars and pubs. Magellan docks in Dublin tonight, before sailing back to Bristol in the morning.",
+      "location": null
+    },
+    {
+      "order": 10,
+      "title": "11",
+      "text": "Arrive in Bristol, bid farewell to the crew and your fellow travellers, and disembark at the end of your cruise holiday.",
+      "location": null
+    },
+    {
+      "order": 11,
+      "title": "11",
+      "text": "",
+      "location": null
+    }
+  ],
+  "departures": [
+    {
+      "departurePlace": "",
+      "numberOfNights": 10,
+      "startDate": "2018-08-27",
+      "price": "869.00",
+      "referenceCode": "ZXL-20180827",
+      "departureId": "0",
+      "selectedDate": "1970-01-24",
+      "availability": "863"
+    }
+  ],
+  "ship": {
+    "name": "MS Magellan",
+    "uri": {
+      "localName": "m6vHYMxMC2Q",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    }
+  },
+  "lifeOnBoard": [],
+  "cruiseLine": null,
+  "cruiseType": {
+    "name": "Ocean",
+    "uri": {
+      "localName": "ljxck0n7Nhv",
+      "namespace": "http://data.telegraph.co.uk/resource/"
+    },
+    "classificationTypeList": [
+      {
+        "name": "Generic Cruise Type",
+        "uri": {
+          "localName": "ljxck0m24fm",
+          "namespace": "http://data.telegraph.co.uk/resource/"
+        }
+      }
+    ]
+  },
+  "pagePath": "british-isles-discovery-magellan"
+}

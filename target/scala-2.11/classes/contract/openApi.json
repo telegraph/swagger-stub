@@ -1,0 +1,718 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "An api for managing cruises",
+    "version": "1.0",
+    "title": "Cruise API",
+    "termsOfService": "urn:tos",
+    "contact": {},
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  },
+  "host": "localhost",
+  "basePath": "/",
+  "tags": [
+    {
+      "name": "endpoint",
+      "description": "Endpoint"
+    }
+  ],
+  "paths": {
+    "/": {
+      "post": {
+        "tags": [
+          "endpoint"
+        ],
+        "summary": "postSingleCruise",
+        "operationId": "postSingleCruiseUsingPOST",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "cruise",
+            "description": "cruise",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/Cruise"
+            }
+          },
+          {
+            "name": "context",
+            "in": "query",
+            "description": "context",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object"
+            }
+          },
+          "201": {
+            "description": "Created"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/cruiseList": {
+      "get": {
+        "tags": [
+          "endpoint"
+        ],
+        "summary": "getListOfCruises",
+        "operationId": "getListOfCruisesUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "status",
+            "in": "query",
+            "description": "status",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi",
+            "default": "http://data.telegraph.co.uk/resource/kv9XqPKmKM2,http://data.telegraph.co.uk/resource/kwCp0BHzx1g,http://data.telegraph.co.uk/resource/kv9XsPK57jU"
+          },
+          {
+            "name": "partnerId",
+            "in": "query",
+            "description": "partnerId",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Map«string,string»"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/travel-products/cruises/cruises": {
+      "get": {
+        "tags": [
+          "endpoint"
+        ],
+        "summary": "getCruiseListByIDs",
+        "operationId": "getTourListByIDsUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "flakeIds",
+            "in": "query",
+            "description": "flakeIds",
+            "required": true,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
+          },
+          {
+            "name": "Cache-Control",
+            "in": "header",
+            "description": "Cache-Control",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Cruise"
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      }
+    },
+    "/travel-products/cruises/{cruiseFlakeId}": {
+      "get": {
+        "tags": [
+          "endpoint"
+        ],
+        "summary": "getCruiseByFlakeId",
+        "operationId": "getCruiseByFlakeIdUsingGET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "cruiseFlakeId",
+            "in": "path",
+            "description": "cruiseFlakeId",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "Cache-Control",
+            "in": "header",
+            "description": "Cache-Control",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Cruise"
+            }
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          },
+          "404": {
+            "description": "Not Found"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "endpoint"
+        ],
+        "summary": "setCruiseStatusToDeletedInDb",
+        "operationId": "setCruiseStatusToDeletedInDbUsingDELETE",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "*/*"
+        ],
+        "parameters": [
+          {
+            "name": "cruiseFlakeId",
+            "in": "path",
+            "description": "cruiseFlakeId",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "403": {
+            "description": "Forbidden"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Accommodation": {
+      "type": "object",
+      "properties": {
+        "facilities": {
+          "type": "string"
+        },
+        "finishingTouches": {
+          "type": "string"
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "overview": {
+          "type": "string"
+        },
+        "rating": {
+          "type": "string"
+        },
+        "roomDetails": {
+          "type": "string"
+        }
+      }
+    },
+    "Accreditation": {
+      "type": "object",
+      "properties": {
+        "accreditationIssuer": {
+          "type": "string"
+        },
+        "logos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Approver": {
+      "type": "object",
+      "properties": {
+        "address": {
+          "type": "string"
+        },
+        "timestamp": {
+          "type": "string"
+        }
+      }
+    },
+    "Classification": {
+      "type": "object",
+      "properties": {
+        "classificationTypeList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ClassificationType"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/definitions/URI"
+        }
+      }
+    },
+    "ClassificationType": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/definitions/URI"
+        }
+      }
+    },
+    "Contact": {
+      "type": "object",
+      "properties": {
+        "alternativeLabel": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "Cruise": {
+      "type": "object",
+      "properties": {
+        "accommodationOverview": {
+          "type": "string"
+        },
+        "accommodations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Accommodation"
+          }
+        },
+        "activePartner": {
+          "$ref": "#/definitions/Partner"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "approver": {
+          "$ref": "#/definitions/Approver"
+        },
+        "classifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Classification"
+          }
+        },
+        "comment": {
+          "type": "string"
+        },
+        "cruiseLine": {
+          "$ref": "#/definitions/CruiseLine"
+        },
+        "cruiseType": {
+          "$ref": "#/definitions/Classification"
+        },
+        "departures": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Departure"
+          }
+        },
+        "destinations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "externalReferences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ExternalReference"
+          }
+        },
+        "geoLocalisationHint": {
+          "type": "string"
+        },
+        "highlights": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "inclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lastEditor": {
+          "$ref": "#/definitions/Approver"
+        },
+        "lifeOnBoard": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/LifeOnBoard"
+          }
+        },
+        "name": {
+          "type": "string"
+        },
+        "otherInfo": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OtherInfo"
+          }
+        },
+        "overview": {
+          "type": "string"
+        },
+        "pagePath": {
+          "type": "string"
+        },
+        "priceFrom": {
+          "type": "string"
+        },
+        "ship": {
+          "$ref": "#/definitions/Ship"
+        },
+        "source": {
+          "type": "string",
+          "enum": [
+            "AUTOMATIC",
+            "MANUAL"
+          ]
+        },
+        "status": {
+          "type": "string"
+        },
+        "stops": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Stop"
+          }
+        },
+        "subtitle": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/definitions/URI"
+        },
+        "url": {
+          "type": "string"
+        },
+        "videos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "visitingPlaces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Location"
+          }
+        }
+      }
+    },
+    "CruiseLine": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/definitions/URI"
+        }
+      }
+    },
+    "Departure": {
+      "type": "object",
+      "properties": {
+        "availability": {
+          "type": "string"
+        },
+        "departureId": {
+          "type": "string"
+        },
+        "departurePlace": {
+          "type": "string"
+        },
+        "numberOfNights": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "price": {
+          "type": "string"
+        },
+        "referenceCode": {
+          "type": "string"
+        },
+        "selectedDate": {
+          "type": "string",
+          "format": "date"
+        },
+        "startDate": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "ExternalReference": {
+      "type": "object",
+      "properties": {
+        "externalReferenceType": {
+          "type": "string"
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    },
+    "LifeOnBoard": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "shipName": {
+          "type": "string"
+        }
+      }
+    },
+    "Location": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "lat": {
+          "type": "number",
+          "format": "double"
+        },
+        "long": {
+          "type": "number",
+          "format": "double"
+        },
+        "type": {
+          "type": "string"
+        }
+      }
+    },
+    "Map«string,string»": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "OtherInfo": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "Partner": {
+      "type": "object",
+      "properties": {
+        "accreditation": {
+          "$ref": "#/definitions/Accreditation"
+        },
+        "accreditations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Accreditation"
+          }
+        },
+        "contactDetails": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Contact"
+          }
+        },
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "logo": {
+          "type": "string"
+        },
+        "logos": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "partnerDescription": {
+          "type": "string"
+        },
+        "partnerTAndCURL": {
+          "type": "string"
+        },
+        "productId": {
+          "type": "string"
+        },
+        "termsAndConditionsURL": {
+          "type": "string"
+        }
+      }
+    },
+    "Ship": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/definitions/URI"
+        }
+      }
+    },
+    "Stop": {
+      "type": "object",
+      "properties": {
+        "location": {
+          "$ref": "#/definitions/Location"
+        },
+        "order": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "text": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        }
+      }
+    },
+    "URI": {
+      "type": "object",
+      "properties": {
+        "localName": {
+          "type": "string"
+        },
+        "namespace": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

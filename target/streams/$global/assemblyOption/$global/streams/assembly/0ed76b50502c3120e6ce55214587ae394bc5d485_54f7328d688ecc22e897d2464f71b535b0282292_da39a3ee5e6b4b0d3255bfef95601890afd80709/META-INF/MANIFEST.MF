@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: SmartStub
+Implementation-Version: 0.9.0
+Specification-Vendor: uk.co.telegraph.qe
+Specification-Title: SmartStub
+Implementation-Vendor-Id: uk.co.telegraph.qe
+Specification-Version: 0.9.0
+Vcs-Release-Tag: v0.9.0
+Implementation-Vendor: uk.co.telegraph.qe
+Vcs-Release-Hash: 8c2baa7cf310cd04f1c8db298f2ce7b0035387cc
+
