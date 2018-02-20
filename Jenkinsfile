@@ -6,14 +6,26 @@ node('master') {
         def branchName       = "${env.BRANCH_NAME}"
         def buildNumber      = "${env.BUILD_NUMBER}"
 
-
-        checkoutCodeStage {
-            project_name  = projectName
-            github_id     = jenkinsGithubId
-            github_branch = branchName
-        }
-
-        cloudformationValidateStage{}
+        stage("Checkout"){
+        echo "git checkout"
+        checkout changelog: false, poll: false, scm: [
+            $class: 'GitSCM', 
+            branches: [[
+                name: 'master'
+            ]],
+            doGenerateSubmoduleConfigurations: false, 
+            extensions: [[
+                $class: 'WipeWorkspace'
+            ], [
+                $class: 'CleanBeforeCheckout'
+            ]], 
+            submoduleCfg: [], 
+            userRemoteConfigs: [[
+                credentialsId: 'fe000f7c-4de6-45c7-9097-d1fba24f3cb5', 
+                url: "git@github.com:telegraph/${projectName}.git"
+            ]]
+          ]
+   	 }
 
         if (branchName == 'master') {
 
