@@ -1,11 +1,23 @@
-node('master') {
+@Library('platform-jenkins-library') _
 
+lock("cruise-stub"){
+
+  node('master') {
+       // def sbtFolder        = "${tool name: 'sbt-1.1.1', type: 'org.jvnet.hudson.plugins.SbtPluginBuilder$SbtInstallation'}/bin"
         def projectName      = "cruise-stub"
         def github_token     = "${env.GITHUB_TOKEN}"
-        def jenkins_github_id= "${env.JENKINS_GITHUB_CREDENTIALS_ID}"
         def branchName       = "${env.BRANCH_NAME}"
         def buildNumber      = "${env.BUILD_NUMBER}"
-
+        def githubToken         = "${env.GITHUB_TOKEN}"
+        def slackToken          = "${env.SLACK_PLATFORMS_CI}"
+        def pipelineVersion     = "1.0.0-b${env.BUILD_NUMBER}"
+        def jenkinsGithubId     = "${env.JENKINS_GITHUB_CREDENTIALS_ID}"
+        
+        checkoutCodeStage {
+            project_name = projectName
+            github_id    = jenkinsGithubId
+        }
+        
         stage("Checkout"){
         echo "git checkout"
         checkout changelog: false, poll: false, scm: [
@@ -26,29 +38,24 @@ node('master') {
             ]]
           ]
    	    }
-
-
-        stage("Build"){
-
-            def pipeline_version = "1.0.0-b${buildNumber}-${environment}"
-
-            sh """
-                    echo "Build Stub Container Image"
-                """
-                app = docker.build("${projectName}:${pipeline_version}")
-
-
+         
+        stage("Build & Test"){
+          sh """
+            sbt clean test package
+          """
         }
-
 
         stage("Publish"){
             sh """
-                    echo "Publish"
-                """
-                docker.withRegistry("http://docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub") {
-                    app.push()
-                }
+                sbt publish
+                sbt assembly
+            """
+            docker.withRegistry("${env.AEM_DOCKER_REGISTRY}") {
+                docker.build("${projectName}")
+                .push()
+            }
         }
-
+    
         
+   }
 }
