@@ -7,7 +7,7 @@ lazy val root = (project in file(".")).
     inThisBuild(List(
       organization := "com.telegraph.stub.cruisestub",
       scalaVersion := "2.11.8",
-      version      := "${version}"
+      version      := "${VERSION}"
     )),
     name := "cruisestub",
     ServiceDependencies
