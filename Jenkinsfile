@@ -1,4 +1,4 @@
-brary('platform-jenkins-library') _
+@Library('platform-jenkins-library') _
 
 lock("travel-stubs"){
 
