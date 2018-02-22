@@ -4,8 +4,8 @@
 
 # Manual Instructions to Build a Stub
 
-update version
-
+Note: You need to have awscli,docker and stb installed in your local machine
+```
 sbt reload clean assembly
 
 sbt publish
@@ -21,6 +21,7 @@ docker tag cruisestub  docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs
 docker push docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to push to docker registry)
 
 docker pull docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to pull)
+```
 
 ## Example
 In order to verify your stub, perform a GET using the following details:
