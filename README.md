@@ -7,19 +7,12 @@
 Note: You need to have awscli,docker and stb installed in your local machine
 ```
 sbt reload clean assembly
-
 sbt publish
-
 docker build -t cruisestub .
-
-docker run -p 8080:8081 cruisestub
-
+docker run -p 8080:8081 --name cruisestub cruisestub
 docker save cruisestub > cruisestub.tar (if you want to save as a tar)
-
 docker tag cruisestub  docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub
-
 docker push docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to push to docker registry)
-
 docker pull docker.awspreprod.telegraph.co.uk/adobe/tmg-service-stubs:cruisestub (to pull)
 ```
 
