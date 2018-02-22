@@ -9,7 +9,7 @@ lazy val root = (project in file(".")).
       scalaVersion := "2.11.8",
       version      := System.getProperty("verNumber")
     )),
-    name := "cruisestub",
+    name := System.getProperty("stubName"),
     ServiceDependencies
   )
 
