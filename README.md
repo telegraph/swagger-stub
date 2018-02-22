@@ -30,17 +30,20 @@ for cruise listing - http://localhost:8080/travel-products/cruises?flakeIds=ng5x
 Header: Content-Type:application/json
 
 ## Test the stub by hitting the environment
-
+```
 eg: http://aem-docker-qa15.aws-preprod.telegraph.co.uk:8083/travel-products/holidays/m204v5bP9XV
+
     http://aem-docker-${environment}.aws-preprod.telegraph.co.uk:$port/$dir/${flakeid}
+```
 environments: qa15,ci6,ci7,ci10 
 ports:
-| Stub Name  | Port Number |
-| ------------- | ------------- |
-| cruisestub  | 8081  |
-| hotelstub  | 8082  |
-| holidaystub | 8083 |
-| identitystub | 8084 |
+
+| Stub Name | Port Number |
+| --- | --- |
+| cruisestub    | 8081 |
+| hotelstub     | 8082 |
+| holidaystub   | 8083 |
+| identitystub  | 8084 |
 | productlistingstub | 8085 |
 | suggestionapistub | 8086 |
 
