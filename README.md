@@ -1,4 +1,8 @@
-# Build instructions
+# Stub Pipeline
+
+[![Build Status](https://img.shields.io/travis/thephpleague/pipeline/master.svg?style=flat-square)](https://jenkins-preprod.aws-preprod.telegraph.co.uk/job/cruise-stub/)
+
+# Manual Instructions to Build a Stub
 
 update version
 
