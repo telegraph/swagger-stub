@@ -1,6 +1,6 @@
 # Stub Pipeline
 
-[![Build Status](https://img.shields.io/travis/thephpleague/pipeline/master.svg?style=flat-square)](https://jenkins-preprod.aws-preprod.telegraph.co.uk/job/cruise-stub/)
+[![Build Status](https://img.shields.io/travis/thephpleague/pipeline/master.svg?style=flat-square)](https://jenkins-preprod.aws-preprod.telegraph.co.uk/job/travel-stubs/)
 
 # Manual Instructions to Build a Stub
 
