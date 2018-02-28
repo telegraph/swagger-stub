@@ -1,0 +1,563 @@
+{
+  "uri": {
+    "namespace": "http://data.telegraph.co.uk/resource/",
+    "localName": "kfxl6SzzYPB"
+  },
+  "name": "Dukes London",
+  "locations": [
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "kJv4VN1SDLx",
+      "type": "Region",
+      "label": "United Kingdom",
+      "lat": 55.378051,
+      "long": -3.435973
+    },
+    {
+      "id": "kJv4VN2kxcw",
+      "type": "City",
+      "label": "London",
+      "lat": 51.5073509,
+      "long": -0.12775829999998223
+    },
+    {
+      "id": "kJv4VN2N08w",
+      "type": "Country",
+      "label": "England",
+      "lat": 52.3555177,
+      "long": -1.1743197
+    },
+    {
+      "id": "k7RBqyKwsDK",
+      "type": "Address",
+      "label": "35 St James's Place, London, SW1A 1NY, England.",
+      "lat": 51.5054218,
+      "long": -0.13965140000004794
+    },
+    {
+      "id": "k8RmhWfsgsk",
+      "type": "Borough",
+      "label": "West End",
+      "lat": 51.51039193601078,
+      "long": -0.13013113254089603
+    },
+    {
+      "id": "lBpcsdwnWYj",
+      "type": "Borough",
+      "label": "Central London",
+      "lat": 51.5076017,
+      "long": -0.12781649999999445
+    },
+    {
+      "id": "lB22K9R058c",
+      "type": "Area",
+      "label": "Mayfair",
+      "lat": 51.5116269,
+      "long": -0.14780599999994593
+    }
+  ],
+  "types": [
+    {
+      "id": "khjGN7CCQDg",
+      "label": "Hotel"
+    }
+  ],
+  "activeOffers": [],
+  "facilities": [
+    {
+      "id": "kb0JyGx7S7C",
+      "label": "Laundry"
+    },
+    {
+      "id": "kb0JyGxRXSk",
+      "label": "Wi-Fi"
+    },
+    {
+      "id": "kb0JyGxW44F",
+      "label": "Spa"
+    },
+    {
+      "id": "kb0JyGyLZ4K",
+      "label": "Bar"
+    },
+    {
+      "id": "kb104pLq07J",
+      "label": "Fitness centre"
+    },
+    {
+      "id": "kb0JyGxrqXR",
+      "label": "Room service"
+    },
+    {
+      "id": "kb0JyGyBFv5",
+      "label": "Restaurant"
+    },
+    {
+      "id": "kb0JyGxZyV6",
+      "label": "Steam room/hammam"
+    }
+  ],
+  "styles": [],
+  "activePartner": {
+    "label": "Booking.com",
+    "id": "kKPg1rKDrKJ",
+    "productId": "34779",
+    "logos": [],
+    "accreditations": [],
+    "contactDetails": []
+  },
+  "contacts": [
+    {
+      "label": "020 7318 6585",
+      "type": "Main Number",
+      "alternativeLabel": null,
+      "notes": null
+    },
+    {
+      "label": "dukeshotel.com",
+      "type": "Website",
+      "alternativeLabel": "http://www.dukeshotel.com",
+      "notes": null
+    }
+  ],
+  "externalData": {
+    "id": null,
+    "checkIn": {
+      "from": "14:00",
+      "to": ""
+    },
+    "checkOut": {
+      "from": "",
+      "to": "12:00"
+    },
+    "pics": [
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/113/113576535.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/113/113576535.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545098.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545098.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/105/10516102.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/105/10516102.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545085.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545085.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461259.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461259.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461036.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461036.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545078.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545078.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/364/36466593.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/364/36466593.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13462230.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13462230.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/322/32224652.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/322/32224652.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545065.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545065.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64542142.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64542142.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545238.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545238.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545242.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545242.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545248.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545248.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545258.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545258.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545262.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545262.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545272.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545272.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545275.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545275.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545278.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545278.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545285.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545285.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545288.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545288.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545292.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545292.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545295.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545295.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545298.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545298.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545302.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545302.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545305.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545305.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545308.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545308.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545315.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545315.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545318.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545318.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/113/113576954.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/113/113576954.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545064.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545064.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461074.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461074.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545097.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545097.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545087.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545087.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545067.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545067.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/364/36466548.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/364/36466548.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461111.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461111.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545084.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545084.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/352/35218799.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/352/35218799.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461211.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461211.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545241.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545241.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545247.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545247.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545251.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545251.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545257.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545257.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545261.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545261.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545264.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545264.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545271.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545271.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545274.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545274.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545277.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545277.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545281.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545281.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545287.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545287.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545291.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545291.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545294.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545294.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545297.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545297.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545304.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545304.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545307.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545307.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545311.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545311.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545314.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545314.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545101.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545101.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545081.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545081.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/465/4655828.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/465/4655828.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/352/35218854.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/352/35218854.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545083.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545083.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/676/6761776.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/676/6761776.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461242.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461242.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461108.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461108.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545100.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545100.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545076.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545076.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545079.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545079.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545099.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545099.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545086.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545086.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/134/13461438.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/134/13461438.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/322/32224649.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/322/32224649.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545073.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545073.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64540616.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64540616.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545239.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545239.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545240.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545240.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545243.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545243.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545246.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545246.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545250.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545250.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545253.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545253.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545256.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545256.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545259.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545259.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545260.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545260.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545266.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545266.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545270.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545270.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545273.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545273.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545279.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545279.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545280.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545280.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545283.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545283.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545286.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545286.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545289.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545289.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545290.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545290.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545293.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545293.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545296.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545296.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545299.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545299.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545300.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545300.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545306.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545306.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545309.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545309.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545310.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545310.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545096.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545096.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/645/64545066.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/645/64545066.jpg"
+      }
+    ],
+    "hotelUrl": "https://www.booking.com/hotel/gb/dukes.html",
+    "reservationUrl": "https://www.booking.com/hotel/gb/dukes.html",
+    "rooms": [],
+    "roomCount": "90",
+    "priceFrom": "348.50",
+    "city_id": "-2601889"
+  },
+  "priceFrom": "348.50",
+  "averageRating": 9,
+  "geoLocalisationHint": "Mayfair, London, England"
+}

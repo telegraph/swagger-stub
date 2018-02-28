@@ -1,0 +1,363 @@
+{
+  "uri": {
+    "namespace": "http://data.telegraph.co.uk/resource/",
+    "localName": "mkbj9GHrC76"
+  },
+  "name": "Ritz Paris",
+  "locations": [
+    {
+      "id": "kJv4VN01Bvc",
+      "type": "Continent",
+      "label": "Europe",
+      "lat": 54.5259614,
+      "long": 15.255118700000025
+    },
+    {
+      "id": "kJv4VN1CLC8",
+      "type": "Country",
+      "label": "France",
+      "lat": 46.227638,
+      "long": 2.213749
+    },
+    {
+      "id": "kJv4VN09QmJ",
+      "type": "City",
+      "label": "Paris",
+      "lat": 48.856614,
+      "long": 2.3522219
+    },
+    {
+      "id": "mkbj9HpptTk",
+      "type": "Address",
+      "label": "15 place Vendôme, 75001, Paris.",
+      "lat": 48.86809869999999,
+      "long": 2.3288932000000386
+    }
+  ],
+  "types": [
+    {
+      "id": "khjGN7CCQDg",
+      "label": "Hotel"
+    }
+  ],
+  "activeOffers": [],
+  "facilities": [
+    {
+      "id": "kb0JyGx7S7C",
+      "label": "Laundry"
+    },
+    {
+      "id": "kb0JyGxW44F",
+      "label": "Spa"
+    },
+    {
+      "id": "kb0JyGxbP5x",
+      "label": "Parking"
+    },
+    {
+      "id": "kb0JyGyLZ4K",
+      "label": "Bar"
+    },
+    {
+      "id": "kb104pLq07J",
+      "label": "Fitness centre"
+    },
+    {
+      "id": "kb0JyGxrqXR",
+      "label": "Room service"
+    },
+    {
+      "id": "kb0JyGyBFv5",
+      "label": "Restaurant"
+    },
+    {
+      "id": "kb0JyGxcP4B",
+      "label": "Pool"
+    }
+  ],
+  "styles": [
+    {
+      "id": "lYHjskNY15q",
+      "label": "City-centre"
+    }
+  ],
+  "activePartner": {
+    "label": "Booking.com",
+    "id": "kKPg1rKDrKJ",
+    "productId": "1568729",
+    "logos": [],
+    "accreditations": [],
+    "contactDetails": []
+  },
+  "contacts": [
+    {
+      "label": "00 33 143 16 30 30",
+      "type": "Main Number",
+      "alternativeLabel": null,
+      "notes": null
+    },
+    {
+      "label": "ritzparis.com",
+      "type": "Website",
+      "alternativeLabel": "http://www.ritzparis.com",
+      "notes": null
+    }
+  ],
+  "externalData": {
+    "id": null,
+    "checkIn": {
+      "from": "15:00",
+      "to": "00:00"
+    },
+    "checkOut": {
+      "from": "05:00",
+      "to": "12:00"
+    },
+    "pics": [
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/122/122502192.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/122/122502192.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790553.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790553.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791260.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791260.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791320.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791320.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790679.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790679.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790683.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790683.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791259.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791259.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791319.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791319.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/110/110732830.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/110/110732830.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73789832.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73789832.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791262.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791262.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791318.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791318.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791292.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791292.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790685.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790685.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790682.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790682.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791268.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791268.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/738/73815072.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/738/73815072.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/574/57485690.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/574/57485690.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/105/105791726.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/105/105791726.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/122/122504121.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/122/122504121.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66908817.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66908817.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66903754.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66903754.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73789651.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73789651.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66909137.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66909137.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73790677.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73790677.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791284.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791284.jpg"
+      },
+      {
+        "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791267.jpg",
+        "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791267.jpg"
+      }
+    ],
+    "hotelUrl": "https://www.booking.com/hotel/fr/ritz-paris-paris.html",
+    "reservationUrl": "https://www.booking.com/hotel/fr/ritz-paris-paris.html",
+    "rooms": [
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/738/73815072.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/738/73815072.jpg"
+          }
+        ],
+        "id": "156872902",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "40.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791260.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791260.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73789832.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73789832.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791267.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791267.jpg"
+          }
+        ],
+        "id": "156872905",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "75.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66903754.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66903754.jpg"
+          }
+        ],
+        "id": "156872901",
+        "name": null,
+        "price_from": "1000",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "35.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73789651.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73789651.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/122/122499714.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/122/122499714.jpg"
+          }
+        ],
+        "id": "156872904",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "55.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791284.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791284.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66909162.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66909162.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791318.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791318.jpg"
+          }
+        ],
+        "id": "156872907",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "100.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791262.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791262.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66908817.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66908817.jpg"
+          }
+        ],
+        "id": "156872903",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "45.00"
+      },
+      {
+        "images": [
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/669/66909137.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/669/66909137.jpg"
+          },
+          {
+            "url_medium": "http://aff.bstatic.com/images/hotel/max500/737/73791292.jpg",
+            "url_xsmall": "http://aff.bstatic.com/images/hotel/max300/737/73791292.jpg"
+          }
+        ],
+        "id": "156872906",
+        "name": null,
+        "price_from": "0",
+        "description": null,
+        "sleeps_adults": "2",
+        "size": "80.00"
+      }
+    ],
+    "roomCount": "121",
+    "priceFrom": "893.94",
+    "city_id": "-1456928"
+  },
+  "priceFrom": "893.94",
+  "averageRating": 6.666666666666667,
+  "geoLocalisationHint": "Paris, France"
+}
