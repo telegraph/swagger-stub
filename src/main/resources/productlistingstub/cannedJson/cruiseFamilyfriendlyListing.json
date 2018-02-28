@@ -1,0 +1,422 @@
+{
+  "totalHits": 7,
+  "facets": {},
+  "searchObjects": [
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/pQxhqxnx3sg",
+      "flake": "pQxhqxnx3sg",
+      "tmg_id": "oz2wumbumeyw4mlwnmyhm3drhfvtc4zt",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/riviera-travel/wonders-nile-cairo-aswan/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/riviera-travel/wonders-nile-cairo-aswan/",
+      "title": "Wonders of the Nile - Cairo to Aswan",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pQhL1j4rdCb",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/nD7xwtSDsQg",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mbpfw7c9jmS",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Concept"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0nfrpp",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/lBp8ZQnHtyr",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN05Sb7",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/pHx9V5Stz2V",
+      "flake": "pHx9V5Stz2V",
+      "tmg_id": "mmzgonlcgrvdm4lcnfxxemdthbzwcmzy",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/amawaterways/stars-of-south-africa/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/amawaterways/stars-of-south-africa/",
+      "title": "Stars of South Africa",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pHcG8rm4KQQ",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mzb9JwvKQgL",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/PartnerType"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pHfGFfvwv6T",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNzlzfD",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPSt9SF",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPS2dWF",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0nfrpp",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/pQzgM0SVbSX",
+      "flake": "pQzgM0SVbSX",
+      "tmg_id": "hayts3lmnnudomlkovwdqn3mmvsxemde",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/riviera-travel/wonders-nile-cairo-luxor/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/river-cruise/riviera-travel/wonders-nile-cairo-luxor/",
+      "title": "Wonders of the Nile - Cairo to Luxor",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/nD7xwtSDsQg",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pQhL1shKq53",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mbpfw7c9jmS",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Concept"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0nfrpp",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/lBp8ZQnHtyr",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN05Sb7",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/pc5XMNHgXg7",
+      "flake": "pc5XMNHgXg7",
+      "tmg_id": "hf3gkmjtnzqws5rtobzhg3rznr3gunbw",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/british-isles-cruise-magellan/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/british-isles-cruise-magellan/",
+      "title": "British Isles Cruise Magellan",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kfvBT7qN5ZQ",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ng5xKjcstfs",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/m6vHYMxMC2Q",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Ship"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/nD7wrdHhCxx",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN4fKfd",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mbpfw7c9jmS",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Concept"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN1SDLx",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPTllK1",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN1SDLx",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN01Bvc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN1CLC8",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0n7Nhv",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kft5g3flk6v",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kftbDL4Vmtw",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPSt9SF",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/pc5lRXs6ClT",
+      "flake": "pc5lRXs6ClT",
+      "tmg_id": "nzsxg2dbg52xc23hgezxe4zrg5wxeojr",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/majestic-fjordland-cruise-magellan/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/newmarket-holidays/majestic-fjordland-cruise-magellan/",
+      "title": "Majestic Fjordland Cruise Magellan",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kfvBT7qN5ZQ",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN66swL",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pBTDGjbjTls",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Concept"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/m6vHYMxMC2Q",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Ship"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ng5xHlHLBSR",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN66swL",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN01Bvc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0n7Nhv",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPSt9SF",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/ppG6Nl96VPG",
+      "flake": "ppG6Nl96VPG",
+      "tmg_id": "mqyxc2dkhe2hmmluhb3gq3legiydsojs",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/voyages-to-antiquity/aegean-experience-and-cairo/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/voyages-to-antiquity/aegean-experience-and-cairo/",
+      "title": "Aegean experience and Cairo",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ln3WTqkdBkL",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mzb9JwvKQgL",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/PartnerType"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ppGwCvnH5rc",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/m3TrL6chkqD",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN30K7X",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kfvhDb7VNqg",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN7rmZ6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VPWhDgl",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN01Bvc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0n7Nhv",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kfvp55N4nP0",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/lBp8ZQnHtyr",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN05Sb7",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN9Y0pL",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN4rWDK",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kfvHfF7hPdy",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0Xmp1",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/lBbykQbv5dN",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    },
+    {
+      "content_uri": "http://data.telegraph.co.uk/resource/p21fhMPnnxv",
+      "flake": "p21fhMPnnxv",
+      "tmg_id": "nvxdi3jrgnygq2tjozxxkmtqgayg25dq",
+      "permalink": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/voyages-to-antiquity/passage-to-ancient-egypt-and-india-/",
+      "url": "http://www.telegraph.co.uk/travel/cruises/partners/ocean-cruise/voyages-to-antiquity/passage-to-ancient-egypt-and-india-/",
+      "title": "Passage to Ancient Egypt and India",
+      "explicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/pvz0RLDwdLd",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Cruise"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/n4wmYMQh1kW",
+          "type": "http://data.telegraph.co.uk/ontologies/travel/Partner"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/mbpfw7c9jmS",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Concept"
+        }
+      ],
+      "implicitAnnotations": [
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNySknc",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VNzB950",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN0f4q6",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/ljxck0n7Nhv",
+          "type": "http://data.telegraph.co.uk/ontologies/concept/Classification"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN3rBz2",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/lBp8ZQnHtyr",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        },
+        {
+          "uri": "http://data.telegraph.co.uk/resource/kJv4VN05Sb7",
+          "type": "http://data.telegraph.co.uk/ontologies/location/Place"
+        }
+      ]
+    }
+  ]
+}

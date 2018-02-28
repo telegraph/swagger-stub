@@ -1,3 +1,4 @@
+import scala.collection.JavaConversions._
 import Dependencies._
 
 resolvers += "mvn-artifacts" at "s3://s3-eu-west-1.amazonaws.com/mvn-artifacts/release"
@@ -5,7 +6,7 @@ resolvers += "mvn-artifacts" at "s3://s3-eu-west-1.amazonaws.com/mvn-artifacts/r
 lazy val root = (project in file(".")).
   settings( 
     inThisBuild(List(
-      organization := "com.telegraph.stub.cruisestub",
+      organization := "com.telegraph.stub."+ System.getProperty("stubName"),
       scalaVersion := "2.11.8",
       version      := System.getProperty("verNumber")
     )),
@@ -13,7 +14,7 @@ lazy val root = (project in file(".")).
     ServiceDependencies
   )
 
-mainClass := Some("com.telegraph.stub.cruisestub.MyStub")
+mainClass := Some("com.telegraph.stub."+ System.getProperty("stubName") +".MyStub")
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard

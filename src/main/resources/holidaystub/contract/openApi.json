@@ -1,0 +1,186 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Login for FB-IA with TMG account/FB acount & New Subscription Purchase with TMG account/FB account",
+    "description": "Set of API endpoints to authenticate and verify authorization of user credentials whether user has subscription to access premium content or not",
+    "version": "0.0.1"
+  },
+  "host": "fb-auth.awspreprod.telegraph.co.uk",
+  "schemes": [
+    "https"
+  ],
+  "basePath": "",
+  "paths": {
+    "/tmgauth": {
+      "options" : {
+        "description": "",
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "TMGAuth"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "description": "authenticate the user credentials(email and pwd) to validate whether user allowed to access premium content or not. The credentials will be supplied in the request body.",
+        "parameters": [
+          {
+            "name": "Credentials",
+            "in": "body",
+            "description": "Input user credentials",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/credentials"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Whether user is subscribed or not_subscribed",
+            "schema": {
+              "$ref": "#/definitions/status"
+            }
+          },
+          "401": {
+            "description": "Credentials do not match or user is unauthorized",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          }
+        }
+      }
+    },
+    "/fbauth": {
+      "post": {
+        "tags": [
+          "FBAuth"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "description": "authenticate the user credentials(email and pwd) to validate whether user allowed to access premium content or not. The credentials will be supplied in the request body.",
+        "parameters": [
+          {
+            "name": "FBCredentials",
+            "in": "body",
+            "description": "Input user credentials",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/fbcredentials"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Whether user is subscribed or not_subscribed",
+            "schema": {
+              "$ref": "#/definitions/status"
+            }
+          },
+          "401": {
+            "description": "Credentials do not match or user is unauthorized",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "schema": {
+              "$ref": "#/definitions/error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "credentials": {
+      "type": "object",
+      "properties": {
+        "emailId": {
+          "type": "string",
+          "format": "email"
+        },
+        "password": {
+          "type": "string",
+          "format": "password"
+        },
+        "accountLinkingToken": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "emailId",
+        "password",
+        "accountLinkingToken"
+      ]
+    },
+    "fbcredentials": {
+      "type": "object",
+      "properties": {
+        "oauthtoken": {
+          "type": "string"
+        },
+        "accountLinkingToken": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "oauthtoken",
+        "accountLinkingToken"
+      ]
+    },
+    "status": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "accountLinkingToken": {
+          "type": "string"
+        },
+        "payload": {
+          "type": "string"
+        }
+      }
+    },
+    "error": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        },
+        "fields": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
