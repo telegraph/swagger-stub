@@ -5,12 +5,8 @@ lock("travel-stubs"){
   node('master') {
         
         def projectName         = "travel-stubs"
-        def github_token        = "${env.GITHUB_TOKEN}"
-        def branchName          = "${env.BRANCH_NAME}"
         def buildNumber         = "${env.BUILD_NUMBER}"
-        def githubToken         = "${env.GITHUB_TOKEN}"
         def slackToken          = "${env.SLACK_TRAVEL_ALERTS}"
-        def pipelineVersion     = "1.0.0-b${env.BUILD_NUMBER}"
         def jenkinsGithubId     = "${env.JENKINS_GITHUB_CREDENTIALS_ID}"
         def environment         = "${environment}" 
         def stub                = "${stub}"
