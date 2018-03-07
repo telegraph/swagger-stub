@@ -9,7 +9,7 @@ import scala.io.Source
 
 object MyStub extends SmartStub {
 
-  override def setUpMocks(cannedResponsesPath: String): Unit  = {
+  override def setUpMocks(cannedResponsesPath: String): Unit  = { //
 
     wireMockServer.stubFor(get(urlMatching(".*/n6DNHn4ryjz"))
       .willReturn(
