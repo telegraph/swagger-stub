@@ -1,0 +1,266 @@
+{
+  "source": "MANUAL",
+  "flakeId": "m20qcbjBYlm",
+  "name": "Signature Andes",
+  "pagePath": "signature-andes",
+  "accommodations": [
+    {
+      "hotel": {
+        "id": "lWjRyFLPXzj",
+        "label": "Hotel"
+      },
+      "bedSize": "double",
+      "boardBasis": "bedAndBreakfast",
+      "roomType": "Standard Double Room",
+      "roomUpgradeable": false,
+      "hotelDescription": "<p>This holiday uses a mix of fairly small, good quality mid-range hotels, colonial or modern in style with well-equipped rooms, private bathroom and heating. The accommodation in the salt flats is basic, but unique: one hotel is built almost entirely from salt.<br /></p>",
+      "roomDescription": "",
+      "diningInformation": "",
+      "facilities": {
+        "wifi": "unknown",
+        "minibar": "unknown",
+        "newspapers": false,
+        "phone": false,
+        "hotDrinks": false,
+        "tv": "unknown",
+        "aircon": false,
+        "safetyDepositBox": false,
+        "dockingStation": false,
+        "luxuryBedding": false,
+        "housekeeping": "unknown",
+        "hairdryer": false,
+        "bathrobes": false,
+        "slippers": false,
+        "toiletries": false,
+        "iron": false,
+        "ironingBoard": false,
+        "trouserPress": false,
+        "balcony": false,
+        "terrace": false,
+        "pool": false,
+        "jacuzzi": false,
+        "hotTub": false,
+        "sauna": false,
+        "garden": false,
+        "bbq": false,
+        "fullyEquippedKitchen": false,
+        "kitchenette": false,
+        "fridge": false,
+        "freezer": false,
+        "additionalFacilities": ""
+      }
+    }
+  ],
+  "inclusions": {
+    "transportType": "flight",
+    "ticketType": "none",
+    "departurePoints": [],
+    "arrivalPoints": [],
+    "otherDeparturesAvailable": false,
+    "transportDuration": "12:30",
+    "classUpgradable": false,
+    "luggage": "carryOn",
+    "transferType": "sharedReturnTransfer",
+    "transferDuration": "0:45",
+    "otherTransferTypesAvailable": false,
+    "travelInsuranceIncluded": false,
+    "depositRequired": false,
+    "pleaseNote": "",
+    "flightOptions": {
+      "departureTimesChosenAtBooking": false,
+      "complimentaryLoungeAccess": false
+    },
+    "trainOptions": {
+      "trainName": ""
+    },
+    "shipOptions": {
+      "cruiseLine": "",
+      "shipName": "",
+      "cabinType": ""
+    }
+  },
+  "itinerary": [
+    {
+      "heading": "Itinerary",
+      "description": ""
+    },
+    {
+      "heading": "Day 1 - Arrive in Lima and transfer to your hotel in Miraflores on the Pacific coast",
+      "description": "<p>You will be met at the airport and escorted to your hotel in the cliff-side Pacific residential and commercial district of Miraflores. The half-hour drive to the hotel through Limas outskirts is not the most enchanting introduction to this city of extreme contrasts, but it does encapsulate the invigorating buzz of a modern-day Latin American capital. Lima is a vast, complex metropolis, with a history dating from the era of its wealth and importance to Imperial Spain to its current status as a dynamic, growing city of trade, industry and tourism. <br /></p>"
+    },
+    {
+      "heading": "Day 2 - Fly to Cusco, transfer to Urubamba",
+      "description": "<p>Transfer to the airport and fly to Cusco in the Andes (one hour). Continue by road to the Sacred Valley of the Incas. Climb out of the bowl in which Cusco is set and descend into the fertile Sacred Valley of the Incas. Once the bread-basket of the empire, it was heavily populated in imperial times and scores of archaeological sites remain, where well-preserved ruins bear witness to the highly developed society that the Incas created. Overnight in Urubamba close to the river of the same name.<br /></p>"
+    },
+    {
+      "heading": "Day 3 - Full day excursions to Pisaq ruins and the Sacred Valley",
+      "description": "<p>A guided tour exploring the valley. The drive takes in several of the villages and temple fortresses that pepper the valley. You visit Pisaq, both the village, and the terraces and fort high above. The engineering and preservation are unrivalled. From the flat valley floor the sculpted hillside rises up like a green staircase to the heavens. Continue along this picturesque, patchwork valley to the temple of Ollantaytambo. The snow-capped Andean cordillera forms a stunning backdrop. Ollantaytambo, sitting strategically at the gateway to the Amazon basin, was never captured by the Spanish conquistadores, but the inhabitants decided that the settlement was too vulnerable and would eventually fail, and so they abandoned it. The fortress, the colonial grid plan and the Inca foundations are still intact and there are wonderful views down over the sloping hillsides and into the fertile valley. Overnight in Urubamba.<br /></p>"
+    },
+    {
+      "heading": "Day 4 - By road to Ollantaytambo then train to Machu Picchu, guided tour of the ruins",
+      "description": "<p>Transfer to Ollantaytambo station by road and travel for 90mins by train to the ruins of Machu Picchu. As the  Urubamba river enters its narrow gorge between thickly-forested granite hills, there is room only for a single track, which hugs the right bank and passes through hamlets that are no more than a collection of shacks beside the railway. Close to the foot of the mountain on a saddle of which the citadel was built is the bustling village of Machu Picchu, dedicated to serving the many visitors with artisan markets, bars and restaurants. The majestic ruined city, reclaimed from tropical cloud forest, is reached by minibus up a sinuous road, or on foot up a near vertical rocky path. </p><p>The American explorer Hiram Bingham discovered it in 1911, by which time it was completely buried beneath jungle vegetation. It is the ruins location on a ridge spur amid forested peaks and above a roaring river canyon, that most ignites the imagination. You will have a guided tour of the ruins and there's time later to take one of the many trails within the site itself, such as the hike to the vertiginous Inca Bridge, carved into a cliff edge; or wander amongst the stone buildings and llama-dotted grassy ledges, soaking up the atmosphere.<br /></p>"
+    },
+    {
+      "heading": "Day 5 - By rail and road back to Cusco",
+      "description": "<p>Return to Cusco by rail and road. The name Cusco derives from the Quechua indian word for navel, indicating its location at the centre of the Inca Empire, which reached its zenith at the same time as England was fighting the Wars of the Roses. Today its many impressive original Inca walls display extraordinary craftsmanship, while the bustling squares are dotted with ornate baroque colonial churches. It's a vivacious city, where shoeshine boys and postcard sellers jostle for your attention in cobbled streets lined with handicraft shops and cafés. In the evening, the town centre fills with people flocking to the many restaurants, bars and cafés.<br /></p>"
+    },
+    {
+      "heading": "Day 6 - Half day guided city tour and visit Sacsayhuamán ruins",
+      "description": "<p>Today a fascinating tour of the city. You visit Q'oricancha, once the principal Inca Sun Temple, with extraordinarily intricate stonework, and then explore the colossal zigzag walls of Sacsayhuamán, brooding on a hillside above Cusco. In 1536 a desperate and defining three-day battle was fought between the Spaniards and the Incas around this fortress. The first conquistadores to see it were awestruck and centuries later it is still an extraordinary and imposing sight. Cusco is a compact city, easy to explore on foot independently. You are at leisure to discover the street markets, the many baroque churches and museums, and to wander the attractive narrow streets.<br /></p>"
+    },
+    {
+      "heading": "Day 7 - By road to Puno on the shores of Lake Titicaca",
+      "description": "<p>The scenery along the way is windswept and desolate and the vastness of the landscape yawns towards the distant horizon under a bright Andean sky. The occasional stop alongside a collection of small highland lakes may give you the chance to see flamingoes feeding in the mineral-rich water's. The vast lake sits on the Peruvian- Bolivian border, and the fish-laden water's and surrounding fertile soil are the lifeblood of subsistence farming communities clustered in scores of adobe villages along the waters edge. Legend has it that this mystical spot is the birthplace of Inca civilisation: the progeny of the Sun God sprung from its depths to found the empire in Cusco.<br /></p>"
+    },
+    {
+      "heading": "Day 8 - Guided excursion to the Uros islands, Taquile and Laquia Chico",
+      "description": "<p>A full-day guided experience on the lake. Depart early from Puno for the 15min drive to Chucuito. Take a boat trip to the tranquil island of Taquile with its stunning views of Lake Titicaca. Around 1,500 Quechua-speaking indians live in this remote community and many still wear the traditional hand-woven dress. The island, 7km long, has no roads or vehicles, its terraced hills dotted with pre-Inca ruins.Continue by boat to the indigenous village of Luquina Chico on the Chucuito Peninsula. This community-based tourism initiative has strict controls over visitor access and a visit allows you a unique insight into local life. Later, visit the floating Uros Islands, constructed and reconstructed from layers of tortora reeds by the Uros indians over several centuries. Today no pure Uros exist, but the islands are still home to several hundred inhabitants. Although the islanders now earn a living mainly from tourism, their unique way of life continues to be totally 'interwoven' with the tortora reeds - their boats, houses and the football pitch are made from this material.</p>"
+    },
+    {
+      "heading": "Day 9 - Cross Lake Titicaca to Bolivia via Sun Island",
+      "description": "<p>By road to La Paz, capital of Bolivia. Set off along the lakeshore towards the Bolivian border. The still waters almost lap the road, and wader birds may be seen negotiating the reeds. Pause to admire the little church at Pomata and continue to Copacabana (three hours), a pretty little town set between two hills on the shores of Lake Titicaca. Copacabana gave its name to the better known beach in Rio. Embark your comfortable hydrofoil to cross a corner of the lake to Huatajata. Youll visit the Andean Roots Eco-Village with its exhibits which depict the regions cultural past. Continue by bus through lovely mountain scenery to La Paz (one and a half hours). Set in a deep canyon, dominated by the snow-capped peak of Mount Illimani. La Paz (3,632m) is the highest capital in the world.<br /></p>"
+    },
+    {
+      "heading": "Day 10 - Half day guided city tour and trip to the Moon Valley",
+      "description": "<p>The colonial core around Plaza Murillo retains much of its quirky Spanish charm. Beyond, there are cavernous indigenous markets with open air grill restaurants and narrow alleyways lined with museums, churches and craft shops. Pavement vendors in felt bowler hats and colourful shawls crouch below the skyscrapers in tree-lined modern avenues. You'll have a guided tour to visit the historical centre including the official buildings surrounding Plaza Murillo. Continue to a selection of small museums. Explore one of the capital's more unusual markets, the Mercado de las Brujas (witches market) where you can find cures for everything from heartaches to headaches. Pass through several affluent neighbourhoods en route to Moon Valley - not a valley at all, but a fantastic landscape of gullies and spires formed from an ancient bed of eroded rock.<br /></p>"
+    },
+    {
+      "heading": "Day 11 - Fly to Uyuni",
+      "description": "<p>Your adventure in the salt pan wilderness of southern Bolivia and Chile starts today. Transfer to the airport to take a flight south to Uyuni, crossing the altiplano. If it is clear, from the window you should see the bleak plains of the southern altiplano. This makes for an austere, uncompromising wilderness, scoured by bitter gales, where cut-glass lakes and untrodden, luminous salt pans - the Salar de Uyuni - reflect the vast dome of an icy sky. While its few wind-buffeted Aymara inhabitants scratch a meagre living from the dusty soil, the visitor can enjoy extraordinary landscapes of unexpected variety and surreal beauty. Desolate, denuded peaks, eerie blood-red canyons, contorted rock faces, sunlit lagoons of gemstone clarity and a horizon-bending white sea of salt will reward your perseverance. Snow-tipped volcanic cones and steaming geysers serve to remind you of the turbulent geology that has formed this challenging landscape.<br /></p>"
+    },
+    {
+      "heading": "Day 12 - Drive to the Salar de Uyuni (salt flats); explore the salt flats in the Atacama desert by 4WD vehicle",
+      "description": "<p>Visit the nearby ancient fort and petrified mummies. Reached by 4WD vehicle only and situated halfway up Volcano Tunupa, this important archaeological site has the added bonus of uninterrupted views of the largest and highest salt desert in the world. After lunch, you'll be driven to Isla Pescado, a small volcanic island smothered by giant cacti with great views over the dazzling salt flats. Continue to the remote and mountainous region of San Agustín and the lost city of the Valley of Rocks before finally arriving at Villa Mar. Here, your very basic accommodation is an unusual property built into the side of a cliff; the rock face forms the rear wall of some of the bedrooms.<br /></p>"
+    },
+    {
+      "heading": "Day 13 - Continue over the border to San Pedro de Atacama, Chile",
+      "description": "<p>An early morning start takes you to the shores of the fiery red Laguna Colorada, a bird-filled gash of vivid colour relieving the tawny monochrome of the desert. Continue up to a giddying 5,000m and descend to reach the sulphurous Sol de Mañana geysers and the hot springs of Polques - in which you can dip if you wish - and survey perhaps the most captivatingly beautiful and other-worldly scenery of the trip. The surreal landscape here is of tortured rock formations splashed with a rainbow of colour, defined by a rim of snow-dusted volcanoes. You will reach Laguna Verde, a stunning aquamarine lake at the foot of Licancabur Volcano before changing vehicle for the last part of the journey, into Chile, which takes you along a road descending into the oasis town of San Pedro de Atacama.<br /></p>"
+    },
+    {
+      "heading": "Day 14 - At leisure, optional outdoor activities",
+      "description": "<p>At leisure in San Pedro. On the skirts of the eastern cordillera, 2,450m above sea level, the village is an oasis in the driest desert of the world. Despite the influx of tourists, it has retained its charm and easy-going character, with dirt streets and adobe houses. The eastern side of town has panoramic views of the high Andes some 75km distant. In the clear air, they look a lot closer. This unassuming little resort is a centre for outdoor activities and excursions to local attractions such as the Tatio geysers, the Valle de la Luna (moon valley) and the ruins of a pre-inca fortress known as the Pukará de Quitor.<br /></p>"
+    },
+    {
+      "heading": "Day 15 - Transfer to Calama airport and fly to Santiago",
+      "description": "<p>Transfer to Calama airport and fly (two hours) to Santiago, Chiles capital. The sprawling city has to its east, the immense wall of rock of the Andes - snow-capped in winter. Transfer to your hotel in a modern part of town with some good restaurants and shopping opportunities. If you have time, for a panoramic view of the city, visit the Cerro Santa Lucía, a hilltop park, or take the funicular tram or cable car to the top of Cerro San Cristóbal. A mixture of chic, pleasant tree-lined residential areas and smart office towers surround a compact colonial centre.<br /></p>"
+    },
+    {
+      "heading": "Day 16 - Transfer to airport for international flight home",
+      "description": ""
+    }
+  ],
+  "overview": {
+    "briefDescription": "See the best of Peru, Bolivia and Chile on this high-altitude holiday to the Andes",
+    "fullDescription": "<p>Following the longest mountain range in the world, you will visit La Paz near Mount Illimani. You will also see the former capital of the Incan Empire, Cusco. Marvel at its impressive Incan walls which still stand today. On your tour of the Sacred Valley of the Incas, you will see the agricultural terraces of Pisaq and the Inca foundations of Ollantaytambo. Of course, no trip to the Incan heartland would be complete without a visit to Machu Picchu. Your guided tour will reveal all about life in the mountaintop citadel. Spectacular Lake Titicaca stretches as far as the eye can see at 3,805 metres above sea level. From Puno you will visit the famous islands of this miraculous lake. These include the floating reed islands of Uros and stunning Taquile, known for its traditional textile-making. Further south, be spellbound by the surreal salt flats of Salar de Uyuni and the Dalí-esque landscapes of the Atacama Desert. There is time for a city break in metropolitan Santiago, as well as some relaxation in the quaint desert town of San Pedro de Atacama.<br /></p>"
+  },
+  "otherInformation": "<p>Tour departures available year round. <br /></p><p>Travel insurance and visa fees not included. Prices are subject to availability and may vary. Trip reaches high altitudes of 5,000m. Tips and gratuities. Meals other than specified. International flights to latin America. Airport taxes, when not included in the ticket. Optional excursions<br /></p>",
+  "productUrl": "",
+  "product": {
+    "destinations": [
+      {
+        "id": "kJv4VNznMWm",
+        "label": "Bolivia",
+        "type": "Country",
+        "lat": -16.290154,
+        "long": -63.58865299999999
+      },
+      {
+        "id": "kJv4VNzwjTW",
+        "label": "Chile",
+        "type": "Country",
+        "lat": -35.675147,
+        "long": -71.542969
+      },
+      {
+        "id": "kJv4VN8CySt",
+        "label": "Peru",
+        "type": "Country",
+        "lat": -9.189966999999998,
+        "long": -75.015152
+      },
+      {
+        "id": "kJv4VN8TQMP",
+        "label": "South America",
+        "type": "Continent",
+        "lat": -8.783195,
+        "long": -55.491477
+      }
+    ],
+    "displayFromDate": "2016-12-01",
+    "displayToDate": "2018-02-23",
+    "keyInformation": []
+  },
+  "activePartner": {
+    "id": "mtt1tm7M31g",
+    "label": "Journey Latin America",
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/jla/logos/RESTRICTED-journeylatinamerica-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [
+      {
+        "accreditationIssuer": "Association of Independent Tour Operators",
+        "logos": [
+          "http://telegraph.co.uk/content/dam/Travel/commerce-partners/jla/logos/RESTRICTED-journeylatinamerica-aito-TRAVEL.jpg"
+        ]
+      },
+      {
+        "accreditationIssuer": "Air Travel Organisers' Licensing",
+        "logos": [
+          "http://telegraph.co.uk/content/dam/Travel/commerce-partners/jla/logos/RESTRICTED-journeylatinamerica-atol-TRAVEL.jpg"
+        ]
+      },
+      {
+        "accreditationIssuer": "Travel Advice & Holiday Information",
+        "logos": [
+          "http://telegraph.co.uk/content/dam/Travel/commerce-partners/jla/logos/RESTRICTED-journeylatinamerica-abta-TRAVEL.jpg"
+        ]
+      }
+    ],
+    "contactDetails": [
+      {
+        "label": "0333 220 6844",
+        "type": "Concierge",
+        "alternativeLabel": "",
+        "notes": ""
+      }
+    ],
+    "partnerDescription": "Journey Latin America has been arranging unforgettable escorted holidays and tailor-made trips to Central and South America for the last 37 years. Telegraph readers can spend weeks trekking across incredible landscapes with a small group of adventurers and an expert guide, or you could discover the hidden treasures of ancient civilisations and visit coral reefs and lush tropical islands. You could even experience the beautiful cloud forests, majestic Mayan ruins, timeless colonial towns, or the savage scenery of Patagonia on the holiday of a lifetime. Journey Latin America also specialises in great-value tours that bring you the highlights of each region while still allowing you time to explore at your leisure.  Your holiday is operated by Journey Latin America, ATOL 2828, ABTA V2522, AITO 5072 and IATA 91224335, a company wholly independent of Telegraph Media Group Limited.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/journeyslatinamerica"
+  },
+  "lastEditor": {
+    "address": "stephanie.mulholland@telegraph.co.uk",
+    "timestamp": 1505309142104
+  },
+  "approver": {
+    "address": "samuel.murray@telegraph.co.uk",
+    "timestamp": 1505309142104
+  },
+  "annotations": {
+    "styles": [],
+    "suitability": [],
+    "seasonality": []
+  },
+  "priceIncludes": [
+    "Two flights (one and two hours)",
+    "Accommodation ",
+    "Four scenic road journeys (longest six - seven hours); two rail journeys (longest four hours)",
+    "Excursions in the Uyuni salt flats of the Atacama Desert",
+    "Full day excursion to Pisaq ruins and the Sacred Valley",
+    "Guided tour of Machu Picchu",
+    "Guided Cusco city tour and visit to Sacsayhuamán ruins",
+    "Lake Titicaca crossing via visit to Uros Iruitos islands to La Paz",
+    "Guided La Paz city tour and trip to the Moon Valley",
+    "Guided visits from coach journey to Lake Titicaca",
+    "Guided La Paz city tour and Moon Valley",
+    "The services of an expert to help you plan your perfect itinerary",
+    "Tour departures available year round. "
+  ],
+  "leadInPrices": [
+    {
+      "month": "Aug '17",
+      "price": 4279,
+      "term": "pp",
+      "numberOfNights": 15
+    }
+  ]
+}

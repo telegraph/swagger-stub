@@ -23,6 +23,26 @@ object MyStub extends SmartStub {
             .replace("&apos;"," ").replace("&quot;","'"))
           .withStatus(200)))
 
+    wireMockServer.stubFor(get(urlMatching(".*m20qcbjBYlm"))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/superbreak.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+    wireMockServer.stubFor(get(urlMatching(".*n3746RDbDpx"))
+      .willReturn(
+        aResponse()
+          .withTransformerParameter("nextState", "any")
+          .withHeader("Content-Type", "application/json")
+          .withBody(Source.fromFile(cannedResponsesPath+ "/superbreak.json").mkString
+            .replace("&apos;"," ").replace("&quot;","'"))
+          .withStatus(200)))
+
+
+
 
   }
 

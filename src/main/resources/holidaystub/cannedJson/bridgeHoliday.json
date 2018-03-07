@@ -1,0 +1,161 @@
+{
+  "source": "MANUAL",
+  "flakeId": "n3746RDbDpx",
+  "name": "Duplicate bridge holiday in Majorca",
+  "pagePath": "duplicate-bridge-holiday-majorca",
+  "accommodations": [
+    {
+      "hotel": {
+        "id": "m5MvGFPSP5M",
+        "label": "Hotel Bella Playa & Spa"
+      },
+      "bedSize": "double",
+      "boardBasis": "",
+      "roomType": "Double",
+      "roomUpgradeable": false,
+      "hotelDescription": "<p>The Bella Playa and Spa is a very attractive four-star hotel with a charming ambience, located just 250 metres from the beautiful, sandy Agulla Beach backed by pine trees. Â As well as a lovely outdoor pool with spacious terraces the hotel boasts a fantastic new heated indoor pool with hydro jets and massages, and two steam rooms and a Jacuzzi and sauna all complimentary to hotel guests. Â If you want to treat yourself, the Eco Spa offers a wide range of treatments. Â The hotel also offers a range of facilities including; mini golf, archery, table tennis, riffle shooting, badminton and billiards. Â The hotel has a tennis school and four clay tennis courts that can be reserved (charge applies).<br /></p>",
+      "roomDescription": "<p>Rooms have been recently renovated and all have a furnished balcony. The hotel is second in line from the sea and some rooms have side sea view or partial sea view.Â <br /></p>",
+      "diningInformation": "<p>Breakfast and dinner are both buffet style and there is a good choice of quality cooking, including show cooking in the main restaurant. Â There is a large airy bar with some evening entertainment, and a very pleasant, spacious lounge where you can relax and discuss your bridge hands.<br /></p><p><br /></p>",
+      "facilities": {
+        "wifi": "unknown",
+        "minibar": "unknown",
+        "newspapers": false,
+        "phone": false,
+        "hotDrinks": false,
+        "tv": "unknown",
+        "aircon": false,
+        "safetyDepositBox": false,
+        "dockingStation": false,
+        "luxuryBedding": false,
+        "housekeeping": "unknown",
+        "hairdryer": false,
+        "bathrobes": false,
+        "slippers": false,
+        "toiletries": false,
+        "iron": false,
+        "ironingBoard": false,
+        "trouserPress": false,
+        "balcony": false,
+        "terrace": false,
+        "pool": false,
+        "jacuzzi": false,
+        "hotTub": false,
+        "sauna": false,
+        "garden": false,
+        "bbq": false,
+        "fullyEquippedKitchen": false,
+        "kitchenette": false,
+        "fridge": false,
+        "freezer": false,
+        "additionalFacilities": ""
+      }
+    }
+  ],
+  "inclusions": {
+    "transportType": "flight",
+    "ticketType": "return",
+    "departurePoints": [],
+    "arrivalPoints": [],
+    "otherDeparturesAvailable": true,
+    "transportDuration": "2:15",
+    "classUpgradable": false,
+    "luggage": "",
+    "transferType": "excludesTransfers",
+    "transferDuration": "1:20",
+    "otherTransferTypesAvailable": false,
+    "travelInsuranceIncluded": false,
+    "depositRequired": false,
+    "pleaseNote": "",
+    "flightOptions": {
+      "departureTimesChosenAtBooking": false,
+      "complimentaryLoungeAccess": false
+    },
+    "trainOptions": {
+      "trainName": ""
+    },
+    "shipOptions": {
+      "cruiseLine": "",
+      "shipName": "",
+      "cabinType": ""
+    }
+  },
+  "itinerary": [
+    {
+      "heading": "Enjoy duplicate bridge in a scenic location with old friends and new",
+      "description": "<p>Join us for an enjoyable bridge holiday in Majorca. Â Daily duplicate bridge sessions with our EBU qualified bridge director where Masterpoints and prizes are awarded. Â Plus three interesting seminars are given during the holiday. Â Singles most welcome and our friendly bridge host will ensure partners are always found. Â Wonderful area for walkers, and organised beach and country walks are organised by the hotel. Â Area also very popular with golfers. Â The Hotel Bella Playa and Spa boasts a Â wonderful indoor pool with hydro jets and massage.<br /></p>"
+    }
+  ],
+  "overview": {
+    "briefDescription": "Enjoy a bridge holiday on the beautiful north east coast of Majorca",
+    "fullDescription": "<p>Cala Rajada is a well-established resort and port on the beautiful north east coast of Majorca that up until a few years ago was virtually undiscovered by British tourists. Â It has a wonderful sea front promenade where you can stroll or sit outside one of the many tapas bars and enjoy a glass of local wine or just people watch. The atmosphere here is very Spanish. The nearby bay at Cala Agulla is one of the prettiest beaches in Majorca because it lies in a protected zone and the backdrop is simply a large pine forest. Â Keen walkers can head off to the sand dunes at Cala Mesquida or climb up through the forest to reach the impressive views over eastern Majorca from the ruined tower at Son Jaumell. Â This region is also very popular with golfers as there are no less than 4 championship standard golf courses within 5 - 15 minutes from our hotel. You are welcome to enjoy delightful coastal and countryside walks, play a game of table tennis or mini golf on the hotel terraces, unwind in the onsite sauna or spa, or simply just enjoy friendly bridge sessions and interesting seminars.</p><p></p><p>Â </p>"
+  },
+  "otherInformation": "",
+  "productUrl": "",
+  "product": {
+    "destinations": [
+      {
+        "id": "k663qX0K3dd",
+        "label": "Majorca",
+        "type": "State",
+        "lat": 39.6952629,
+        "long": 3.0175712000000203
+      }
+    ],
+    "displayFromDate": "2017-05-01",
+    "displayToDate": "2017-10-30",
+    "keyInformation": []
+  },
+  "activePartner": {
+    "id": "m2DqqwrNm0L",
+    "label": "Arena Travel",
+    "logos": [
+      "http://telegraph.co.uk/content/dam/Travel/commerce-partners/arena-travel/logos/RESTRICTED-arenatravel-logo-TRAVEL.jpg"
+    ],
+    "accreditations": [
+      {
+        "accreditationIssuer": "A Golfing Experience",
+        "logos": [
+          "http://telegraph.co.uk/content/dam/Travel/commerce-partners/arena-travel/logos/RESTRICTED-arenatravel-atol-TRAVEL.jpg"
+        ]
+      }
+    ],
+    "contactDetails": [
+      {
+        "label": "0330 037 8880",
+        "type": "Concierge",
+        "alternativeLabel": "",
+        "notes": ""
+      }
+    ],
+    "partnerDescription": "Arena Travel has been providing high-quality special-interest tours and holidays for more than 40 years. With a passion for detail and a commitment to professionalism by using only the best-value suppliers, Telegraph readers can be sure of a personal service whether they are travelling solo or with a larger group. Arena Travel handpicks its tour managers for their friendly approach, years of experience and understated presence on each trip. They understand that you need the freedom to enjoy your holiday, but they will always be available for advice about everything from excursions and amenities to local customs and exclusive events. Arena Tours Limited trading as Arena Travel, company no. 2431120 of Explorer House, 2 Betts Avenue, Martlesham Heath, Ipswich, Suffolk, IP5 3RH.",
+    "termsAndConditionsURL": "http://www.telegraph.co.uk/travel/terms-and-conditions/arenatravel/"
+  },
+  "lastEditor": {
+    "address": "nancy.gupta@telegraph.co.uk",
+    "timestamp": 1513076569
+  },
+  "approver": {
+    "address": "stephanie.mulholland@telegraph.co.uk",
+    "timestamp": 1513076569
+  },
+  "annotations": {
+    "styles": [],
+    "suitability": [],
+    "seasonality": []
+  },
+  "priceIncludes": [
+    "10 nights' accommodation at the four-star Bella Playa and Spa",
+    "Welcome cocktail",
+    "Bridge sessions with Master points and prizes awarded",
+    "Three morning bridge seminars with our EBU qualified director",
+    "Services of our friendly bridge hosts"
+  ],
+  "leadInPrices": [
+    {
+      "month": "Oct '17",
+      "price": 999,
+      "term": "pp",
+      "numberOfNights": 10
+    }
+  ]
+}
