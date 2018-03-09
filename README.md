@@ -1,4 +1,7 @@
-# Stub Pipeline
+# Stub Service
+
+This application runs a Docker image whihc you pass your swagger file and swagger mappings for.
+It will then load those mappings and validate the swagger contract
 
 ## Getting started
 
@@ -17,11 +20,16 @@ Install awscli (You can install this using `brew install awscli` on Mac)
 
 ### Build instructions 
 
+* sbt reload clean assembly
+* docker build -t swagger-stub --no-cache .
 
 ### Deployment
 
-docker build -t swagger-stub --build-arg PORT=8081 --build-arg SWAGGER_FILE=/Users/toorap/identityStub/identity-stub/src/main/resources/contract/openApi.json --build-arg MAPPINGS_LOCATION=/Users/toorap/identityStub/identity-stub/src/main/resources/mappings/ --no-cache .
+Place swagger contract under /somewherelocal/contract/ and wiremock mappings directory under /somewherelocal
 
+Run as follows:
+
+* docker run -p 8080:8081 -v /somewherelocal:/mnt swagger-stub:latest
 
 ### Testing
 

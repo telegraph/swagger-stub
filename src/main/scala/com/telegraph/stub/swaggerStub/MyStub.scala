@@ -15,6 +15,7 @@ object MyStub extends SmartStub {
   // driver class
   def main(args : Array[String]) {
     // port, swagger file, mappings
+    System.out.println("Using port " + args(0) + " swagger:" + args(1) + " mappings under:" + args(2))
     MyStub.configureStubWithOnlySwaggerAndMappings(args(0), args(1), args(2))
     MyStub.start
   }

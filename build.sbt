@@ -14,7 +14,7 @@ lazy val root = (project in file(".")).
     ServiceDependencies
   )
 
-mainClass := Some("com.telegraph.stub.swagger-stub.MyStub")
+mainClass := Some("com.telegraph.stub.swaggerStub.MyStub")
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
