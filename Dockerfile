@@ -1,10 +1,13 @@
 FROM anapsix/alpine-java
 MAINTAINER toorap
 
-ARG APP_VERSION
-ARG APP_NAME
+ARG PORT
+ARG SWAGGER_FILE
+ARG MAPPINGS_LOCATION
 
-ADD ./target/scala-2.11/${APP_NAME}-assembly-${APP_VERSION}.jar /home/app.jar
-COPY ./src/main/resources/${APP_NAME}/contract/*.json /home/
-COPY ./src/main/resources/${APP_NAME}/cannedJson/*.json /home/
-CMD ["java","-jar", "/home/app.jar", "8081", "/home", "/home/openApi.json", "/home/stateModel.json"]
+RUN echo "Using port:${PORT} Swagger file: ${SWAGGER_FILE} Mappings location under:${MAPPINGS_LOCATION}"
+RUN mkdir /home/mappings
+COPY ./target/scala-2.11/swagger-stub-assembly-0.0.1.jar /home/
+COPY ${SWAGGER_FILE} /home/openApi.json
+COPY ${MAPPINGS_LOCATION}/*.json /home/mappings
+CMD ["java","-jar", "/home/IdentityStub-assembly-0.1.0-SNAPSHOT.jar", ${PORT}, "/home/openApi.json", "/home/mappings"]

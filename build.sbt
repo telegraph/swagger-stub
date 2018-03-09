@@ -6,15 +6,15 @@ resolvers += "mvn-artifacts" at "s3://s3-eu-west-1.amazonaws.com/mvn-artifacts/r
 lazy val root = (project in file(".")).
   settings( 
     inThisBuild(List(
-      organization := "com.telegraph.stub."+ System.getProperty("stubName"),
+      organization := "com.telegraph.stub.swagger-stub",
       scalaVersion := "2.11.8",
-      version      := System.getProperty("verNumber")
+      version      := "0.0.1"
     )),
-    name := System.getProperty("stubName"),
+    name := "swagger-stub",
     ServiceDependencies
   )
 
-mainClass := Some("com.telegraph.stub."+ System.getProperty("stubName") +".MyStub")
+mainClass := Some("com.telegraph.stub.swagger-stub.MyStub")
 
 assemblyMergeStrategy in assembly := {
   case PathList("META-INF", xs @ _*) => MergeStrategy.discard
