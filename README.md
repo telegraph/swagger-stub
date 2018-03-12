@@ -1,7 +1,7 @@
 # Stub Service
 
-This application runs a Docker image whihc you pass your swagger file and swagger mappings for.
-It will then load those mappings and validate the swagger contract
+This application creates a Docker image to which you pass your swagger file and swagger mappings.
+The Docker container will load those mappings and validate requests/responses against the swagger contract
 
 ## Getting started
 
@@ -25,11 +25,20 @@ Install awscli (You can install this using `brew install awscli` on Mac)
 
 ### Deployment
 
-Place swagger contract under /somewherelocal/contract/ and wiremock mappings directory under /somewherelocal
+* docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
 
-Run as follows:
+### Running
+
+Place swagger contract(openApi.json) under /somewherelocal/contract/ and wiremock 'mappings' directory under /somewherelocal
+
+Run from local build as follows:
 
 * docker run -p 8080:8081 -v /somewherelocal:/mnt swagger-stub:latest
+
+Run from Docker as follows:
+
+* docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
+* docker run -p 8080:8081 -v /somewherelocal:/mnt 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
 
 ### Testing
 
