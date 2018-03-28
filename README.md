@@ -30,7 +30,7 @@ Install awscli (You can install this using `brew install awscli` on Mac)
 * docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub-yml
 
 
-### To run as a consumer (using json swagger) 
+### To run as a consumer
 
 n.b. Will need AWC ECR access
 
