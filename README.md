@@ -21,13 +21,15 @@ Install awscli (You can install this using `brew install awscli` on Mac)
 ### Build instructions 
 
 * sbt reload clean assembly
-* docker build -t swagger-stub --no-cache .
+* docker build -f Dockerfile -t swagger-stub --no-cache .
+* docker build -f DockerfileYml -t swagger-stub-yml --no-cache .
 
 ### Deployment
 
 * docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
+* docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub-yml
 
-### Running
+### Running the json version
 
 Place swagger contract(openApi.json) under /somewherelocal/contract/ and wiremock 'mappings' directory under /somewherelocal
 
