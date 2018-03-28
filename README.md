@@ -29,23 +29,15 @@ Install awscli (You can install this using `brew install awscli` on Mac)
 * docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
 * docker push 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub-yml
 
-### Running the json version
 
-Place swagger contract(openApi.json) under /somewherelocal/contract/ and wiremock 'mappings' directory under /somewherelocal
+### Run (using json swagger)
 
-Run from local build as follows:
+n.b. Will need AWC ECR access
 
-* docker run -p 8080:8081 -v /somewherelocal:/mnt swagger-stub:latest
+* Save swagger file and Wiremock mappings as follows:
 
-Run from Docker as follows:
+      /<somewherelocal>/contract/openApi.json   (swagger file, can be .yml)
+      /<somewherelocal>/mappings/mappings.json  (Wiremock mappings)
 
 * docker pull 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
-* docker run -p 8080:8081 -v /somewherelocal:/mnt 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
-
-### Testing
-
-
-### Test the stub by hitting the environment
-
-
-## Errors
+* docker run -p 8080:8081 -v /<somewherelocal>:/mnt 385050320367.dkr.ecr.eu-west-1.amazonaws.com/tmg-service-stubs:swagger-stub
